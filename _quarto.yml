@@ -13,12 +13,16 @@ website:
     title: false
     logo: images/network.png
     right:
-      - about.qmd
+      - href: about.qmd
+        text: About
       - href: projects.qmd
         text: Projects
-      - publications.qmd
+      - href: publications.qmd
+        text: Publications
       - href: talks.qmd
         text: Talks
+      - href: https://sayalaruano.github.io/cv/
+        text: CV
       #- icon: github
       #  href: https://github.com/
       #- icon: twitter
