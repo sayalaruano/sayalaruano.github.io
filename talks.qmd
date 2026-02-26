@@ -1,0 +1,16 @@
+---
+title: "Talks"
+subtitle: "Oral and poster presentations shared along with slides, videos, and other resources."
+listing:
+  contents: talks
+  sort: "date desc"
+  type: default
+  image-align: right
+  max-description-length: 175
+  date-format: medium
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---

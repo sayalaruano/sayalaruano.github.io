@@ -1,0 +1,17 @@
+---
+featured: true
+title: "In silico detection of horizontal gene transfer in Streptomyces clavuligerus"
+description: | 
+  This oral presentation was part of the International Society for Computational Biology Student Council Webinar series 2020. 
+date: "2020-05-19"
+image: ISCBSC_Webinarseries_2020.png
+categories:
+- Oral presentation 
+- Microbiology
+- Bioinformatics
+---
+[{{< fa calendar-check >}} Event](http://webinars.iscbsc.org/who-we-are/){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://www.youtube.com/watch?v=JEuAOEzI58Y&t=1156s){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus){.btn target=_blank} 
+
+You can find more details about this project [here][amp-hgt]. 
+
+[amp-hgt]: ../../projects/Horizontal_gene_transfer/

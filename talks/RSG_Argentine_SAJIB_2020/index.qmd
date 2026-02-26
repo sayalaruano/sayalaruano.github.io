@@ -1,0 +1,18 @@
+---
+title: "Modeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana" 
+description: | 
+  This oral presentation was part of the 5th RSG-Argentine Symposium of Young Researchers in Bioinformatics, held online.
+date: "2020-08-13"
+image: RSG_Argentine_SAJIB_2020.png
+categories:
+- Oral presentation 
+- Agriculture
+- Molecular dynamics
+- Machine learning
+- Bioinformatics
+---
+[{{< fa calendar-check >}} Event](https://rsg-argentina.netlify.app/talk/5sajib/){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (Spanish)](https://www.youtube.com/watch?v=NqamWg_24p4){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (Spanish)](https://www.researchgate.net/publication/354365990_Modelamiento_de_la_interaccion_proteina-_proteina_y_busqueda_de_residuos_clave_por_aprendizaje_automatico_del_complejo_JAZ-_MYC3_de_Arabidopsis_thaliana){.btn target=_blank} 
+
+You can find more details about this project [here][jaz-mic]. 
+
+[jaz-mic]: ../../projects/JAZ-MYC_coupling/

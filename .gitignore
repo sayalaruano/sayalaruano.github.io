@@ -1,0 +1,15 @@
+# Quarto internal files
+/.quarto/
+/_site/
+
+# The rendered HTML outputs
+/docs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# R/Python leftovers
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/

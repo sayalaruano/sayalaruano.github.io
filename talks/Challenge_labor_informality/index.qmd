@@ -1,0 +1,16 @@
+---
+title: "Kolekti" 
+description: | 
+  This oral presentation was part of the Innovation challenge "For more data on labor informality" hackathon. With this presentation our team was the winner of this hackathon.
+date: "2021-03-03"
+image: Challenge_labor_informality.jpg
+categories:
+- Oral presentation
+- Social sciences
+- Web development
+---
+[{{< fa calendar-check >}} Event](https://www.undp.org/es/ecuador/blog/sin-miedo-intentar-algo-nuevo-reto-de-innovacion-por-mas-datos-de-informalidad){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (Spanish)](https://doi.org/10.5281/zenodo.7536703){.btn target=_blank}
+
+You can find more details about this project [here][kolekti]. 
+
+[kolekti]: ../../projects/Kolekti/

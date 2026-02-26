@@ -1,0 +1,17 @@
+---
+title: "Structural changes due to a mutation in Cereblon might be a cause for intellectual disability" 
+description: |
+  This poster presentation was part of the [Global Intern Program 2019](https://ipa.gist.ac.kr/ipa/html/sub03/030101.html) at Gwangju Institute of Science and Technology.
+date: "2019-08-14"
+image: GIP_logo.png
+categories: 
+  - Poster presentation 
+  - Human health
+  - Molecular dynamics
+  - Bioinformatics
+---
+[{{< fa calendar-check >}} Event](https://ipa.gist.ac.kr/ipa/html/sub03/030101.html){.btn target=_blank} [{{< iconify uil presentation >}} Poster (English)](https://www.researchgate.net/publication/354366092_Structural_changes_due_to_a_mutation_in_Cereblon_might_be_a_cause_for_intellectual_disability){.btn target=_blank}
+
+You can find more details about this project [here][crbn_mutations]. 
+
+[crbn_mutations]: ../../projects/CRBN_mutations/

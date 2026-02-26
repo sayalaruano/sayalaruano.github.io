@@ -1,0 +1,12 @@
+---
+title: "Contributing Guidelines and Codes of Conduct for Open Projects" 
+description: | 
+  This talk was given in the week 4 session of the 6th cohort of the Open Seeds program by OLS, held online.
+date: "2022-10-03"
+image: OLS_logo.png
+categories:
+- Oral presentation 
+- Open Science
+- Education
+---
+[{{< fa calendar-check >}} Event](https://openlifesci.org/ols-6){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://youtu.be/M0szFcbGdBU?t=2576){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://doi.org/10.5281/zenodo.7536817){.btn target=_blank} 

@@ -1,0 +1,403 @@
+/*-- scss:defaults --*/
+
+// Import fonts (define mainfont in _quarto.yml)
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');*/
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+// fonts
+$nunito: 'Nunito', sans-serif; 
+//$josefin: 'Josefin Sans', sans-serif; 
+$montserrat: 'Montserrat', sans-serif;
+
+// Colors
+$cream: #ebede4;
+$light-green: #e3e6d8;
+$brown: #635A4F;
+$dark-gray: #5A5856;
+$medium-gray: #64605f;
+$blue: #486071;
+$green: #3b7861;
+$black: #2f2f2e;
+
+// Base document colors
+$navbar-bg: $cream;
+$navbar-fg: $brown; 
+$navbar-hl: $blue; 
+$body-bg: $light-green;
+$body-color: $black;
+$footer-bg: $cream; 
+$link-color: $blue;
+
+// Inline code
+$code-bg: $cream;
+$code-color: $green; 
+
+// Code blocks
+$code-block-bg: $cream;
+
+/*-- scss:rules --*/
+
+/* ELEMENT SELECTORS */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $montserrat; 
+  font-weight: 500;
+  color: $brown;
+  line-height: 1.2;
+  margin-top: 1.5rem;   
+  margin-bottom: 0.75rem;
+}
+
+// Main Page Title (e.g., "My Blog")
+h1 {
+  font-size: 2.2rem;    
+  letter-spacing: -0.02em;
+}
+
+// Blog Post Titles in a list
+h2 {
+  font-size: 1.6rem;    // Sharp reduction to make lists look cleaner
+  letter-spacing: -0.01em;
+}
+
+// Section sub-headers
+h3, h4, h5, h6 {
+  font-size: 1.3rem;
+  font-weight: 400; 
+}
+
+body {
+  font-family: $nunito;
+  line-height: 1.6; // min 1.5 suggested for assistive tech
+  font-size: 19.5px;
+  font-weight: 400;
+}
+
+// modify blockquote styling
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.625rem 1.25rem;
+  border-left: 0.25rem solid $brown;
+}
+
+/* ID selectors */
+
+// responsive-ish iframes (width adjusts to viewport size; couldn't figure out how to expand viewport height, so set to this size for now)
+#map-size {
+  width: 100%;
+  height: 350px;
+}
+
+// figure caption text styling
+.figure-caption {
+  color: $medium-gray;
+  font-style: italic;
+}
+
+// blockquote text styling
+.blockquote {
+  color: $dark-gray;
+}
+
+// larger text
+.large-text {
+  font-size: 25px;
+}
+
+// slightly smaller than default text
+.small-text {
+  font-size: 17px;
+}
+
+// smallest text
+.extra-small-text{
+  font-size: 14px;  
+}
+
+// extra space above line of text (but not as much as <br>)
+.topbr {
+    display: block;
+    margin-top: 1em;
+}
+
+// center align text
+.center-text {
+  text-align: center;
+  left: 50%;
+}
+
+// right-align text
+.right-align-text{
+  text-align: right;
+}
+
+// dark gray text
+.dark-gray-text{
+  color: $dark-gray;
+}
+
+// gray-italic text (mostly used for captions)
+.gray-italic {
+  color: $medium-gray;
+  font-style: italic;
+  font-size: 17px;
+}
+
+// gray background; was .quote-text-bg
+.brown-bg {
+  background-color: rgba(152, 160, 141, 0.3); //rgba(166, 164, 161, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+  border-radius: 15px;
+}
+
+// btn styling
+.btn {
+  color: $brown;
+  background-color: transparent; 
+  border: 1.3px solid rgba(99, 90, 79, 0.4); 
+  font-weight: 400; 
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+// button hover styling
+.btn:hover {
+  color: $cream;
+  background-color: $blue;
+  border-color: $brown;
+}
+
+// image styling
+.img-styling {
+  border-radius: 2%;
+  border: 2px solid $medium-gray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ //width: 80%;
+}
+
+// center image only
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
+
+// resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+.navbar-brand img { 
+  max-height: 50px;
+  width: auto;
+}
+
+// headshot shape
+.rounded { 
+    border-radius: 50px 20px 50px 20px !important;
+}
+
+// button text size (landing page)
+.about-link-text { 
+  font-size: 18px;
+}
+
+// button icon size (landing page)
+.bi { 
+  font-size: 18px;
+}
+
+// dropdown navbar text color
+.dropdown-item{
+  color: $brown;
+  background-color: $cream;
+}
+
+// listing card styling
+.card {
+  background-color: $cream;
+  //border-radius: 5.25em;
+}
+
+// listing description text styling
+// Scaling down the description text to match the new title size
+.listing-description, .description {
+  font-size: 1rem !important; // Reduced from 20px for better proportion
+  color: $brown !important;
+  line-height: 1.4;
+}
+
+// about page link button colors 
+div.quarto-about-jolla .about-link {
+  color: $brown;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: $cream;
+  color: $dark-gray;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border: none; /* Remove all borders by default */
+}
+
+table thead th {
+  border-top: 2px solid $brown;    /* Top border for the first row */
+  border-bottom: 2px solid $brown; /* Bottom border for the first row */
+}
+
+table tbody tr:first-child td {
+  border-top: 2px solid $brown;    /* Top border for the first row of the tbody */
+}
+
+table tbody tr:last-child td {
+  border-bottom: 2px solid $brown; /* Bottom border for the last row */
+}
+
+table-bordered {
+  border: 1px solid $brown;
+}
+
+table-bordered th,
+table-bordered td {
+  border: none;
+}
+
+table-borderless th,
+table-borderless td,
+table-borderless thead th,
+table-borderless tbody + tbody {
+  border: 0;
+}
+
+/* UNIFIED TAG & LABEL STYLING */
+// Grouping all Quarto category classes (listing page and inside posts)
+.listing-categories .listing-category, 
+.quarto-title-meta-category .category,
+.quarto-categories .quarto-category {
+  font-family: $montserrat;
+  font-size: 0.85rem;      
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: $brown !important; 
+  text-transform: capitalize !important; 
+  background-color: transparent; 
+  border: 1.3px solid $brown !important; 
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-decoration: none !important;    
+  margin-right: 4px;
+  margin-bottom: 4px;
+  display: inline-block;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: $blue;
+    color: $cream !important; 
+    border-color: $brown;
+  }
+}
+
+// metadata styling (dates, reading time, author)
+.listing-date, .listing-reading-time, .quarto-title-meta-heading {
+  font-size: 0.8rem;
+  text-transform: capitalize !important; 
+  letter-spacing: 0.5px;
+  color: $brown;
+}
+
+// Scales down the blog/project titles in the list view
+.listing-title {
+  font-size: 1.2rem !important; 
+  font-weight: 400 !important; 
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem !important; // Adjust this number to increase/decrease space
+  display: block;
+}
+
+// Targets the container of the image in the grid
+.quarto-grid-item .card-img-top, 
+.quarto-grid-item .thumbnail {
+  height: 300px !important; // Force the container height
+  overflow: hidden;         // Hide anything that sticks out
+  display: block;
+}
+
+// Targets the image itself
+.quarto-grid-item img {
+  height: 100% !important;   // Force it to fill the 300px container
+  width: 100% !important;    // Force it to fill the width
+  object-fit: contain !important; // Maintain proportions without stretching
+  display: block;
+  background-color: $cream;
+}
+
+/* REFINED SIDEBAR DESIGN */
+
+// 1. Make the sidebar background subtle so it doesn't create a "void"
+#quarto-margin-sidebar {
+  padding-left: 2rem !important;
+  border-left: 1px solid $cream; // Soft vertical divider
+}
+
+// 2. Style the Category Title
+.quarto-listing-category-title {
+  font-family: $montserrat;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: $brown;
+  margin-bottom: 1.5rem;
+}
+
+// 3. Clean up the Category List
+.quarto-listing-category {
+  font-family: $nunito;
+  font-size: 0.95rem;
+  color: $brown !important;
+  border-bottom: 1px solid transparent;
+  padding: 5px 0;
+  display: block;
+  transition: all 0.2s ease;
+
+  // This removes the background/border boxes to keep it minimalist
+  &.quarto-listing-category-unselected {
+    border: none !important;
+    background: none !important;
+  }
+
+  &:hover {
+    color: $blue !important;
+    padding-left: 2px; // Small "nudge" effect on hover
+  }
+}
+
+// 4. Style the counts (the numbers in parentheses)
+.quarto-category-count {
+  font-size: 0.8rem;
+  color: $brown;
+  margin-left: 5px;
+  opacity: 0.7;
+}
+
+// Targets the description/abstract at the top of an individual post
+.quarto-title-block .description {
+  font-family: $nunito;     
+  font-size: 1.20rem !important; 
+  font-weight: 300;
+  line-height: 1.5;
+  color: $brown;    
+}

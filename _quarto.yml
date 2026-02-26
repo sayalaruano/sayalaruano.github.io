@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  site-url: https://sayalaruano.github.io/
+  favicon: images/network.ico
+  #logo: images/network.png
+  google-analytics: 
+    tracking-id: "UA-212436276-1"
+    anonymize-ip: true
+  navbar:
+    title: false
+    logo: images/network.png
+    right:
+      - about.qmd
+      - href: projects.qmd
+        text: Projects
+      - publications.qmd
+      - href: talks.qmd
+        text: Talks
+      #- icon: github
+      #  href: https://github.com/
+      #- icon: twitter
+      #  href: https://twitter.com
+  page-footer: 
+    background: light
+    left: © Copyright 2026, Sebastian Ayala Ruano
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/sayalaruano/sayalaruano.github.io){target=_blank}, and [Quarto](https://quarto.org/){target=_blank}
+format:
+  html:
+    page-layout: full
+    sidebar: false
+    theme: 
+      - styles.scss
+    mainfont: Nunito
+    toc: true
+
+
+

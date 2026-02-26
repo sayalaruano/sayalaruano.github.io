@@ -1,0 +1,18 @@
+---
+title: "In silico detection of an antimicrobial peptide transferred horizontally from arthropods to bacteria" 
+description: | 
+  This oral presentation was part of the 2nd RSG-Colombia Symposium of young researchers in Bioinformatics at Ibagué, Colombia.
+date: "2019-11-05"
+image: RSG_Colombia_SC_2019.jpeg
+categories:
+- Oral presentation 
+- Microbiology
+- Bioinformatics
+---
+[{{< iconify ri slideshow-fill >}} Slides (Spanish)](https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias){.btn target=_blank}
+
+You can find more details about this project [here][amp-hgt]. 
+
+[amp-hgt]: ../../projects/Horizontal_gene_transfer/
+
+
