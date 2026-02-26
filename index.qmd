@@ -1,32 +1,27 @@
 ---
-title: ""
+title: "Sebastián Ayala Ruano"
+subtitle: "Bioinformatics | Data Science | Machine Learning | Network Science | Open Science |"
 image: images/sayalaruano3.jpg
 toc: false
 about:
-  template: jolla
+  template: trestles
   image-shape: rounded
-  image-width: 600px;
+  image-width: 600px
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/sayalaruano
-    - icon: github
-      text: GitHub
-      href: https://github.com/sayalaruano
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/sayalaruano
-    - text: "{{< ai google-scholar >}} Google scholar"
-      href: https://scholar.google.com/citations?user=QbDzPWMAAAAJ&hl=en&oi=ao
-    - text: "{{< ai orcid >}} Orcid"
-      href: https://orcid.org/0000-0001-9756-6745
-    - text: "{{< ai researchgate >}} ResearchGate"
-      href: https://www.researchgate.net/profile/Sebastian-Ayala-Ruano
+      - icon: github
+        href: https://github.com/sayalaruano
+      - icon: linkedin
+        href: https://linkedin.com/in/sayalaruano
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.com/citations?user=QbDzPWMAAAAJ
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-9756-6745
+      - text: "{{< ai researchgate >}}"
+        href: https://www.researchgate.net/profile/Sebastian-Ayala-Ruano
 ---
-<!-- ::: {.center-text} -->
-## {{< fa hand-peace >}} Hey, I am Sebastián Ayala Ruano. Welcome!
-<!-- ::: -->
 
-<!-- ::: {.small-text} -->
-I am a young researcher and freelance data scientist, currently pursuing a master’s degree in Systems Biology at [Maastricht University](https://www.maastrichtuniversity.nl/nl), the Netherlands. I have worked in **Bioinformatics** and **Cheminformatics** for **five years** at different laboratories. My current research interests are devoted to **Network Science** and **Machine Learning** to study different biological phenomena. I am part of several research, open-science, and software development communities ([ISCBSC](https://iscbsc.org/), [The Carpentries](https://carpentries.org/), [Streamlit Creators](https://streamlit.io/creators), and [Open Life Science](https://openlifesci.org/)).
-<!-- ::: -->
+I’m a researcher and freelance data scientist with a background in **bioinformatics** and **cheminformatics**. Over the last six years, my work has taken me to labs in Ecuador, South Korea, the Netherlands, and Denmark. My current research interests are focused on **network science**, **deep learning**, and **software development** to study complex biological systems. I’m also a big believer in **open science** and spend a lot of my time hanging out with communities like [The Turing Way](https://book.the-turing-way.org/), [Open Life Science](https://openlifesci.org/), [Streamlit Creators](https://streamlit.io/creators), and [ISCBSC](https://iscbsc.org/).
+
+When I am not coding, I am almost definitely outdoors. I am really into **hiking, mountaineering, and bouldering**. I also spend a lot of time on two wheels, either riding my mountain bike or planning the next **bikepacking** trip. I also enjoy traveling and discovering new music, movies, and books. 
+
+If you want the full story, check out my [**About** page →](about.qmd)
