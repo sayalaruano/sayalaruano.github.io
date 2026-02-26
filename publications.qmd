@@ -4,11 +4,14 @@ title-block-banner: true
 ---
 
 ## Peer reviewed journal articles
+
+- **Ayala-Ruano, S.**, Webel, H., & Santos, A. (2025). **VueGen: Automating the generation of scientific reports**. *Bioinformatics Advances*, vbaf149. doi: [doi.org/10.1093/bioadv/vbaf149](https://doi.org/10.1093/bioadv/vbaf149).
+
+- Ordoñez, J., Tovar, C., Walker, B., Wheeler, J., **Ayala-Ruano, S.**, Aguirre-Carvajal, K., McMahon S., & Cuesta, F. (2025). **Phenological patterns of tropical mountain forest trees across the neotropics: evidence from herbarium specimens**. *Proc. R. Soc. B*, 292 (2041), 20242748. doi: [doi.org/10.1098/rspb.2024.2748](https://doi.org/10.1098/rspb.2024.2748)
+
 - Aguilera-Mendoza, L., **Ayala-Ruano, S.**<sup>^</sup>, Martinez-Rios, F., Chavez, E., García-Jacas, C. R., Brizuela, C. A., & Marrero-Ponce, Y. (2023). **StarPep Toolbox: an open-source software to assist chemical space analysis of bioactive peptides and their functions using complex networks**. *Bioinformatics*, 39 (8), btad506. doi: [doi.org/10.1093/bioinformatics/btad506](https://doi.org/10.1093/bioinformatics/btad506)
 
 - **Ayala-Ruano S.**, Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., et al. (2022). **Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching**. *ACS omega*. doi: [doi.org/10.1021/acsomega.2c03398](https://doi.org/10.1021/acsomega.2c03398).
-
-  - Preprint: [doi.org/10.26434/chemrxiv-2021-tgv69-v2](https://doi.org/10.26434/chemrxiv-2021-tgv69-v2).
 
 - Oña-Chuquimarca, S., **Ayala-Ruano, S.**, Goossens, Pauwels, L., et al. (2020). **The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors**. *Frontiers in Plant Science*, 11, 1139. doi: [10.3389/fpls.2020.01139
 ](https://doi.org/10.3389/fpls.2020.01139). 
@@ -17,8 +20,6 @@ title-block-banner: true
 
 - **Ayala‐Ruano, S.**, Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., & Armijos-Jaramillo, V. (2019). **A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of Streptomyces clavuligerus ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications**. *Ecology and Evolution*, 9 (5), 2602-2614. doi: [10.1002/ece3.4924](https://doi.org/10.1002/ece3.4924).
 
-<br>
-
 ## Editorial journal articles
 -  Osorio-Mogollon C, Grentzinger V, Olguin-Orellana GJ, **Ayala-Ruano S.**, et al. (2023). **ISCB Student Council Symposium 2021, a virtual global venue: challenges and lessons learned**. *F1000Research*, 12(50). doi: [10.12688/f1000research.129945.1](https://doi.org/10.12688/f1000research.129945.1) 
 
@@ -26,9 +27,12 @@ title-block-banner: true
 
 - Castillo-Vilcahuaman, C., Valdivia C., Osorio-Mogollón C., Silva-Andrade, C., Puche, R., **Ayala‐Ruano, S.**, et al. (2020). **4th ISCB Latin American Student Council Symposium: a virtual  and inclusive experience during COVID19 times**. *F1000Research*, 9.  doi: [10.12688/f1000research.28330.1](https://f1000research.com/articles/9-1460/v1).
 
-<br>
+## Preprints
+
+- Vidal E., Phanthanourak, A.L., Gharib, A., Webel, H., Assis, J., **Ayala-Ruano, S.**, Cunha, A.F., & Santos, A. (2025). **ABaCo: Addressing Heterogeneity Challenges in Metagenomic Data Integration with Adversarial Generative Models**. *bioRxiv*. doi: [https://doi.org/10.1101/2025.09.22.677692](https://doi.org/10.1101/2025.09.22.677692).
 
 ## Others
+
 - **Ayala-Ruano, S.**<sup>^</sup>, & Zurita, J. (2021). **HerrCompBioinfo: un recurso educativo de código abierto de herramientas computacionales para entusiastas de la Bioinformática**. doi: [doi.org/10.5281/zenodo.5748335](https://doi.org/10.5281/zenodo.5748335)
 
 ^co-first author
