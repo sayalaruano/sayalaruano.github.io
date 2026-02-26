@@ -3,9 +3,9 @@ title: "Antiparasitic peptides discovery"
 description: |
   Exploring the antiparasitic peptides' chemical space and predicting new potential compounds through network science and similarity searching.
 categories: 
-  - Drug discovery
-  - Network science
-  - Bioinformatics
+  - 💊Drug discovery
+  - 🕸️Network science
+  - 🧬Bioinformatics
 date: "2023-01-14"
 draft: false
 image: ../../images/network.png

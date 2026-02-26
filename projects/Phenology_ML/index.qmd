@@ -3,8 +3,8 @@ title: "Prediction of the phenological stages of tropical forest species using h
 description: |
   Creating a database of herbarium records from tropical forest species of the Americas and developing machine learning classifiers to predict their phenology.
 categories: 
-  - Ecology
-  - Machine learning
+  - 🏞️Ecology
+  - 🤖Machine learning
 date: "2023-01-16"
 image: ../../images/phenology.png
 draft: false

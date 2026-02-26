@@ -3,10 +3,10 @@ title: "The molecular basis of JAZ-MYC coupling, a key component of plant immuni
 description: |
    Binding specificity between repressor proteins and a transcriptional factor associated with the jasmonic acid pathway through molecular dynamics and machine learning.
 categories: 
-  - Agriculture
-  - Molecular dynamics
-  - Machine learning
-  - Bioinformatics
+  - 🌾Agriculture
+  - ⚛️Molecular dynamics
+  - 🤖Machine learning
+  - 🧬Bioinformatics
 date: "2021-09-07"
 image: "../../images/jaz_myc.png"
 draft: false

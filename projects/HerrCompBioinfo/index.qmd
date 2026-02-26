@@ -3,8 +3,8 @@ title: "HerrCompBioinfo"
 description: |
   An open-source educational resource of computational tools for bioinformatics enthusiasts written in Spanish.
 categories: 
-  - Education
-  - Bioinformatics
+  - 📚Education
+  - 🧬Bioinformatics
 date: "2023-01-13"
 draft: false
 image: ../../images/herrcompbioinfo.png

@@ -3,10 +3,10 @@ title: "Prediction of antimicrobial peptides using machine learning classifiers"
 description: |
   Training machine learning classifiers to predict the antimicrobial activity of peptides.
 categories: 
-  - Drug discovery
-  - Machine learning
-  - Bioinformatics
-  - Streamlit
+  - 💊Drug discovery
+  - 🤖Machine learning
+  - 🧬Bioinformatics
+  - 🎈Streamlit
 date: "2023-01-14"
 draft: false
 image: ../../images/peptide.png

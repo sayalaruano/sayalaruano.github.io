@@ -3,8 +3,8 @@ title: "Kolekti"
 description: |
   A webpage to gather information from labor informality in Ecuador. The goal was to create a community where people could interact and generate work opportunities. 
 categories: 
-  - Social sciences
-  - Web development
+  - 🏘️Social sciences
+  - 🌐Web development
 date: "2021-09-07"
 image: ../../images/kolekti.png
 draft: false

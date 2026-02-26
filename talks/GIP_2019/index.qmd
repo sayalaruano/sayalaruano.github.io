@@ -5,10 +5,10 @@ description: |
 date: "2019-08-14"
 image: GIP_logo.png
 categories: 
-  - Poster presentation 
-  - Human health
-  - Molecular dynamics
-  - Bioinformatics
+  - 🗺️Poster presentation 
+  - 🩺Human health
+  - ⚛️Molecular dynamics
+  - 🧬Bioinformatics
 ---
 [{{< fa calendar-check >}} Event](https://ipa.gist.ac.kr/ipa/html/sub03/030101.html){.btn target=_blank} [{{< iconify uil presentation >}} Poster (English)](https://www.researchgate.net/publication/354366092_Structural_changes_due_to_a_mutation_in_Cereblon_might_be_a_cause_for_intellectual_disability){.btn target=_blank}
 

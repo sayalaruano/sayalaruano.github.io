@@ -5,9 +5,9 @@ description: |
 date: "2019-11-05"
 image: RSG_Colombia_SC_2019.jpeg
 categories:
-- Oral presentation 
-- Microbiology
-- Bioinformatics
+- 👨‍🏫Oral presentation 
+- 🦠Microbiology
+- 🧬Bioinformatics
 ---
 [{{< iconify ri slideshow-fill >}} Slides (Spanish)](https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias){.btn target=_blank}
 

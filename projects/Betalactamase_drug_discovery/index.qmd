@@ -3,9 +3,9 @@ title: "Prediction of potential drug ligands that bind to Beta-Lactamases"
 description: |
   Training machine learning classifiers to evaluate the activity of molecules that have been experimentally tested to bind or not bind to beta-lactamases.
 categories: 
-  - Drug discovery
-  - Machine learning
-  - Bioinformatics
+  - 💊Drug discovery
+  - 🤖Machine learning
+  - 🧬Bioinformatics
 date: "2021-09-07"
 image: "../../images/betalactamase.png"
 draft: false

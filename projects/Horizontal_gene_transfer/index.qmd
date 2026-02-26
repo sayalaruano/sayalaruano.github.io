@@ -3,9 +3,9 @@ title: "Horizontal gene transfer between arthropods and bacteria"
 description: |
   Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.
 categories:
-  - Microbiology
-  - Phylogenetics 
-  - Bioinformatics
+  - 🦠Microbiology
+  - 🌳Phylogenetics 
+  - 🧬Bioinformatics
 date: "2021-09-07"
 image: ../../images/hgt2.png
 draft: false

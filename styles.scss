@@ -366,7 +366,7 @@ table-borderless tbody + tbody {
 // 3. Clean up the Category List
 .quarto-listing-category {
   font-family: $nunito;
-  font-size: 0.95rem;
+  font-size: 0.85rem !important;
   color: $brown !important;
   border-bottom: 1px solid transparent;
   padding: 5px 0;
