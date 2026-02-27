@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.40">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,15 +33,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/network.ico" rel="icon">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-125022a7aaf6d05363c6ef62fb9cee92.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -129,7 +131,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -147,7 +149,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -155,7 +157,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/network.png" alt="" class="navbar-logo">
+    <img src="./images/network.png" alt="" class="navbar-logo light-content">
+    <img src="./images/network.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -214,7 +217,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="⚛️Molecular dynamics">⚛️Molecular dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="🌍Open Science">🌍Open Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="🌐Web development">🌐Web development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="🌾Agriculture">🌾Agriculture <span class="quarto-category-count">(3)</span></div><div class="category" data-category="🏘️Social sciences">🏘️Social sciences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="👨‍🏫Oral presentation">👨‍🏫Oral presentation <span class="quarto-category-count">(9)</span></div><div class="category" data-category="💊Drug discovery">💊Drug discovery <span class="quarto-category-count">(2)</span></div><div class="category" data-category="📚Education">📚Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="🕸️Network science">🕸️Network science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="🗺️Poster presentation">🗺️Poster presentation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="🤖Machine learning">🤖Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="🦠Microbiology">🦠Microbiology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="🧠Machine learning">🧠Machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="🧬Bioinformatics">🧬Bioinformatics <span class="quarto-category-count">(9)</span></div><div class="category" data-category="🩺Human health">🩺Human health <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="JUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3M=">⚛️Molecular dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="JUYwJTlGJThDJThET3BlbiUyMFNjaWVuY2U=">🌍Open Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUYwJTlGJThDJTkwV2ViJTIwZGV2ZWxvcG1lbnQ=">🌐Web development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUYwJTlGJThDJUJFQWdyaWN1bHR1cmU=">🌾Agriculture <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUYwJTlGJThGJTk4JUVGJUI4JThGU29jaWFsJTIwc2NpZW5jZXM=">🏘️Social sciences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg==">👨‍🏫Oral presentation <span class="quarto-category-count">(9)</span></div><div class="category" data-category="JUYwJTlGJTkyJThBRHJ1ZyUyMGRpc2NvdmVyeQ==">💊Drug discovery <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUYwJTlGJTkzJTlBRWR1Y2F0aW9u">📚Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUYwJTlGJTk1JUI4JUVGJUI4JThGTmV0d29yayUyMHNjaWVuY2U=">🕸️Network science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUYwJTlGJTk3JUJBJUVGJUI4JThGUG9zdGVyJTIwcHJlc2VudGF0aW9u">🗺️Poster presentation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUYwJTlGJUE0JTk2TWFjaGluZSUyMGxlYXJuaW5n">🤖Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUYwJTlGJUE2JUEwTWljcm9iaW9sb2d5">🦠Microbiology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUYwJTlGJUE3JUEwTWFjaGluZSUyMGxlYXJuaW5n">🧠Machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M=">🧬Bioinformatics <span class="quarto-category-count">(9)</span></div><div class="category" data-category="JUYwJTlGJUE5JUJBSHVtYW4lMjBoZWFsdGg=">🩺Human health <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -228,33 +231,28 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="👨‍🏫Oral presentation,🌍Open Science,📚Education" data-listing-date-sort="1664773200000" data-listing-file-modified-sort="1772225641582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail">
-<p><a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external"></a></p><a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/OLS6_CG_CCO_2022/OLS_logo.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="0" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU4QyU4RE9wZW4lMjBTY2llbmNlJTJDJUYwJTlGJTkzJTlBRWR1Y2F0aW9u" data-listing-date-sort="1664755200000" data-listing-file-modified-sort="1772226094990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="thumbnail"><a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/OLS6_CG_CCO_2022/OLS_logo.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external">Contributing Guidelines and Codes of Conduct for Open Projects</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJThDJThET3BlbiUyMFNjaWVuY2U='); return false;">🌍Open Science</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkzJTlBRWR1Y2F0aW9u'); return false;">📚Education</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🌍Open Science'); return false;">
-🌍Open Science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('📚Education'); return false;">
-📚Education
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external">This talk was given in the week 4 session of the 6th cohort of the Open Seeds program by OLS, held online. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external">
+<p>This talk was given in the week 4 session of the 6th cohort of the Open Seeds program by OLS, held online.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/OLS6_CG_CCO_2022/index.html" class="no-external">
@@ -264,36 +262,30 @@ Oct 3, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="👨‍🏫Oral presentation,💊Drug discovery,🕸️Network science,🧬Bioinformatics" data-listing-date-sort="1657342800000" data-listing-file-modified-sort="1772225641591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail">
-<p><a href="./talks/SCS_2022/index.html" class="no-external"></a></p><a href="./talks/SCS_2022/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/SCS_2022/SCS_2022.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/SCS_2022/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="1" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU5MiU4QURydWclMjBkaXNjb3ZlcnklMkMlRjAlOUYlOTUlQjglRUYlQjglOEZOZXR3b3JrJTIwc2NpZW5jZSUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1657324800000" data-listing-file-modified-sort="1772226094994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<div class="thumbnail"><a href="./talks/SCS_2022/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/SCS_2022/SCS_2022.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/SCS_2022/index.html" class="no-external">Exploring the chemical space of antiparasitic peptides and discovery of new promising leads through a novel approach based on network science and similarity searching</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/SCS_2022/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkyJThBRHJ1ZyUyMGRpc2NvdmVyeQ=='); return false;">💊Drug discovery</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTk1JUI4JUVGJUI4JThGTmV0d29yayUyMHNjaWVuY2U='); return false;">🕸️Network science</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('💊Drug discovery'); return false;">
-💊Drug discovery
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🕸️Network science'); return false;">
-🕸️Network science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/SCS_2022/index.html" class="no-external">This oral presentation was part of the International Society for Computational Biology Student Council Symposium 2022, held online. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/SCS_2022/index.html" class="no-external">
+<p>This oral presentation was part of the International Society for Computational Biology Student Council Symposium 2022, held online.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/SCS_2022/index.html" class="no-external">
@@ -303,36 +295,30 @@ Jul 9, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="👨‍🏫Oral presentation,💊Drug discovery,🕸️Network science,🧬Bioinformatics" data-listing-date-sort="1653541200000" data-listing-file-modified-sort="1772225641574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external"></a></p><a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/ISCBSC_Webinarseries_2022/ISCBSC_Webinarseries_2022.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="2" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU5MiU4QURydWclMjBkaXNjb3ZlcnklMkMlRjAlOUYlOTUlQjglRUYlQjglOEZOZXR3b3JrJTIwc2NpZW5jZSUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1653523200000" data-listing-file-modified-sort="1772226094988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail"><a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/ISCBSC_Webinarseries_2022/ISCBSC_Webinarseries_2022.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external">Exploring the chemical space of antiparasitic peptides and discovery of new promising leads through a novel approach based on network science and similarity searching</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkyJThBRHJ1ZyUyMGRpc2NvdmVyeQ=='); return false;">💊Drug discovery</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTk1JUI4JUVGJUI4JThGTmV0d29yayUyMHNjaWVuY2U='); return false;">🕸️Network science</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('💊Drug discovery'); return false;">
-💊Drug discovery
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🕸️Network science'); return false;">
-🕸️Network science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external">This oral presentation was part of the International Society for Computational Biology Student Council Webinar Series 2022, held online. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external">
+<p>This oral presentation was part of the International Society for Computational Biology Student Council Webinar Series 2022, held online.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/ISCBSC_Webinarseries_2022/index.html" class="no-external">
@@ -342,33 +328,28 @@ May 26, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="👨‍🏫Oral presentation,📚Education,🧬Bioinformatics" data-listing-date-sort="1642568400000" data-listing-file-modified-sort="1772225641578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./talks/OLS4_2022/index.html" class="no-external"></a></p><a href="./talks/OLS4_2022/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/OLS4_2022/OLS_logo.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/OLS4_2022/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="3" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU5MyU5QUVkdWNhdGlvbiUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1642550400000" data-listing-file-modified-sort="1772226094989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail"><a href="./talks/OLS4_2022/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/OLS4_2022/OLS_logo.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/OLS4_2022/index.html" class="no-external">HerrCompBioinfo: An open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/OLS4_2022/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkzJTlBRWR1Y2F0aW9u'); return false;">📚Education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('📚Education'); return false;">
-📚Education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/OLS4_2022/index.html" class="no-external">This oral presentation was part of the 4th cohort of the Open Seeds program by OLS, held online. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/OLS4_2022/index.html" class="no-external">
+<p>This oral presentation was part of the 4th cohort of the Open Seeds program by OLS, held online.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/OLS4_2022/index.html" class="no-external">
@@ -378,39 +359,32 @@ Jan 19, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="👨‍🏫Oral presentation,🌾Agriculture,⚛️Molecular dynamics,🤖Machine learning,🧬Bioinformatics" data-listing-date-sort="1635138000000" data-listing-file-modified-sort="1772225641565" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./talks/BR_SCS_2021/index.html" class="no-external"></a></p><a href="./talks/BR_SCS_2021/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/BR_SCS_2021/BR_SCS_2021.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/BR_SCS_2021/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="4" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU4QyVCRUFncmljdWx0dXJlJTJDJUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3MlMkMlRjAlOUYlQTQlOTZNYWNoaW5lJTIwbGVhcm5pbmclMkMlRjAlOUYlQTclQUNCaW9pbmZvcm1hdGljcw==" data-listing-date-sort="1635120000000" data-listing-file-modified-sort="1772226094987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail"><a href="./talks/BR_SCS_2021/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/BR_SCS_2021/BR_SCS_2021.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/BR_SCS_2021/index.html" class="no-external">The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/BR_SCS_2021/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJThDJUJFQWdyaWN1bHR1cmU='); return false;">🌾Agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3M='); return false;">⚛️Molecular dynamics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE0JTk2TWFjaGluZSUyMGxlYXJuaW5n'); return false;">🤖Machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🌾Agriculture'); return false;">
-🌾Agriculture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('⚛️Molecular dynamics'); return false;">
-⚛️Molecular dynamics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🤖Machine learning'); return false;">
-🤖Machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/BR_SCS_2021/index.html" class="no-external">This oral presentation was part of the 6th Brazilian Student Council Symposium - Omics and Data Science held online. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/BR_SCS_2021/index.html" class="no-external">
+<p>This oral presentation was part of the 6th Brazilian Student Council Symposium - Omics and Data Science held online.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/BR_SCS_2021/index.html" class="no-external">
@@ -420,33 +394,28 @@ Oct 25, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="👨‍🏫Oral presentation,🏘️Social sciences,🌐Web development" data-listing-date-sort="1614747600000" data-listing-file-modified-sort="1772225641567" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<div class="thumbnail">
-<p><a href="./talks/Challenge_labor_informality/index.html" class="no-external"></a></p><a href="./talks/Challenge_labor_informality/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/Challenge_labor_informality/Challenge_labor_informality.jpg" class="thumbnail-image"></p>
-</a><p><a href="./talks/Challenge_labor_informality/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="5" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU4RiU5OCVFRiVCOCU4RlNvY2lhbCUyMHNjaWVuY2VzJTJDJUYwJTlGJThDJTkwV2ViJTIwZGV2ZWxvcG1lbnQ=" data-listing-date-sort="1614729600000" data-listing-file-modified-sort="1772226094987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="thumbnail"><a href="./talks/Challenge_labor_informality/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/Challenge_labor_informality/Challenge_labor_informality.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/Challenge_labor_informality/index.html" class="no-external">Kolekti</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/Challenge_labor_informality/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJThGJTk4JUVGJUI4JThGU29jaWFsJTIwc2NpZW5jZXM='); return false;">🏘️Social sciences</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJThDJTkwV2ViJTIwZGV2ZWxvcG1lbnQ='); return false;">🌐Web development</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🏘️Social sciences'); return false;">
-🏘️Social sciences
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🌐Web development'); return false;">
-🌐Web development
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/Challenge_labor_informality/index.html" class="no-external">This oral presentation was part of the Innovation challenge “For more data on labor informality” hackathon. With this presentation our team was the winner of this hackathon. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/Challenge_labor_informality/index.html" class="no-external">
+<p>This oral presentation was part of the Innovation challenge “For more data on labor informality” hackathon. With this presentation our team was the winner of this hackathon.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/Challenge_labor_informality/index.html" class="no-external">
@@ -456,39 +425,32 @@ Mar 3, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="👨‍🏫Oral presentation,🌾Agriculture,⚛️Molecular dynamics,🧠Machine learning,🧬Bioinformatics" data-listing-date-sort="1597294800000" data-listing-file-modified-sort="1772225641588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external"></a></p><a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/RSG_Argentine_SAJIB_2020/RSG_Argentine_SAJIB_2020.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="6" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiU4QyVCRUFncmljdWx0dXJlJTJDJUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3MlMkMlRjAlOUYlQTclQTBNYWNoaW5lJTIwbGVhcm5pbmclMkMlRjAlOUYlQTclQUNCaW9pbmZvcm1hdGljcw==" data-listing-date-sort="1597276800000" data-listing-file-modified-sort="1772226094992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail"><a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/RSG_Argentine_SAJIB_2020/RSG_Argentine_SAJIB_2020.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external">Modeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJThDJUJFQWdyaWN1bHR1cmU='); return false;">🌾Agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3M='); return false;">⚛️Molecular dynamics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUEwTWFjaGluZSUyMGxlYXJuaW5n'); return false;">🧠Machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🌾Agriculture'); return false;">
-🌾Agriculture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('⚛️Molecular dynamics'); return false;">
-⚛️Molecular dynamics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧠Machine learning'); return false;">
-🧠Machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external">This oral presentation was part of the 5th RSG-Argentine Symposium of Young Researchers in Bioinformatics, held online. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external">
+<p>This oral presentation was part of the 5th RSG-Argentine Symposium of Young Researchers in Bioinformatics, held online.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/RSG_Argentine_SAJIB_2020/index.html" class="no-external">
@@ -498,33 +460,28 @@ Aug 13, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="👨‍🏫Oral presentation,🦠Microbiology,🧬Bioinformatics" data-listing-date-sort="1589864400000" data-listing-file-modified-sort="1772225641571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external"></a></p><a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/ISCBSC_Webinarseries_2020/ISCBSC_Webinarseries_2020.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="7" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiVBNiVBME1pY3JvYmlvbG9neSUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1589846400000" data-listing-file-modified-sort="1772226094988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail"><a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/ISCBSC_Webinarseries_2020/ISCBSC_Webinarseries_2020.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external">In silico detection of horizontal gene transfer in Streptomyces clavuligerus</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE2JUEwTWljcm9iaW9sb2d5'); return false;">🦠Microbiology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🦠Microbiology'); return false;">
-🦠Microbiology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external">This oral presentation was part of the International Society for Computational Biology Student Council Webinar series 2020. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external">
+<p>This oral presentation was part of the International Society for Computational Biology Student Council Webinar series 2020.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/ISCBSC_Webinarseries_2020/index.html" class="no-external">
@@ -534,39 +491,32 @@ May 19, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="🗺️Poster presentation,🌾Agriculture,⚛️Molecular dynamics,🧠Machine learning,🧬Bioinformatics" data-listing-date-sort="1574917200000" data-listing-file-modified-sort="1772225641593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail">
-<p><a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external"></a></p><a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/XLIII_National_Biology_Conference_2019/XLIII_National_Biology_Conference_2019.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="8" data-categories="JUYwJTlGJTk3JUJBJUVGJUI4JThGUG9zdGVyJTIwcHJlc2VudGF0aW9uJTJDJUYwJTlGJThDJUJFQWdyaWN1bHR1cmUlMkMlRTIlOUElOUIlRUYlQjglOEZNb2xlY3VsYXIlMjBkeW5hbWljcyUyQyVGMCU5RiVBNyVBME1hY2hpbmUlMjBsZWFybmluZyUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1574899200000" data-listing-file-modified-sort="1772226094994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<div class="thumbnail"><a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/XLIII_National_Biology_Conference_2019/XLIII_National_Biology_Conference_2019.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external">Modeling of protein-protein interaction and search for key residues by machine learning of a protein complex in the jasmonic acid route in Arabidopsis thaliana</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('🗺️Poster presentation'); return false;">
-🗺️Poster presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTk3JUJBJUVGJUI4JThGUG9zdGVyJTIwcHJlc2VudGF0aW9u'); return false;">🗺️Poster presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJThDJUJFQWdyaWN1bHR1cmU='); return false;">🌾Agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3M='); return false;">⚛️Molecular dynamics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUEwTWFjaGluZSUyMGxlYXJuaW5n'); return false;">🧠Machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🌾Agriculture'); return false;">
-🌾Agriculture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('⚛️Molecular dynamics'); return false;">
-⚛️Molecular dynamics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧠Machine learning'); return false;">
-🧠Machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external">This poster presentation was part of the XLIII Ecuadorian National Biology Conference at Urcuqui, Ecuador. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external">
+<p>This poster presentation was part of the XLIII Ecuadorian National Biology Conference at Urcuqui, Ecuador.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/XLIII_National_Biology_Conference_2019/index.html" class="no-external">
@@ -576,33 +526,28 @@ Nov 28, 2019
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="👨‍🏫Oral presentation,🦠Microbiology,🧬Bioinformatics" data-listing-date-sort="1572930000000" data-listing-file-modified-sort="1772225641589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail">
-<p><a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external"></a></p><a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/RSG_Colombia_SC_2019/RSG_Colombia_SC_2019.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="9" data-categories="JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbiUyQyVGMCU5RiVBNiVBME1pY3JvYmlvbG9neSUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1572912000000" data-listing-file-modified-sort="1772226094993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="thumbnail"><a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/RSG_Colombia_SC_2019/RSG_Colombia_SC_2019.jpeg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external">In silico detection of an antimicrobial peptide transferred horizontally from arthropods to bacteria</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('👨‍🏫Oral presentation'); return false;">
-👨‍🏫Oral presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkxJUE4JUUyJTgwJThEJUYwJTlGJThGJUFCT3JhbCUyMHByZXNlbnRhdGlvbg=='); return false;">👨‍🏫Oral presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE2JUEwTWljcm9iaW9sb2d5'); return false;">🦠Microbiology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🦠Microbiology'); return false;">
-🦠Microbiology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external">This oral presentation was part of the 2nd RSG-Colombia Symposium of young researchers in Bioinformatics at Ibagué, Colombia. </a>
-</div>
+<div class="delink listing-description"><a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external">
+<p>This oral presentation was part of the 2nd RSG-Colombia Symposium of young researchers in Bioinformatics at Ibagué, Colombia.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./talks/RSG_Colombia_SC_2019/index.html" class="no-external">
@@ -612,35 +557,29 @@ Nov 5, 2019
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="🗺️Poster presentation,🩺Human health,⚛️Molecular dynamics,🧬Bioinformatics" data-listing-date-sort="1565758800000" data-listing-file-modified-sort="1772225641568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail">
-<p><a href="./talks/GIP_2019/index.html" class="no-external"></a></p><a href="./talks/GIP_2019/index.html" class="no-external">
-<p><img loading="lazy" src="./talks/GIP_2019/GIP_logo.png" class="thumbnail-image"></p>
-</a><p><a href="./talks/GIP_2019/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="10" data-categories="JUYwJTlGJTk3JUJBJUVGJUI4JThGUG9zdGVyJTIwcHJlc2VudGF0aW9uJTJDJUYwJTlGJUE5JUJBSHVtYW4lMjBoZWFsdGglMkMlRTIlOUElOUIlRUYlQjglOEZNb2xlY3VsYXIlMjBkeW5hbWljcyUyQyVGMCU5RiVBNyVBQ0Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1565740800000" data-listing-file-modified-sort="1772226094987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<div class="thumbnail"><a href="./talks/GIP_2019/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/GIP_2019/GIP_logo.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./talks/GIP_2019/index.html" class="no-external">Structural changes due to a mutation in Cereblon might be a cause for intellectual disability</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./talks/GIP_2019/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('🗺️Poster presentation'); return false;">
-🗺️Poster presentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTk3JUJBJUVGJUI4JThGUG9zdGVyJTIwcHJlc2VudGF0aW9u'); return false;">🗺️Poster presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE5JUJBSHVtYW4lMjBoZWFsdGg='); return false;">🩺Human health</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUUyJTlBJTlCJUVGJUI4JThGTW9sZWN1bGFyJTIwZHluYW1pY3M='); return false;">⚛️Molecular dynamics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJUE3JUFDQmlvaW5mb3JtYXRpY3M='); return false;">🧬Bioinformatics</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('🩺Human health'); return false;">
-🩺Human health
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('⚛️Molecular dynamics'); return false;">
-⚛️Molecular dynamics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('🧬Bioinformatics'); return false;">
-🧬Bioinformatics
-</div>
-</div>
-<div class="listing-description">
-<a href="./talks/GIP_2019/index.html" class="no-external">This poster presentation was part of the <span>Global Intern Program 2019</span> at Gwangju Institute of Science and Technology. </a>
+<div class="delink listing-description"><a href="./talks/GIP_2019/index.html" class="no-external">
+</a><p><a href="./talks/GIP_2019/index.html" class="no-external">This poster presentation was part of the </a><a href="https://ipa.gist.ac.kr/ipa/html/sub03/030101.html">Global Intern Program 2019</a> at Gwangju Institute of Science and Technology.</p>
 </div>
 </div>
 <div class="metadata">
@@ -652,244 +591,246 @@ Aug 14, 2019
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/sayalaruano\.github\.io\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sayalaruano\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -897,185 +838,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
