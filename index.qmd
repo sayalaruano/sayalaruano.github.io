@@ -12,10 +12,10 @@ about:
         href: https://github.com/sayalaruano
       - icon: linkedin
         href: https://linkedin.com/in/sayalaruano
-      - text: "{{< ai google-scholar >}}"
-        href: https://scholar.google.com/citations?user=QbDzPWMAAAAJ
       - text: "{{< ai orcid >}}"
         href: https://orcid.org/0000-0001-9756-6745
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.com/citations?user=QbDzPWMAAAAJ
       - text: "{{< ai researchgate >}}"
         href: https://www.researchgate.net/profile/Sebastian-Ayala-Ruano
 ---
