@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/OLS6_CG_CCO_2022/index.html",
+      "/talks/SCS_2022/index.html",
+      "/talks/ISCBSC_Webinarseries_2022/index.html",
+      "/talks/OLS4_2022/index.html",
+      "/talks/BR_SCS_2021/index.html",
+      "/talks/Challenge_labor_informality/index.html",
+      "/talks/RSG_Argentine_SAJIB_2020/index.html",
+      "/talks/ISCBSC_Webinarseries_2020/index.html",
+      "/talks/XLIII_National_Biology_Conference_2019/index.html",
+      "/talks/RSG_Colombia_SC_2019/index.html",
+      "/talks/GIP_2019/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/Phenology_ML/index.html",
+      "/projects/AMPs_ML_pred/index.html",
+      "/projects/APPs_networks/index.html",
+      "/projects/COVID19-Dashboard/index.html",
+      "/projects/HerrCompBioinfo/index.html",
+      "/projects/Betalactamase_drug_discovery/index.html",
+      "/projects/CornDiseaseDetector/index.html",
+      "/projects/CRBN_mutations/index.html",
+      "/projects/Ecuadorian_elections_2021_sentiment_analysis/index.html",
+      "/projects/Horizontal_gene_transfer/index.html",
+      "/projects/JAZ-MYC_coupling/index.html",
+      "/projects/Kolekti/index.html"
+    ]
+  }
+]
