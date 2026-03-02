@@ -1,0 +1,38 @@
+---
+title: "VueCore"
+description: |
+  A Python package for creating interactive and static visualizations of multi-omics data.
+categories: 
+  - 🛠️Software development
+  - 📊Data visualization
+  - 🧫Omics
+  - 🧬Bioinformatics
+date: "2025-09-22"
+draft: false
+image: https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuecore/HEAD/docs/images/logo/vuecore_logo.svg
+---
+
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank}
+[{{< iconify bi book >}} Documentation][docs-link]{.btn target=_blank}
+[{{< iconify ion logo-python>}} Python package][python-package]{.btn target=_blank}
+
+I contributed to this project as part of my work as research assistant at the [Multiomics Network Analytics Group (MoNA)][Mona] - [Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)][Biosustain].
+
+## Summary
+
+**VueCore** provides a comprehensive suite of functions to create both **interactive** and **static visualizations** of **multi-omics data**. It is designed to be flexible and customizable, allowing users to tailor visualizations to their specific needs and preferences. It is part of a **broader ecosystem of tools** for multi-omics analysis, working in conjunction with [ACore][acore] and [VueGen][vuegen] to enable end-to-end data processing, visualization, and reporting.
+
+This package is still in development, but it already includes functions to create various types of visualizations, such as **histograms, scatter plots, bar plots, and box/violin plots**. Currently, the package supports the [Plotly][plotly] backend for interactive and static visualizations, but it is designed to be extensible to support other backends in the future such as **Matplotlib**, **Seaborn**, among others.
+
+## Additional information
+
+The VueCore documentation is available at [vuecore.readthedocs.io][docs-link], where you can find detailed information of the package’s classes and functions, installation and execution instructions, and API usage notebooks for all plots and visualizations. The source code is openly available on [GitHub][source-code], where you can also find the latest updates and contribute to the project.
+
+[source-code]: https://github.com/Multiomics-Analytics-Group/vuecore
+[docs-link]: https://vuecore.readthedocs.io/
+[python-package]: https://pypi.org/project/vuecore/
+[Mona]: https://multiomics-analytics-group.github.io/
+[Biosustain]: https://www.biosustain.dtu.dk/
+[acore]: https://github.com/Multiomics-Analytics-Group/acore
+[vuegen]: https://github.com/Multiomics-Analytics-Group/vuegen
+[plotly]: https://plotly.com/
