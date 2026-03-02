@@ -4,7 +4,8 @@ description: |
   Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.
 categories:
   - 🦠Microbiology
-  - 🌳Phylogenetics 
+  - 🌳Phylogenetics
+  - 🧫Omics 
   - 🧬Bioinformatics
 date: "2021-09-07"
 image: ../../images/hgt2.png
