@@ -25,6 +25,10 @@ I contributed to this project as part of my work as research assistant at the [M
 
 ## Summary
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/HEAD/docs/images/logo/vuegen_logo.svg" width="350" title="vuegen_logo">
+</p>
+
 **VueGen** is a tool that automates the creation of **reports** from bioinformatics outputs, allowing researchers with minimal coding experience to communicate their results effectively. With VueGen, users can produce reports by simply specifying a directory containing output files, such as plots, tables, networks, Markdown text, HTML components, and API calls, along with the report format. Supported formats include **documents** (PDF, HTML, DOCX, ODT), **presentations** (PPTX, Reveal.js), **Jupyter notebooks**, and [Streamlit][streamlit] **web applications**. By generating reports in all these formats, VueGen simplifies the reporting process, eliminating the need to manage multiple pipelines or manually reformat content.
 
 A **YAML configuration file** is generated from the directory to define the structure of the report. Users can customize the report by modifying the configuration file, or they can create their own configuration file instead of passing a directory as input. The configuration file specifies the structure of the report, including sections, subsections, and various **components** such as **plots, dataframes, markdown, html, and API calls**. 

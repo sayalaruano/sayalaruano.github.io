@@ -9,7 +9,7 @@ categories:
   - 🧬Bioinformatics
 date: "2023-08-21"
 draft: false
-image: ../../images/starpep_logo.png
+image: https://raw.githubusercontent.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep/HEAD/img/StarPep_logo.png
 ---
 
 [{{< fa newspaper solid>}} Publication][pub-link]{.btn target=_blank}
@@ -20,15 +20,13 @@ I contributed to this project as part of my work as research assistant at the **
 
 ## Summary
 
-**Antimicrobial peptides** (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the **AMPs’ chemical space** (AMPCS) is huge, it is estimated that there exist more than *10^65* unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we developed [StarPep toolbox][source-code], an **open-source software** to study the AMPCS using **networks, clustering, and similarity-searching models**, which can contribute to peptide drug repurposing, development, and optimization.
+**Antimicrobial peptides** (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the **AMPs’ chemical space** (AMPCS) is huge, it is estimated that there exist more than *10^65* unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. 
+
+Therefore, we developed [StarPep toolbox][source-code], an **open-source software** to study the AMPCS using **networks, clustering, and similarity-searching models**, which can contribute to peptide drug repurposing, development, and optimization.
 
 <p align="center">
-  <img src="../../images/starpep_logo.png" width="500" title="starpep_logo">
+  <img src="https://raw.githubusercontent.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep/HEAD/img/StarPep_logo.png" width="500" title="starpep_logo">
 </p>
-
-::: {.gray-italic .center-text}
-**Figure 1.-** StarPep Logo.
-:::
 
 This tool was developed as a **Java desktop application** that integrates the functionalities of several open-source projects. The graphical user interface was built on top of the [NetBeans Platform][netbeans], using the *Java SE Runtime Environment 8*. The graph database structure was implemented with the [Neo4j][neo4j] platform. Some visualization features and the calculation of network properties were based on [Gephi][gephi]. The sequence alignment algorithms were implemented using the [BioJava][biojava] API. 
 
@@ -47,11 +45,11 @@ The main modules of StarPep toolbox are listed below:
 The figure below shows the software architecture and components of StarPep toolbox: 
 
 <p align="center">
-  <img src="../../images/starpep-graph-abst.png" width="750" title="graph_summary">
+  <img src="../../images/starpep-graph-abst.png" width="800" title="graph_summary">
 </p>
 
 ::: {.gray-italic .center-text}
-**Figure 2.-** StarPep modules and components. The software has four main modules to load and filter AMPs, calculate MDs, create and analyze networks, and develop multi-query similarity-searching models.
+**Figure 1.-** StarPep modules and components. The software has four main modules to load and filter AMPs, calculate MDs, create and analyze networks, and develop multi-query similarity-searching models.
 :::
 
 For more details about the software, read its [online User Guide](https://grupo-medicina-molecular-y-traslacional.github.io/StarPep_doc/) and [publication][pub-link]. Also, you can check the [source code][source-code] to explore the implementation of the software.
