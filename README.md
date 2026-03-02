@@ -1,11 +1,10 @@
-Personal website and portfolio built with [Quarto](https://quarto.org/).
-================
+# Personal website and portfolio built with [Quarto][quarto]
 
-[![Quarto Publish](https://github.com/sayalaruano/sayalaruano.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/sayalaruano/sayalaruano.github.io/actions/workflows/deploy.yml)
+[![Quarto Publish](https://github.com/sayalaruano/sayalaruano.github.io/actions/workflows/deploy.yml/badge.svg)][deploy-ga]
 
 ## Live Site
 
-The website is automatically rendered and deployed to: **[sayalaruano.github.io](https://sayalaruano.github.io)**
+The website is automatically rendered and deployed to: **[sayalaruano.github.io][personal-website]**
 
 ## Structure 
 
@@ -35,7 +34,7 @@ This repo uses a GitHub Actions workflow to automate the rendering and deploymen
 
 If you want to preview changes locally:
 
-1. Install the [Quarto CLI](https://quarto.org/docs/get-started/).
+1. Install the [Quarto CLI][quarto-cli].
 2. Run the preview server in the root directory:
 
    ```bash
@@ -46,10 +45,29 @@ If you want to preview changes locally:
 
 This project was recently migrated from a **Hugo (Apéro/Blogdown)** framework to **Quarto**. The original Hugo source code is preserved in the `hugoapero-version` branch for reference. 
 
+## License
+
+The code in this repository is licensed under the **MIT License**, allowing you to use, modify, and distribute it freely as long as you include the original copyright and license notice.
+
+The documentation and other creative content are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0) License**, meaning you are free to share and adapt it with proper attribution.
+
+Full details for both licenses can be found in the [LICENSE](LICENSE.md) file.
+
 ## Learn More
 
-If you want to create your own website, I recommend to check the [Quarto documentation](https://quarto.org/docs/websites/), Sam Shanny-Csik [Quarto website tutorial](https://ucsb-meds.github.io/creating-quarto-websites/), the [Quarto Gallery](https://quarto.org/docs/gallery/), and the [Awesome Quarto repository](https://github.com/mcanouil/awesome-quarto) for inspiration and resources.
+If you want to create your own website, I recommend to check the [Quarto documentation][quarto-docs], Sam Shanny-Csik [Quarto website tutorial][quarto-website-tutorial], the [Quarto Gallery][quarto-gallery], and the [Awesome Quarto repository][awesome-quarto-repo] for inspiration and resources.
 
 ## Acknowledgements
 
-Thanks to the Quarto team and its community for providing an excellent open-sourceframework for building websites. The design and structure were inspired by various online portfolios and personal websites, including those of [Sam Shanny-Csik](https://samanthacsik.github.io/) and [Beatriz Milz](https://beatrizmilz.com/).
+Thanks to the Quarto team and its community for providing an excellent open-sourceframework for building websites. The design and structure were inspired by various online portfolios and personal websites, including those of [Sam Shanny-Csik][sam-shanny-website] and [Beatriz Milz][bea-milz-website].
+
+[quarto]: https://quarto.org/
+[deploy-ga]: https://github.com/sayalaruano/sayalaruano.github.io/actions/workflows/deploy.yml
+[personal-website]: https://sayalaruano.github.io/
+[quarto-cli]: https://quarto.org/docs/get-started/
+[quarto-docs]: https://quarto.org/docs/
+[quarto-website-tutorial]: https://ucsb-meds.github.io/creating-quarto-websites/
+[quarto-gallery]: https://quarto.org/gallery/
+[awesome-quarto-repo]: https://github.com/mcanouil/awesome-quarto
+[sam-shanny-website]: https://samanthacsik.github.io/
+[bea-milz-website]: https://beatrizmilz.com/
