@@ -150,6 +150,11 @@ that allows users to **predict the cardiomyopathy etiology** of heart tissue sam
 
 <a href="https://rnaseq-cardiomyopathies-pred.streamlit.app/" title="CardiomyoML-webapp"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/RNAseq_cardiomyopathies_pred/HEAD/RnaseqCMs.gif" 
+  width="800" title="CardiomyoPred_web_app">
+</p>
+
 ## Additional information
 
 The complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the [GitHub repository][source-code] of this project and in the [manuscript][manuscript]. The supplementary information of this project is available in [Zenodo][supplem-inf].
