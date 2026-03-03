@@ -4,7 +4,7 @@ description: |
   Sentiment analysis of replies to tweets from Ecuadorian presidential candidates in the 2021 elections using natural language processing and neural networks.
 categories: 
   - 🏘️Social sciences
-  - 🧠Deep learning
+  - 🧠‍🕸️Deep learning
   - 💬NLP
 date: "2021-09-07"
 image: "../../images/nlp.png"
