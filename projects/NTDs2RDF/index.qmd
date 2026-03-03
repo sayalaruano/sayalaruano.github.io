@@ -1,0 +1,109 @@
+---
+title: "NTDs2RDF"
+description: |
+  A heterogeneous and integrated knowledge graph for the exploration of Neglected Tropical Diseases.
+categories: 
+  - 🩺Human health
+  - 🦠Microbiology
+  - ⛃🕸️Knowledge graphs
+  - 🧬Bioinformatics
+  - 🎈Streamlit
+date: "2023-04-03"
+draft: false
+image: https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/ntds2rdf-logo.svg
+---
+
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank}
+[{{< iconify logos streamlit>}} Web application][web-app]{.btn target=_blank}
+[{{< iconify simple-icons zenodo>}} Knowledge graph][knowledge-graph]{.btn target=_blank} 
+[{{< fa newspaper solid>}} Manuscript][manuscript]{.btn target=_blank}
+
+I developed this project for a project of a course about knowledge graphs from the [MSc in Systems Biology][sysbio] 
+at [Maastricht University][maasuni].It was an end-to-end assignment with data pre-processing, normalization, 
+graph design, integration of multiple data sources, and the creation of a web application for querying the graph.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/ntds2rdf-logo.svg" width="300" title="NTDs2RDF">
+</p>
+
+## Background
+
+[Neglected tropical diseases (NTDs)][ntds] are a **heterogeneous group of 20 bacterial, viral, parasitic, and fungal conditions** that generally occur in **developing tropical countries** in the Americas, Africa, and Asia. NTDs mainly affect poor populations that do not have access to safe water, sanitation, and high-quality healthcare. Because of the severe effects of NTDs (i.e., they can cause long-lasting disabilities), they **reinforce the cycle of poverty**  in vulnerable communities.
+
+Currently, there are several independent databases that contain information about proteins, metabolic pathways, and drugs involved in NTDs, but no integrated databases with all the information. This **unified resource** could enable the **systematic exploration of all the components of the NTDs**, contributing to the research of potential therapies for these diseases.
+
+The **NTDs2RDF** project aimed  to create **a knowledge graph (KG) of genes, proteins, metabolic pathways, gene ontologies, single nucleotide variants, drugs**, and other relevant data for **three NTDs (Chagas disease, leishmaniasis, and African trypanosomiasis)**, integrating all the information in a single data structure that can be explored through a query interface implemented with a [Streamlit][streamlit] **web application**. This software provides a user-friendly platform to extract information from the KG using **SPARQL queries**.
+
+An overview of the workflow of this project is shown in the graphical abstract below.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/NTDs2RDF_graphabstract.png" width="800" title="ntds2rdf-graphabstract">
+</p>
+
+::: {.gray-italic .center-text}
+**Figure 1.-** Graphical abstract of the NTDs2RDF workflow.
+:::
+
+The project represents an initial step towards the creation of a heterogeneous database for different NTDs with several potential applications in advancing the understanding of NTDs biology and  providing insights that cannot be obtained through  alternative resources.
+
+This project was divided into **various modules for data collection, data cleaning, programmatic creation of the KG, and the development of a web application** for querying the RDF graph. The **software architecture** of all the parts of the NTDs2RDF project is presented in the figure below.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/Architecture_NTDs2RDF.png" width="800" title="ntds2rdf-architecture">
+</p>
+
+::: {.gray-italic .center-text}
+**Figure 2.-** Software architecture of the NTDs2RDF project. The workflow was divided into three main stages with some modules (blue
+rectangles) and components (green rectangles).
+:::
+
+## Knowledge graph 
+
+The NTDs2RDF KG has **ten classes and 33.892 triplets**. The [Biolink][biolink] model was the main source to define classes and predicates of 
+the **RDF graph** because it has many **human-readable and domain-specific** predicates for Biology, and its entities also follow a 
+**machine-readable format** and they are integrated with other ontologies using **semantic mappings**, which makes the KGs **interoperable**.
+
+To assure that all the entities of the KG have standardized and stable identifiers, the [Bioregistry][bioregistry] metaregistry was used to assign 
+the URIs and CURIEs. The figure below shows the meta-graph of the NTDs2RDF KG with all the classes and predicates from the Biolink Model and other standard ontologies.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/RDF2NTDs_schema.png" width="800" title="ntds2rdf-schema">
+</p>
+
+::: {.gray-italic .center-text}
+**Figure 2.-** Meta-graph of the NTDs2RDF KG. The classes are represented as blue ovals, the literals as green rounded rectangles, the
+references to external databases as orange rounded rectangles, and the provenance for the classes as yellow rounded rectangles.
+:::
+
+## Web application
+
+To guarantee the **accessibility and findability** of the NTDs2RDF KG, a **multi-page Streamlit web application** was
+developed. This software was divided into three pages: **Meta-graph** with all the classes and predicates
+from the **Biolink** model and other standard ontologies, **examples of SPARQL queries** to extract relevant information from 
+the graph, and the **query interface**. The web application is available online at the link below, and it can also be run locally 
+by following the instructions in the next section.
+
+<a href="https://NTDs2RDF.streamlit.app/" title="NTDs2RDF"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/NTDs2RDF.gif" width="800" title="ntds2rdf-webapp">
+</p>
+
+## Additional information
+
+The complete information about the data sources, data pre-processing, graph design, and software development of the NTDs2RDF project is available in the [GitHub repository][source-code] and the [manuscript][manuscript].
+
+## Citation 
+
+**Ayala-Ruano, S.** (2023). **NTDs2RDF: A heterogeneous and integrated knowledge graph for the exploration of neglected tropical diseases** (Version 1.0.0) [Database]. *Zenodo*. doi: [doi.org/10.5281/zenodo.7772554][knowledge-graph].
+
+[source-code]: https://github.com/sayalaruano/NTDs2RDF
+[manuscript]: https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/NTDs2RDF_report.pdf
+[knowledge-graph]: https://doi.org/10.5281/zenodo.7772554
+[web-app]: https://ntds2rdf.streamlit.app/
+[ntds]: https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases
+[streamlit]: https://streamlit.io/
+[biolink]: https://biolink.github.io/biolink-model/
+[bioregistry]: https://bioregistry.io/
+[sysbio]: https://www.maastrichtuniversity.nl/education/master/systems-biology
+[maasuni]: https://www.maastrichtuniversity.nl/
