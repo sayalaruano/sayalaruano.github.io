@@ -1,0 +1,41 @@
+---
+title: "LACBioinfoEdForum"
+description: |
+  Web Development for the Latin American and Caribbean (LAC) Forum on Bioinformatics Education 2022.
+categories: 
+  - 🌐Web development
+  - 📚Education
+  - 🧬Bioinformatics
+date: "2022-11-07"
+image: https://raw.githubusercontent.com/LAC-Bioinformatics-Education-Forum/LACBioinfoEdForum_Webpage/HEAD/assets/media/icon.png
+draft: false
+---
+
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank} 
+[{{< iconify icon-park-outline web-page >}} Website][website]{.btn target=_blank} 
+
+This project involved the development and maintenance of the official website for the **Latin American and Caribbean (LAC) Forum on Bioinformatics Education 2022**.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LAC-Bioinformatics-Education-Forum/LACBioinfoEdForum_Webpage/HEAD/assets/media/icon.png" width="300" title="SEH2Bioinfo-logo">
+</p>
+
+## Background
+
+The **LAC Forum on Bioinformatics Education 2022** is a working meeting for representatives and parties interested in generating, including or maintaining **academic programs in bioinformatics**, genomic sciences, computational biology and related disciplines; all geolocated within the Latin American and Caribbean regions. The forum was held virtually within the framework of the series of tutorials and workshops of the conference **ISCB-Latin America SoIBio BioNetMX Conference on Bioinformatics 2022**, on November 7, 2022.
+
+In general, different topics of interest related to the strengthening of bioinformatics in educational programs, whether undergraduate, master, PhD or specialization, are discussed; promote the inclusion of bioinformatics curricula in the life sciences; and address current challenges in the region, such as common infrastructures and decentralization of education/research.
+
+Specifically, the event addressed the following topics:
+
+* Bioinformatics for Life Sciences Careers
+* Infrastructure: from language barriers to computing infrastructure
+* Decentralization at regional, national and continental level
+
+## Additional information 
+
+To learn more about the project, the community, and the technical implementation, you can explore the [LACBioinfoEdForum website][website] and its [source code][source-code]. 
+
+[website]: https://lac-bioinfo-education-forum.netlify.app/
+[source-code]: https://github.com/LAC-Bioinformatics-Education-Forum/LACBioinfoEdForum_Webpage
+

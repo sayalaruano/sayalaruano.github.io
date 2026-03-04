@@ -17,7 +17,7 @@ draft: false
 This project involved the development and maintenance of the official website for the **Symposium of Spanish-Speaking Students in Bioinformatics and Computational Biology (SEH2Bioinfo)**.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SEH2Bioinfo-Org/SEH2Bioinfo/HEAD/assets/media/icon.png" width="400" title="SEH2Bioinfo-logo">
+  <img src="https://raw.githubusercontent.com/SEH2Bioinfo-Org/SEH2Bioinfo/HEAD/assets/media/icon.png" width="300" title="SEH2Bioinfo-logo">
 </p>
 
 ## Background
