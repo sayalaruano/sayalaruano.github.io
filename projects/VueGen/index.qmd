@@ -1,0 +1,92 @@
+---
+title: "VueGen"
+description: |
+  A Python package that automates the creation of reports from bioinformatics outputs, supporting formats like PDF, HTML, DOCX, ODT, PPTX, Reveal.js, Jupyter notebooks, and Streamlit web applications. Users simply provide a directory with output files and VueGen compiles them into a structured report.
+categories: 
+  - 🛠️Software development
+  - 📊Data visualization
+  - 🎈Streamlit
+  - 🧬Bioinformatics
+date: "2025-06-24"
+draft: false
+image: https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/HEAD/docs/images/logo/vuegen_logo.svg
+---
+
+[{{< fa newspaper solid>}} Publication][pub-link]{.btn target=_blank}
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank}
+[{{< iconify bi book >}} Documentation][docs-link]{.btn target=_blank}
+[{{< iconify ion logo-python>}} Python package][python-package]{.btn target=_blank}
+[{{< iconify ion logo-docker>}} Docker container][docker-container]{.btn target=_blank}
+[{{< iconify logos streamlit>}} Web application example][web-app]{.btn target=_blank}
+[{{< iconify ion logo-html5>}} HTML report example][html-report]{.btn target=_blank}
+[{{< iconify ri slideshow-fill>}} BOSC-ISMB 2025 Slides (English)][bosc-slides]{.btn target=_blank} 
+
+I contributed to this project as part of my work as research assistant at the [Multiomics Network Analytics Group (MoNA)][Mona] - [Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)][Biosustain].
+
+## Summary
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/HEAD/docs/images/logo/vuegen_logo.svg" width="350" title="vuegen_logo">
+</p>
+
+**VueGen** is a tool that automates the creation of **reports** from bioinformatics outputs, allowing researchers with minimal coding experience to communicate their results effectively. With VueGen, users can produce reports by simply specifying a directory containing output files, such as plots, tables, networks, Markdown text, HTML components, and API calls, along with the report format. Supported formats include **documents** (PDF, HTML, DOCX, ODT), **presentations** (PPTX, Reveal.js), **Jupyter notebooks**, and [Streamlit][streamlit] **web applications**. By generating reports in all these formats, VueGen simplifies the reporting process, eliminating the need to manage multiple pipelines or manually reformat content.
+
+A **YAML configuration file** is generated from the directory to define the structure of the report. Users can customize the report by modifying the configuration file, or they can create their own configuration file instead of passing a directory as input. The configuration file specifies the structure of the report, including sections, subsections, and various **components** such as **plots, dataframes, markdown, html, and API calls**. 
+
+An overview of the VueGen workflow is shown in the figure below:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/main/docs/images/vuegen_graph_abstract.png" width="700" title="vuegen_abstract">
+</p>
+
+::: {.gray-italic .center-text}
+**Figure 1.-** Graphical overview of VueGen’s workflow and components. The diagram illustrates VueGen’s pipeline and report structure, starting from either a directory or a YAML configuration file.
+:::
+
+Its **modular and cross-platform design** facilitates integration into various analytical workflows and enables researchers with minimal or no coding experience to communicate their results effectively. By combining **ease of use** for non-programmers with **extensibility** for advanced users, VueGen benefits a broad audience and shifts the focus from time-consuming report generation to the meaningful analysis and interpretation of results.
+
+A **schema diagram** was created to illustrate the structure of the configuration file and the relationships between its elements:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/main/docs/images/vuegen_schema_diagram.png" width="600" title="schema_vuegen">
+</p>
+
+::: {.gray-italic .center-text}
+**Figure 2.-** VueGen schema diagram (v0.4.0). Circles represent elements of the report configuration, including report, sections, subsections, and components. Arrows indicate hierarchical relationships and data flow within the configuration file.
+:::
+
+Also, the **class diagram** for the project's current version is presented below to show the architecture and relationships between classes:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/main/docs/images/vuegen_classdiagram_noattmeth.png" width="700" title="classdiagram_vuegen">
+</p>
+
+::: {.gray-italic .center-text}
+**Figure 3.-** VueGen class diagram (v0.4.0). Boxes represent classes, and arrows show their relationships.  Colors indicate functionality: gray for classes managing input files and metadata, blue for those defining the report structure, and red for classes generating reports.
+:::
+
+## Implementation
+
+VueGen offers **various implementation options** for both non-technical and experienced users. It is available as a [Python package][python-package], [Docker image][docker-container], [nf-core module][vugen-nf-core], and [cross-platform desktop application][desktop-app] with a user-friendly interface, making it accessible and customizable for different user needs and expertise levels. To streamline software maintenance, VueGen applies a **continuous integration and deployment (CI/CD)** pipeline for automated releases of the tool and its documentation.
+
+## Additional information
+
+The VueGen documentation is available at [vuegen.readthedocs.io][docs-link], where you can find detailed information of the package’s classes and functions, installation and execution instructions, and case studies to demonstrate its functionality. The publication describing the software is available in [Bioinformatics Advances][pub-link]. The source code is openly available on [GitHub][source-code], where you can also find the latest updates and contribute to the project.
+
+## Citation
+
+**Ayala-Ruano, S.**, Webel, H., & Santos, A. (2025). **VueGen: Automating the generation of scientific reports**. *Bioinformatics Advances*, vbaf149. doi: [doi.org/10.1093/bioadv/vbaf149][pub-link].
+
+[pub-link]: https://doi.org/10.1093/bioadv/vbaf149
+[source-code]: https://github.com/Multiomics-Analytics-Group/vuegen
+[docs-link]: https://vuegen.readthedocs.io/
+[python-package]: https://pypi.org/project/vuegen/
+[docker-container]: https://quay.io/repository/dtu_biosustain_dsp/vuegen
+[web-app]: https://earth-microbiome-vuegen-demo.streamlit.app/
+[html-report]: https://multiomics-analytics-group.github.io/vuegen/
+[bosc-slides]: https://doi.org/10.5281/zenodo.16104896
+[vugen-nf-core]: https://nf-co.re/modules/vuegen/
+[desktop-app]: https://github.com/Multiomics-Analytics-Group/vuegen/releases/latest/
+[Mona]: https://multiomics-analytics-group.github.io/
+[Biosustain]: https://www.biosustain.dtu.dk/
+[streamlit]: https://streamlit.io/

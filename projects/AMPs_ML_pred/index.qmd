@@ -103,6 +103,7 @@ The performance metrics of this model on test and external datasets are presente
 According to the evaluation results of our best model on test and external datasets, it is performing quite well. This [article][article] evaluated many the state of the art ML models for predicting AMPs using the same test and external datasets, and surprisingly the performance metrics of our model are very close to the results of the best ML models reported on this study.
 
 ## Web application
+
 Using the best ML model, I created [AMPredST][ampredst], a web application that allows users to predict the antimicrobial activity and general properties of AMPs. The code for this web application is available in this [GitHub repository][ampredst_github]. 
 
 <p align="center">
@@ -110,6 +111,7 @@ Using the best ML model, I created [AMPredST][ampredst], a web application that 
 </p>
 
 ## Additional information
+
 The complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the [GitHub repository][capstone_github] of this project.
 
 [zoomcamp]: https://github.com/alexeygrigorev/mlbookcamp-code

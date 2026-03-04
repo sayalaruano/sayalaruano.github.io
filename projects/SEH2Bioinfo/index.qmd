@@ -1,0 +1,35 @@
+---
+title: "SEH2Bioinfo"
+description: |
+  Web Development for the SEH2Bioinfo Symposium.
+categories: 
+  - 🌐Web development
+  - 📚Education
+  - 🧬Bioinformatics
+date: "2022-06-02"
+image: https://raw.githubusercontent.com/SEH2Bioinfo-Org/SEH2Bioinfo/HEAD/assets/media/icon.png
+draft: false
+---
+
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank} 
+[{{< iconify icon-park-outline web-page >}} Website][website]{.btn target=_blank} 
+
+This project involved the development and maintenance of the official website for the **Symposium of Spanish-Speaking Students in Bioinformatics and Computational Biology (SEH2Bioinfo)**.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SEH2Bioinfo-Org/SEH2Bioinfo/HEAD/assets/media/icon.png" width="300" title="SEH2Bioinfo-logo">
+</p>
+
+## Background
+
+In 2022, the first **SEH2Bioinfo** was organized, being the first bioinformatics event driven by a massive collaboration between Spanish-speaking Regional Student Groups (RSGs). The project united student organizations from **Argentina, Spain, Venezuela, Colombia, Ecuador, Chile, Peru, Mexico, and Uruguay**.
+
+The symposium was established to promote **linguistic diversity in the scientific community**. By centering Spanish as the primary language for communication, the project aimed to **eliminate barriers to scientific access** and empower students—from high school to postgraduate levels—to present their research in their native language.
+
+## Additional information 
+
+To learn more about the project, the community, and the technical implementation, you can explore the [SEH2Bioinfo website][website] and its [source code][source-code]. You can also find more information about the RSGs and the mission to promote diversity in science within the webpage's resources.
+
+[website]: https://seh2bioinfo.netlify.app/
+[source-code]: https://github.com/SEH2Bioinfo-Org/SEH2Bioinfo
+

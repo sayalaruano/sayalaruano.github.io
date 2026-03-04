@@ -9,7 +9,9 @@ date: "2023-01-16"
 image: ../../images/phenology.png
 draft: false
 ---
-[{{< fa brands github >}} Source code](https://github.com/sayalaruano/Phenology_from_herbarium_records){.btn target=_blank}
+
+[{{< fa newspaper solid >}} Publication][pub-link]{.btn target=_blank}
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank}
 
 I contributed to this project as part of my work as **data scientist consultant** at Universidad de las Américas, in Ecuador.
 
@@ -55,10 +57,12 @@ Random forest algorithms allow an estimation of the importance of their paramete
 
 Finally, we made the predictions of flowering and fruiting from the field notes of the final dataset using the random forest models created in the last section. These models and results can be used to design conservation strategies of the tropical forest species.
 
-## Additional information
+## Citation 
 
-A research article was submitted to a scientific journal with the results of this project. The article is currently under review and will be published soon.
+Ordoñez, J., Tovar, C., Walker, B., Wheeler, J., **Ayala-Ruano, S.**, Aguirre-Carvajal, K., McMahon S., & Cuesta, F. (2025). **Phenological patterns of tropical mountain forest trees across the neotropics: evidence from herbarium specimens**. *Proc. R. Soc. B*, 292 (2041), 20242748. doi: [doi.org/10.1098/rspb.2024.2748][pub-link].
 
+[source-code]: https://github.com/sayalaruano/Phenology_from_herbarium_records
+[pub-link]: https://royalsocietypublishing.org/rspb/article/292/2041/20242748/104836/Phenological-patterns-of-tropical-mountain-forest
 [tropicos]: http://tropicos.org/Project/VPA
 [gbif]: https://www.gbif.org/
 [nltk]: https://www.nltk.org/

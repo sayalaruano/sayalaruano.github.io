@@ -4,7 +4,7 @@ description: |
   A plant disease detector based on convolutional neural networks, trained to recognize two types of maize infectious diseases.
 categories: 
   - 🌾Agriculture
-  - 🧠Deep learning
+  - 🧠‍🕸️Deep learning
   - 🖼️Computer vision
   - 🎈Streamlit 
 date: "2021-09-07"
