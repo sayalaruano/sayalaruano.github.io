@@ -17,7 +17,7 @@ image: https://raw.githubusercontent.com/sayalaruano/img2brain/HEAD/img/encod_de
 [{{< fa newspaper solid>}} Manuscript][manuscript]{.btn target=_blank}
 [{{< iconify simple-icons zenodo>}} Dataset/Software archive][data-arch]{.btn target=_blank} 
 
-I developed this project for my capstone project of the Machine learning course from the [MSc in Systems Biology][sysbio] 
+I developed this project for my capstone project of the **Machine learning course** from the [MSc in Systems Biology][sysbio] 
 at [Maastricht University][maasuni]. It was an end-to-end assignment with data pre-processing, feature engineering, 
 training, hyperparameter tuning, and interpretation of the results.
 
