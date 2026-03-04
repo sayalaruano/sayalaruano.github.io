@@ -70,6 +70,41 @@
     "text": "Contributing Guidelines and Codes of Conduct for Open Projects\n\n\n\n👨‍🏫Oral presentation\n\n🌍Open Science\n\n📚Education\n\n\n\nThis talk was given in the week 4 session of the 6th cohort of the Open Seeds program by OLS, held online.\n\n\n\n\n\nOct 3, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the chemical space of antiparasitic peptides and discovery of new promising leads through a novel approach based on network science and similarity searching\n\n\n\n👨‍🏫Oral presentation\n\n💊Drug discovery\n\n🕸️Network science\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the International Society for Computational Biology Student Council Symposium 2022, held online.\n\n\n\n\n\nJul 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the chemical space of antiparasitic peptides and discovery of new promising leads through a novel approach based on network science and similarity searching\n\n\n\n👨‍🏫Oral presentation\n\n💊Drug discovery\n\n🕸️Network science\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the International Society for Computational Biology Student Council Webinar Series 2022, held online.\n\n\n\n\n\nMay 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nHerrCompBioinfo: An open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish\n\n\n\n👨‍🏫Oral presentation\n\n📚Education\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the 4th cohort of the Open Seeds program by OLS, held online.\n\n\n\n\n\nJan 19, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nThe molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors\n\n\n\n👨‍🏫Oral presentation\n\n🌾Agriculture\n\n⚛️Molecular dynamics\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the 6th Brazilian Student Council Symposium - Omics and Data Science held online.\n\n\n\n\n\nOct 25, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nKolekti\n\n\n\n👨‍🏫Oral presentation\n\n🏘️Social sciences\n\n🌐Web development\n\n\n\nThis oral presentation was part of the Innovation challenge “For more data on labor informality” hackathon. With this presentation our team was the winner of this hackathon.\n\n\n\n\n\nMar 3, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nModeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana\n\n\n\n👨‍🏫Oral presentation\n\n🌾Agriculture\n\n⚛️Molecular dynamics\n\n🧠Machine learning\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the 5th RSG-Argentine Symposium of Young Researchers in Bioinformatics, held online.\n\n\n\n\n\nAug 13, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nIn silico detection of horizontal gene transfer in Streptomyces clavuligerus\n\n\n\n👨‍🏫Oral presentation\n\n🦠Microbiology\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the International Society for Computational Biology Student Council Webinar series 2020.\n\n\n\n\n\nMay 19, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nModeling of protein-protein interaction and search for key residues by machine learning of a protein complex in the jasmonic acid route in Arabidopsis thaliana\n\n\n\n🗺️Poster presentation\n\n🌾Agriculture\n\n⚛️Molecular dynamics\n\n🧠Machine learning\n\n🧬Bioinformatics\n\n\n\nThis poster presentation was part of the XLIII Ecuadorian National Biology Conference at Urcuqui, Ecuador.\n\n\n\n\n\nNov 28, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nIn silico detection of an antimicrobial peptide transferred horizontally from arthropods to bacteria\n\n\n\n👨‍🏫Oral presentation\n\n🦠Microbiology\n\n🧬Bioinformatics\n\n\n\nThis oral presentation was part of the 2nd RSG-Colombia Symposium of young researchers in Bioinformatics at Ibagué, Colombia.\n\n\n\n\n\nNov 5, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nStructural changes due to a mutation in Cereblon might be a cause for intellectual disability\n\n\n\n🗺️Poster presentation\n\n🩺Human health\n\n⚛️Molecular dynamics\n\n🧬Bioinformatics\n\n\n\nThis poster presentation was part of the Global Intern Program 2019 at Gwangju Institute of Science and Technology.\n\n\n\n\n\nAug 14, 2019\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "projects/RainForestBacNets/index.html",
+    "href": "projects/RainForestBacNets/index.html",
+    "title": "RainForestBacNets",
+    "section": "",
+    "text": "Source code  Manuscript\nI developed this project for my capstone project of the Network Biology course from the MSc in Systems Biology at Maastricht University. It was an end-to-end assignment with data pre-processing, network inference and analysis, and interpretation of the results."
+  },
+  {
+    "objectID": "projects/RainForestBacNets/index.html#background",
+    "href": "projects/RainForestBacNets/index.html#background",
+    "title": "RainForestBacNets",
+    "section": "Background",
+    "text": "Background\nThe Earth’s microbiome - all microbial communities, their structural components, and metabolic byproducts - constitutes the largest portion of biodiversity on our planet. Due to their widespread presence, microbes profoundly impact the biosphere, collectively regulating the global biogeochemical cycles, soil fertility, and other processes. In particular, it is crucial to study the soil microbial diversity of tropical ecosystems facing threats due to extensive deforestation for crop cultivation or pasture expansion. While standard metagenomic analyses identify taxonomic composition, they often overlook ecological interactions within microbial communities.\nMicrobial association networks (MANs) provide insights into potential interactions among microbes, including mutualism, competition, and more. Furthermore, these networks can reveal communities that share ecological functions or keystone taxa playing crucial roles in the system. In MANs, nodes correspond to Operational Taxonomical Units (OTUs) at a given taxonomic rank, and edges between nodes denote significant co-presence (positive relationships) or mutual exclusion (negative relationships) patterns in OTU abundances across samples.\nThe figure below illustrates the workflow to infer MANs from meta-omics datasets.\n\n\n\n\nFigure 1.- Workflow to infer microbial association networks (MANs) from meta-omics datasets.\n\nIn this project, the CCLasso (correlation-based) and SPRING (conditional dependence-based) methods were used to explore differences in microbiomes found in the rainforest and converted pasturelands of the northwest Colombian Amazon region. The NetCoMi R package v1.1 was the main framework to perform the network inference, analysis, visualization, and comparison."
+  },
+  {
+    "objectID": "projects/RainForestBacNets/index.html#dataset",
+    "href": "projects/RainForestBacNets/index.html#dataset",
+    "title": "RainForestBacNets",
+    "section": "Dataset",
+    "text": "Dataset\nThe raw sequencing data used for this project is available at the PRJEB44163 project from the European Nucleotide Archive (ENA) database. This research collected 52 soil samples from the Colombian Amazon region: 36 from rainforest areas and 16 from converted pasturelands. The rainforest samples were the reference with minimal intervention, while the pastureland represented the land use systems.\nMGnify is a platform that automates the analysis of metagenomics datasets from ENA and other databases. The abundance table and taxonomic profiles to infer the MANs in this project were obtained from the MGYS00005779 study.\nThe first step was downloading the data and metadata using the MGnifyR package v0.1, enabling the use of the MGnify API in R scripts. Then, the data was preprocessed and manipulated using the Phyloseq v1.44 and Microbiome v1.22 R packages. The dataset was filtered to retrieve only bacterial OTUs, excluding taxa from other life kingdoms. In addition, the data was aggregated at the family taxonomic level, obtaining 200 OTUs."
+  },
+  {
+    "objectID": "projects/RainForestBacNets/index.html#results",
+    "href": "projects/RainForestBacNets/index.html#results",
+    "title": "RainForestBacNets",
+    "section": "Results",
+    "text": "Results\n\n1. Comparison of inference methods\nThe initial stage of the project involved a comparison between CCLasso and SPRING. CCLasso was found to have more favorable topological features for capturing microbiome interactions, including more efficient information flow (lower average path length) and clearer identification of degree-based hub nodes.\nThe following table summarizes the topological features of all networks:\n\n\n\n\n\n\n\n\n\n\nMetric\nForest SPRING\nForest CCLasso\nPasture SPRING\nPasture CCLasso\n\n\n\n\nNodes\n108\n43\n95\n56\n\n\nEdges\n183\n108\n185\n113\n\n\nModularity\n0.69\n0.46\n0.71\n0.43\n\n\nAvg. Path Length\n6.02\n3.20\n6.96\n2.78\n\n\n\n\n\n2. Impact of land use conversion\nThe visual analysis and statistical comparison via non-parametric permutation testing confirmed a significant increase in negative interactions in pastureland networks compared to forest counterparts. This suggests a shift toward antagonistic relationships, such as increased competition and predation, following land perturbation. The figures below show the forest and pasturland networks inferred with CCLAsso and SPRING.\n\n\n\n\nFigure 2.- Forest bacterial association networks inferred with A) SPRING and B) CCLasso. Nodes represent family-level OTUs, colored by their community and sized by degree.\n\n\n\n\n\nFigure 3.- Pasture bacterial association networks inferred with A) SPRING and B) CCLasso. Nodes represent family-level OTUs, colored by their community and sized by degree. Note the increase in negative associations (blue edges).\n\n\n\n3. Taxonomic shifts by Phylum\nThe land conversion resulted in these taxonomic patterns:\n\nAcidobacteria: Significant decrease in pasturelands, likely due to increased soil pH and carbon.\nActinobacteria: Increase in pasturelands, potentially linked to their role in competitive ecological interactions and antibiotic production.\n\n\n\n\n\nFigure 4.- Figure 4. A) Forest and B) Pasture networks inferred with CCLasso. Nodes represent family-level OTUs, colored by their phylum and sized by betweenness. Red edges correspond to positive associations and blue edges to negative ones."
+  },
+  {
+    "objectID": "projects/RainForestBacNets/index.html#additional-information",
+    "href": "projects/RainForestBacNets/index.html#additional-information",
+    "title": "RainForestBacNets",
+    "section": "Additional information",
+    "text": "Additional information\nMore information about the microbiome analysis, a detailed description of the methodology, an in-depth discussion of the results, and further details are available on the GitHub repository of this project and in the manuscript."
+  },
+  {
     "objectID": "projects/Horizontal_gene_transfer/index.html",
     "href": "projects/Horizontal_gene_transfer/index.html",
     "title": "Horizontal gene transfer between arthropods and bacteria",
@@ -89,6 +124,55 @@
     "title": "Horizontal gene transfer between arthropods and bacteria",
     "section": "Citation",
     "text": "Citation\nAyala‐Ruano, S., Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., & Armijos-Jaramillo, V. (2019). A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of Streptomyces clavuligerus ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications. Ecology and Evolution, 9 (5), 2602-2614. doi: 10.1002/ece3.4924."
+  },
+  {
+    "objectID": "projects/SEH2Bioinfo/index.html",
+    "href": "projects/SEH2Bioinfo/index.html",
+    "title": "SEH2Bioinfo",
+    "section": "",
+    "text": "Source code  Website\nThis project involved the development and maintenance of the official website for the Symposium of Spanish-Speaking Students in Bioinformatics and Computational Biology (SEH2Bioinfo)."
+  },
+  {
+    "objectID": "projects/SEH2Bioinfo/index.html#background",
+    "href": "projects/SEH2Bioinfo/index.html#background",
+    "title": "SEH2Bioinfo",
+    "section": "Background",
+    "text": "Background\nIn 2022, the first SEH2Bioinfo was organized, being the first bioinformatics event driven by a massive collaboration between Spanish-speaking Regional Student Groups (RSGs). The project united student organizations from Argentina, Spain, Venezuela, Colombia, Ecuador, Chile, Peru, Mexico, and Uruguay.\nThe symposium was established to promote linguistic diversity in the scientific community. By centering Spanish as the primary language for communication, the project aimed to eliminate barriers to scientific access and empower students—from high school to postgraduate levels—to present their research in their native language."
+  },
+  {
+    "objectID": "projects/SEH2Bioinfo/index.html#additional-information",
+    "href": "projects/SEH2Bioinfo/index.html#additional-information",
+    "title": "SEH2Bioinfo",
+    "section": "Additional information",
+    "text": "Additional information\nTo learn more about the project, the community, and the technical implementation, you can explore the SEH2Bioinfo website and its source code. You can also find more information about the RSGs and the mission to promote diversity in science within the webpage’s resources."
+  },
+  {
+    "objectID": "projects/COVID19-Dashboard/index.html",
+    "href": "projects/COVID19-Dashboard/index.html",
+    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
+    "section": "",
+    "text": "Source code  Web application\nI created this dashboard for the 30DaysOfStreamlit challenge using the Streamlit Python package."
+  },
+  {
+    "objectID": "projects/COVID19-Dashboard/index.html#summary",
+    "href": "projects/COVID19-Dashboard/index.html#summary",
+    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
+    "section": "Summary",
+    "text": "Summary\nThe dashboard shows the weekly reports of SARS-CoV2 variants in European countries since January 2020 until April 2022. The user can select a country in the sidebar, and a year and week in the main page to show the available data of SARS-CoV2 variants from the selected country. Information about the number of cases, sequenced genomes, and the percentage of the different variants are displayed in tables and plots.\nThe screenshot below shows how the dashboard looks like:"
+  },
+  {
+    "objectID": "projects/COVID19-Dashboard/index.html#dataset",
+    "href": "projects/COVID19-Dashboard/index.html#dataset",
+    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
+    "section": "Dataset",
+    "text": "Dataset\nThe entire dataset is available here. I only considered information from the GISAID database."
+  },
+  {
+    "objectID": "projects/COVID19-Dashboard/index.html#additional-information",
+    "href": "projects/COVID19-Dashboard/index.html#additional-information",
+    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information regarding this project is available on this GitHub repository."
   },
   {
     "objectID": "projects/Kolekti/index.html",
@@ -119,193 +203,25 @@
     "text": "Additional information\nIf you want to check out our webpage, it is available at this link. Also, this blog in Spanish has a detailed explanation of the challenge."
   },
   {
-    "objectID": "projects/Betalactamase_drug_discovery/index.html",
-    "href": "projects/Betalactamase_drug_discovery/index.html",
-    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "objectID": "projects/CRBN_mutations/index.html",
+    "href": "projects/CRBN_mutations/index.html",
+    "title": "CRBN mutations",
     "section": "",
-    "text": "Source code\nI developed this project as the Midterm assignment for the Machine Learning Zoomcamp. Data Professor proposed the idea and dataset of this project."
+    "text": "Source code  Thesis (Spanish)  Oral presentation (Spanish) Poster (English)\nI worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic."
   },
   {
-    "objectID": "projects/Betalactamase_drug_discovery/index.html#background",
-    "href": "projects/Betalactamase_drug_discovery/index.html#background",
-    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
-    "section": "Background",
-    "text": "Background\nThis project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to Beta-Lactamases. Some of these proteins allow multi-drug resistant bacteria or superbugs to inactivate a wide range of penicillin-like antibiotics, which is known as antimicrobial resistance (AMR). According to the World Health Organization, AMR is one of the top ten global public health threats facing humanity in this century, so it is important to search for potential compounds that combat these superbugs and prevent AMR, which is the aim of this project. You can find detailed information about AMR and Beta-Lactamase in this blog."
-  },
-  {
-    "objectID": "projects/Betalactamase_drug_discovery/index.html#dataset",
-    "href": "projects/Betalactamase_drug_discovery/index.html#dataset",
-    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
-    "section": "Dataset",
-    "text": "Dataset\nThe dataset of this project consists of 136 csv files with information on interactions between small molecules and Beta-Lactamases."
-  },
-  {
-    "objectID": "projects/Betalactamase_drug_discovery/index.html#data-preparation-and-feature-matrix",
-    "href": "projects/Betalactamase_drug_discovery/index.html#data-preparation-and-feature-matrix",
-    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
-    "section": "Data preparation and feature matrix",
-    "text": "Data preparation and feature matrix\nThe feature matrix to train machine learning models was obtained by calculating molecular descriptors from the canonical smiles of molecules. These molecular descriptors are also known as molecular fingerprints, and they are property profiles of molecules, represented as vectors with each vector element representing the existence or the frequency of a structural feature. The extraction of molecular fingerprints from SMILES was performed with PaDEL software, following instructions from this video.\nPaDEL has 12 available fingerprints, but for this project, I calculated 10 of them because KlekotaRothFingerprintCount and KlekotaRothFingerprinter required a long computing time to be obtained. In this project, the target protein was Beta-lactamase AmpC."
-  },
-  {
-    "objectID": "projects/Betalactamase_drug_discovery/index.html#machine-learning-models",
-    "href": "projects/Betalactamase_drug_discovery/index.html#machine-learning-models",
-    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
-    "section": "Machine Learning Models",
-    "text": "Machine Learning Models\nFor this project, I tested three machine learning models, including Logistic Regression, Random Forest, and XGBoost, for a binary classification task. I chose pchembl value as the target variable. To fine-tune hyperparameters, I used sklearn class GridSearchCV."
-  },
-  {
-    "objectID": "projects/Betalactamase_drug_discovery/index.html#additional-information",
-    "href": "projects/Betalactamase_drug_discovery/index.html#additional-information",
-    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
-    "section": "Additional information",
-    "text": "Additional information\nThe complete information regarding exploratory data analysis and selection of the best model jupyter notebook, training and validation python scripts, implementation of the best model as a web service using Flask, deployment to the cloud with Heroku, and further details are available on the GitHub repository of this project."
-  },
-  {
-    "objectID": "projects/CornDiseaseDetector/index.html",
-    "href": "projects/CornDiseaseDetector/index.html",
-    "title": "Corn Disease Detector",
-    "section": "",
-    "text": "Source code  Web application  Blog post (Spanish)\nThis project was built as a final group assignment during the Saturdays AI Quito 2021 artificial intelligence workshop."
-  },
-  {
-    "objectID": "projects/CornDiseaseDetector/index.html#background",
-    "href": "projects/CornDiseaseDetector/index.html#background",
-    "title": "Corn Disease Detector",
-    "section": "Background",
-    "text": "Background\nInfectious diseases are a major threat for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported pre-harvest losses due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato. Outbreaks of infectious plant diseases could endanger the country’s economy and cause many people to lose their jobs. This project was an effort to develop an early plant disease detector as a proof of concept, using publicly available datasets of maize. In the future, we plan to expand this project to cover other important farming Ecuadorian species."
-  },
-  {
-    "objectID": "projects/CornDiseaseDetector/index.html#dataset",
-    "href": "projects/CornDiseaseDetector/index.html#dataset",
-    "title": "Corn Disease Detector",
-    "section": "Dataset",
-    "text": "Dataset\nThe image dataset split into training, validation, and test used to build our model is available at this link."
-  },
-  {
-    "objectID": "projects/CornDiseaseDetector/index.html#about-the-model",
-    "href": "projects/CornDiseaseDetector/index.html#about-the-model",
-    "title": "Corn Disease Detector",
-    "section": "About the model",
-    "text": "About the model\nOur model was a classifier based on convolutional neural networks, trained to recognize two types of maize infectious diseases: Common rust of corn and Northern corn leaf blight. The available datasets for maize are too small to be used in deep neural networks. To solve this problem we used a Transfer Learning strategy and reused some layers from a ResNet50 neural network trained on the ImageNet dataset, from torchvision.models.resnet50. In this way, general image patterns are identified by pre-trained layers, and we trained additional layers of the network to identify healthy and diseased corn images. This network architecture has shown very promising results in previous studies of computer vision for agriculture.\nThe main library used to build our model was Pytorch, and we trained it using Google Cloud GPUs through Google Colab."
-  },
-  {
-    "objectID": "projects/CornDiseaseDetector/index.html#additional-information",
-    "href": "projects/CornDiseaseDetector/index.html#additional-information",
-    "title": "Corn Disease Detector",
-    "section": "Additional information",
-    "text": "Additional information\nThe complete information regarding model performance metrics, a web application to test CDD, a jupyter notebook of reference to reproduce our work, and further details are available on the GitHub Page of the CDD project."
-  },
-  {
-    "objectID": "projects/HerrCompBioinfo/index.html",
-    "href": "projects/HerrCompBioinfo/index.html",
-    "title": "HerrCompBioinfo",
-    "section": "",
-    "text": "E-book  Source code  Slides (English)  Oral presentation (English)\nThis project started as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador. Then, we extended this project by participating in the 4th cohort of Open Life Science, an initiative to learn how to create and manage open projects."
-  },
-  {
-    "objectID": "projects/HerrCompBioinfo/index.html#summary",
-    "href": "projects/HerrCompBioinfo/index.html#summary",
-    "title": "HerrCompBioinfo",
+    "objectID": "projects/CRBN_mutations/index.html#summary",
+    "href": "projects/CRBN_mutations/index.html#summary",
+    "title": "CRBN mutations",
     "section": "Summary",
-    "text": "Summary\nIn general, Bioinformatics is the application of computational tools to understand biological data. Due to the interdisciplinary nature of Bioinformatics, its practitioners must hold a wide range of knowledge about Biology, Computer Science, and Mathematics. Traditionally, people with a background in Biological sciences have not had proper training on programming, terminal usage, among other useful computational tools for Bioinformatics.\nThere are some great initiatives to help newcomers in Bioinformatics to learn fundamental computational skills required to work in this field. Some examples of open and online resources with this aim are Rosalind, Software Carpentry, among others. However, most of these resources are written in English, so it could be difficult for many non-native English speakers to take advantage of these resources.\nSpecifically, we have identified the lack of unified and high-quality educational resources for Bioinformatics written in Spanish. Although there are some Bioinformatics courses taught in Spanish, prices to attend these events can be restrictive for students. In this scenario, we developed HerrCompBioinfo, an open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish. In this way, our users can build important skills to start their careers in this field, despite possible language barriers. We are working open because in this way our project can be supported by the community, and it could help a broader audience. We present this resource as an ebook that you can access with this link. This initiative is meant to be a community-driven initiative, where everyone can contribute and collaborate with the development of this open educational resource.\nThis project was based on the contents of a study group and a course developed by the Regional Student Group (RSG) Ecuador, part of the International Society for Computational Biology Student Council."
+    "text": "Summary\nCereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes. Some CRBN mutations associated with clinical cases of intellectual disability have been reported. One of these mutations occurred due to a change in Arg419, which generated a truncated version of the protein (R419X); and another mutation was caused by the substitution of the amino acid Cys391 by Arg in the CRBN binding site to ZN (C391R). At the moment, the genetic causes and phenotypic effects produced by CRBN mutations are known, but there is no information on the structural changes that cause these mutations.\n\n\n\n\nFigure 1.- CRBN protein and its ZN binding site.\n\nTherefore, in this research we used quantum mechanics (QM) and molecular dynamics (MD) simulations to study the changes caused by R419X and C391R mutations in CRBN. According to the results of the chemical parameters of the QM simulations, differences were observed between the native and C391R complexes in charge, angles, dihedral angles, and bond distances of the interacting atoms of the two systems, therefore the C391R mutation could affect the CRBN binding site to ZN. Considering the thermodynamic parameters of the QM simulations, it was observed that keeping the atoms of the Cys326, Cys323, and Cys394 residues fixed, the reaction would not be favorable, but leaving all the atoms free, the reaction could occur. Regarding the MD results, the simulations complied with the thermodynamic parameters, and there were differences in the conformational parameters (RMSD, Rg, and RMSF) between the native complex and the mutated systems. The results obtained showed that CRBN mutations could affect regions of the protein that bind to other substrates, and the fact that the substrates are not degraded could be one of the causes of intellectual disability in patients with C391R and R419X mutations.\n\n\n\n\nFigure 2.- 3D-superposition of CRBN protein and its mutant versions after molecular dynamics."
   },
   {
-    "objectID": "projects/HerrCompBioinfo/index.html#citation",
-    "href": "projects/HerrCompBioinfo/index.html#citation",
-    "title": "HerrCompBioinfo",
+    "objectID": "projects/CRBN_mutations/index.html#citation",
+    "href": "projects/CRBN_mutations/index.html#citation",
+    "title": "CRBN mutations",
     "section": "Citation",
-    "text": "Citation\nSebastián Ayala Ruano & Juan Esteban Zurita. (2021). HerrCompBioinfo: un recurso educativo de código abierto de herramientas computacionales para entusiastas de la Bioinformática. Zenodo. https://doi.org/10.5281/zenodo.5748335"
-  },
-  {
-    "objectID": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html",
-    "href": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html",
-    "title": "Sentiment analysis of Ecuadorian political tweets from 2021 elections",
-    "section": "",
-    "text": "Source code\nThis project was developed as a final group assignment for the Artificial Intelligence course at my bachelor, which I took as a requirement for obtaining my minor degree in Systems Engineering."
-  },
-  {
-    "objectID": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#summary",
-    "href": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#summary",
-    "title": "Sentiment analysis of Ecuadorian political tweets from 2021 elections",
-    "section": "Summary",
-    "text": "Summary\nIn this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral. The training dataset was obtained from the Workshop on Semantic Analysis at SEPLN (TASS) of 2020, 2019, and 2012. Thus, we joined together data of the three editions in one dataset that had information about the id, text, and sentiment associated with tweets. Due to privacy policies, we cannot share the datasets here, but you can register on this page to access all datasets.\nThe main library used to build our model was Keras and we trained it using Google Cloud GPUs through Google Colab."
-  },
-  {
-    "objectID": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#additional-information",
-    "href": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#additional-information",
-    "title": "Sentiment analysis of Ecuadorian political tweets from 2021 elections",
-    "section": "Additional information",
-    "text": "Additional information\nThe complete information regarding model performance metrics, a jupyter notebook and python scripts of reference to reproduce our work, and further details are available on the GitHub repository of this project."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sebastián Ayala Ruano",
-    "section": "",
-    "text": "I’m a researcher and freelance data scientist with a background in bioinformatics and cheminformatics. Over the last six years, my work has taken me to labs in Ecuador, South Korea, the Netherlands, and Denmark. My current research interests are focused on network science, deep learning, and software development to study complex biological systems. I’m also a big believer in open science and spend a lot of my time hanging out with communities like The Turing Way, Open Life Science, Streamlit Creators, and ISCBSC.\nWhen I am not coding, I am almost definitely outdoors. I am really into hiking, mountaineering, and bouldering. I also spend a lot of time on two wheels, either riding my mountain bike or planning the next bikepacking trip. I also enjoy traveling and discovering new music, movies, and books.\nIf you want the full story, check out my About page →"
-  },
-  {
-    "objectID": "projects/APPs_networks/index.html",
-    "href": "projects/APPs_networks/index.html",
-    "title": "Antiparasitic peptides discovery",
-    "section": "",
-    "text": "Publication  Preprint  Slides (English)  Oral presentation (English)\nI contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador."
-  },
-  {
-    "objectID": "projects/APPs_networks/index.html#summary",
-    "href": "projects/APPs_networks/index.html#summary",
-    "title": "Antiparasitic peptides discovery",
-    "section": "Summary",
-    "text": "Summary\nAntimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the AMPs’ chemical space (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we present a new approach based on network science and similarity searching to discover new potential AMPs, specifically antiparasitic peptides (APPs). The graphical summary of this research is presented below.\n\n\n\n\nFigure 1.- Graphical Abstract of the project.\n\nWe took advantage of network-based representation of APPs’ chemical space (APPCS) to retrieve valuable information, using three types of networks: chemical space (CSN), half-space proximal (HSPN), and metadata (METN).\n\n\n\n\nFigure 2.- Networks of the Antiparasitic peptides discovery project.\n\nSome centrality measures were applied to identify the most important and non-redundant nodes, and these peptides were taken as queries against the graph database starPepDB to discover new potential APPs with similarity searching by group fusion (MAX-SIM rule) models. We evaluated the multi-query similarity searching models (mQSSMs) performance with five benchmarking data sets of APP/non-APPs. It can be stated that the predictions performed by the best mQSSMs presented a strong-to-very strong predictive agreement since their external Matthews correlation coefficient values ranged from 0.834 to 0.965. Then, we compared the performance metrics of our mQSSMs with machine learning APP prediction servers AMPDiscover and AMPFun. The model proposed in this report outperformed the machine learning approaches with statistically significant differences, showing the enormous potential of this method.\n\n\n\n\nFigure 3.- Workflow corresponding to the similarity searching modeling process.\n\nAfter applying our method and additional filters, we proposed 95 repurposed leads as potential APPs, which have not been associated with this activity until now. In addition, we explored sequence similarities and motifs shared by these peptides, which can serve as templates for searching and designing new promising APPs. The analyses showed that the similarity models proposed in this study could contribute to identifying APPs with high effectivity and reliability. Our models and pipeline are freely available through the starPep toolbox software.\n\n\n\n\nFigure 4.- Filtering workflow to obtain the new potential APPs."
-  },
-  {
-    "objectID": "projects/APPs_networks/index.html#citation",
-    "href": "projects/APPs_networks/index.html#citation",
-    "title": "Antiparasitic peptides discovery",
-    "section": "Citation",
-    "text": "Citation\nAyala-Ruano S., Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2022). Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching. ACS omega. doi: doi.org/10.1021/acsomega.2c03398."
-  },
-  {
-    "objectID": "projects/JAZ-MYC_coupling/index.html",
-    "href": "projects/JAZ-MYC_coupling/index.html",
-    "title": "The molecular basis of JAZ-MYC coupling, a key component of plant immunity",
-    "section": "",
-    "text": "Publication  Oral presentation (Spanish)  Oral presentation (English)\nSlides (Spanish)  Slides (English)  Poster (Spanish)\nI worked on this project during my bachelor, collaborating as an undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador."
-  },
-  {
-    "objectID": "projects/JAZ-MYC_coupling/index.html#summary",
-    "href": "projects/JAZ-MYC_coupling/index.html#summary",
-    "title": "The molecular basis of JAZ-MYC coupling, a key component of plant immunity",
-    "section": "Summary",
-    "text": "Summary\nThe jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role. JA is a volatile organic compound with an essential role in plant immunity. The increase in the concentration of JA leads to the decoupling of the JAZ repressor proteins and the bHLH transcription factor MYC3 causing the induction of genes of interest.\n\n\n\n\nFigure 1.- JA perception via the COI1–JAZ co-receptor complex – mechanisms in JA-induced gene expression. Retrieved from Wasternack & Hause, 2013, Annals of Botany.\n\nThe primary goal of this study was to identify the molecular basis of JAZ-MYC coupling. For this purpose, we modeled and validated 12 JAZ-MYC3 3D in silico structures and developed a molecular dynamics/machine learning pipeline to obtain two outcomes. First, we calculated the average free binding energy of JAZ-MYC3 complexes, which was predicted to be -10.94 +/-2.67 kJ/mol. Second, we predicted which ones should be the interface residues that make the predominant contribution to the free energy of binding (molecular hotspots).\n\n\n\n\nFigure 2.- In silico workflow proposed to unravel structural, energetic, and molecular features of JAZ-MYC3 complexes. The pipeline is divided into three stages: protein homology modeling, binding energy calculation, and molecular hotspots discovery.\n\nThe predicted protein hotspots matched a conserved linear motif SL••FL•••R, which may have a crucial role during MYC3 recognition of JAZ proteins.\n\n\n\n\nFigure 3.- A) Spatial location of the SL.FL.R motif in the JAZ-MYC3 complex. Red sticks represent the small binding motif. B) Multiple sequence alignment logos representation of the Jas domain. Red asterisks denote the position of the SL.FL.R motif.\n\nAs a proof of concept, we tested, both in silico and in vitro, the importance of this motif on PEAPOD (PPD) proteins, which also belong to the TIFY protein family, like the JAZ proteins, but cannot bind to MYC3. By mutating these proteins to match the SL••FL•••R motif, we could force PPDs to bind the MYC3 transcription factor. Taken together,modeling protein-protein interactions and using machine learning will help to find essential motifs and molecular mechanisms in the JA pathway.\n\n\n\n\nFigure 4.- Site-directed mutagenesis assay of PPD-MYC3 complexes. A) Amino acid alignment showing changes in the Jas-like domain of PPD1, PPD2, and mutants mPPD1 and mPPD2. B) Yeast-two hybrid experiments are showing the favorable change in affinity upon mutation of the SL.FL.R motif in PPD1 and PPD2. C) Predicted free binding energy of PPD1, PPD2, and mPPD1, mPPD2 mutants."
-  },
-  {
-    "objectID": "projects/JAZ-MYC_coupling/index.html#citation",
-    "href": "projects/JAZ-MYC_coupling/index.html#citation",
-    "title": "The molecular basis of JAZ-MYC coupling, a key component of plant immunity",
-    "section": "Citation",
-    "text": "Citation\nOña-Chuquimarca, S., Ayala-Ruano, S., Goossens, Pauwels, L., Goossens, A., Leon-Reyes, A., & Méndez, M. A (2020). The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors. Frontiers in Plant Science, 11, 1139. doi: 10.3389/fpls.2020.01139.\nThis article was chosen to feature in the Frontiers in Plant Science 2020 highlights e-book collection. doi: 10.3389/978-2-88966-723-9."
-  },
-  {
-    "objectID": "projects/Phenology_ML/index.html",
-    "href": "projects/Phenology_ML/index.html",
-    "title": "Prediction of the phenological stages of tropical forest species using herbarium records",
-    "section": "",
-    "text": "Source code\nI contributed to this project as part of my work as data scientist consultant at Universidad de las Américas, in Ecuador."
-  },
-  {
-    "objectID": "projects/Phenology_ML/index.html#summary",
-    "href": "projects/Phenology_ML/index.html#summary",
-    "title": "Prediction of the phenological stages of tropical forest species using herbarium records",
-    "section": "Summary",
-    "text": "Summary\nThe initial species list comprised 636 unique names, which were filtered to delete duplicates and records identified at a genus level. The final list comprised 438 accepted names verified based on the Checklist of the Vascular Plants of the Americas (CVPA), publicly available on a website on the Missouri Botanical Garden database Tropicos. Then, we used the taxize R package to retrieve synonyms reported on the Tropicos database, obtaining a list of 2,823 records of the original species and their synonyms.\nWe looked for herbarium records from our list in the Global Biodiversity Information Facility - GBIF. We used the GBIF API to automate the searches, implemented with in-house Python scripts. Then, we applied some filters to get only preserved herbarium specimens with information about latitude and longitude coordinates, dates with at least the month, locations from American tropical areas, field notes, and no geospatial issues. The resulting dataset had 68,114 records from 424 species with at least one of the columns with field notes information. After applying a preprocessing pipeline and removing duplicates, we obtained a final dataset of 53,793 records. In the final dataset, we manually assigned the synonyms in the scientific names column to the accepted names according to the CVPA.\nWe created a validation dataset of 3,000 records to get an estimation of the performance metrics of the machine learning models. The records for the validation dataset were selected by applying a stratified sampling considering the variables of year, latitude, and longitude of all records that had links to images. Then, we manually labeled the flowering and fruiting conditions of these records by reading their field notes and observing their linked images.\n\n\nFigure 1.- Proportions of flowering and fruiting labels of the validation dataset.\n\nBefore creating the machine learning models with the validation dataset, we applied a preprocessing pipeline to the field notes. First, we removed the punctuation, numbers, special symbols, and certain repetitive expressions that were not informative (i.e., “na”, “ca”, “PORT US”, etc.). Then, we used the Natural Language Toolkit Python package to delete the stop words from different languages, including Spanish, English, Portuguese, and French.\n\n\nFigure 2.- Word cloud of the words from the fieldnotes of the validation dataset after preprocessing.\n\nMachine learning algorithms usually require matrices of numbers as their input, so we converted our text data from field notes into a numerical matrix using the “bag of words” method using the CountVectorizer function from the scikit-learn Python package.\nWe created six different models to predict the flowering and fruiting stages of plants considering field notes data. First, we created base models for flowering and fruiting using the scikit-learn “DummyClassifier” function, which were simple classifiers that always predicted the most frequent class in the data. Then, naïve Bayes and random forest algorithms were applied for the same purposes. We observed that random forest models had the best performance metrics for both flowering and fruiting, showing values greater than 90% on most of the performance metrics.\n\n\nFigure 3.- Performance metrics of A) flowering and B) fruiting models.\n\nRandom forest algorithms allow an estimation of the importance of their parameters, which is known as feature importance. These results demonstrated that the features that provide more information to the model are the ones that summarize the phenology information from field notes.\n\n\nFigure 4.- Feature importance of A) flowering and B) fruiting random forest models.\n\nFinally, we made the predictions of flowering and fruiting from the field notes of the final dataset using the random forest models created in the last section. These models and results can be used to design conservation strategies of the tropical forest species."
-  },
-  {
-    "objectID": "projects/Phenology_ML/index.html#additional-information",
-    "href": "projects/Phenology_ML/index.html#additional-information",
-    "title": "Prediction of the phenological stages of tropical forest species using herbarium records",
-    "section": "Additional information",
-    "text": "Additional information\nA research article was submitted to a scientific journal with the results of this project. The article is currently under review and will be published soon."
+    "text": "Citation\nAyala-Ruano S (2020). Estudio computacional de los cambios estructurales de dos mutaciones de la proteína Cereblon. Bachelor’s thesis. Quito, Ecuador. url: https://repositorio.usfq.edu.ec/handle/23000/9950."
   },
   {
     "objectID": "projects/AMPs_ML_pred/index.html",
@@ -364,53 +280,648 @@
     "text": "Additional information\nThe complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the GitHub repository of this project."
   },
   {
-    "objectID": "projects/CRBN_mutations/index.html",
-    "href": "projects/CRBN_mutations/index.html",
-    "title": "CRBN mutations",
+    "objectID": "projects/DengueDrugRep/index.html",
+    "href": "projects/DengueDrugRep/index.html",
+    "title": "DengueDrugRep",
     "section": "",
-    "text": "Source code  Thesis (Spanish)  Oral presentation (Spanish) Poster (English)\nI worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic."
+    "text": "Source code  GNN models  Run in Colab  Slides\nI developed this project for my capstone project of the Scientific Programming course from the MSc in Systems Biology at Maastricht University. It was an end-to-end assignment with data pre-processing, feature engineering, training, hyperparameter tuning, and interpretation of the results."
   },
   {
-    "objectID": "projects/CRBN_mutations/index.html#summary",
-    "href": "projects/CRBN_mutations/index.html#summary",
-    "title": "CRBN mutations",
-    "section": "Summary",
-    "text": "Summary\nCereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes. Some CRBN mutations associated with clinical cases of intellectual disability have been reported. One of these mutations occurred due to a change in Arg419, which generated a truncated version of the protein (R419X); and another mutation was caused by the substitution of the amino acid Cys391 by Arg in the CRBN binding site to ZN (C391R). At the moment, the genetic causes and phenotypic effects produced by CRBN mutations are known, but there is no information on the structural changes that cause these mutations.\n\n\n\n\nFigure 1.- CRBN protein and its ZN binding site.\n\nTherefore, in this research we used quantum mechanics (QM) and molecular dynamics (MD) simulations to study the changes caused by R419X and C391R mutations in CRBN. According to the results of the chemical parameters of the QM simulations, differences were observed between the native and C391R complexes in charge, angles, dihedral angles, and bond distances of the interacting atoms of the two systems, therefore the C391R mutation could affect the CRBN binding site to ZN. Considering the thermodynamic parameters of the QM simulations, it was observed that keeping the atoms of the Cys326, Cys323, and Cys394 residues fixed, the reaction would not be favorable, but leaving all the atoms free, the reaction could occur. Regarding the MD results, the simulations complied with the thermodynamic parameters, and there were differences in the conformational parameters (RMSD, Rg, and RMSF) between the native complex and the mutated systems. The results obtained showed that CRBN mutations could affect regions of the protein that bind to other substrates, and the fact that the substrates are not degraded could be one of the causes of intellectual disability in patients with C391R and R419X mutations.\n\n\n\n\nFigure 2.- 3D-superposition of CRBN protein and its mutant versions after molecular dynamics."
+    "objectID": "projects/DengueDrugRep/index.html#background",
+    "href": "projects/DengueDrugRep/index.html#background",
+    "title": "DengueDrugRep",
+    "section": "Background",
+    "text": "Background\nDengue is a viral infection transmitted to humans through the bite of Aedes mosquitoes. This disease is a neglected tropical disease that mainly affects poor populations with no access to safe water, sanitation, and high-quality healthcare. Currently, there is no specific treatment for dengue and the focus is on treating pain symptoms. Therefore, there is an urgent need to find new drugs to treat this disease.\nThe goal of this project is to predict new repurposed drugs for dengue using a biomedical knowledge graph and graph neural networks. A knowledge graph (KG) is a heterogeneous network with different types of nodes and edges that incorporate semmantic information. A KG is composed of a set of triplets (subject, predicate, object) that represent relationships between entities. For example, a drug-disease triplet represents the relationship between a drug (subject) and a disease (object) through a predicate (e.g., treats, causes, etc.). The advantage of using a KG is that it allows the integration of different types of data from different sources.\nGraph neural networks (GNNs) are a class of neural networks that can learn from graph data. GNNs have been used to solve different tasks in KGs, such as node classification, link prediction, and entity alignment. The drug repurposing problem can be formulated as a link prediction task in a KG. The goal is to predict new drug-disease associations for Dengue.\nThe following figure shows the general workflow of this project:\n\n\n\n\nFigure 1.- Graphical abstract of the DengueDrugRep workflow."
   },
   {
-    "objectID": "projects/CRBN_mutations/index.html#citation",
-    "href": "projects/CRBN_mutations/index.html#citation",
-    "title": "CRBN mutations",
-    "section": "Citation",
-    "text": "Citation\nAyala-Ruano S (2020). Estudio computacional de los cambios estructurales de dos mutaciones de la proteína Cereblon. Bachelor’s thesis. Quito, Ecuador. url: https://repositorio.usfq.edu.ec/handle/23000/9950."
+    "objectID": "projects/DengueDrugRep/index.html#dataset---knowledge-graph",
+    "href": "projects/DengueDrugRep/index.html#dataset---knowledge-graph",
+    "title": "DengueDrugRep",
+    "section": "Dataset - Knowledge graph",
+    "text": "Dataset - Knowledge graph\nThe DRKG is a large-scale biomedical KG that integrates information from six existing databases: DrugBank, Hetionet, Global network of biomedical relationships (GNBR), String, IntAct, and DGIdb. This KG contains 97.238 nodes belonging to 13 entity-types (e.g., drugs, diseases, genes, etc.) and 5.874.257 triplets belonging to 107 edge-types. Also, the DRKG contains 24.313 compounds from 17 different databases (the list of databases’ names is available in the Names_datasources_compounds_DRKG.csv file).\nThe following figure shows the metagraph of the DRKG:\n\n\n\n\nFigure 2.- Metagraph of the DRKG. The number next to an edge indicates the number of relation-types for that entity-pair in the KG. Obtained from [2].\n\nThe PyKEEN library implements the DRKG as part of its datasets, so it is possible to load the DRKG directly from the library.\nThe DRKG was split into training, validation, and test sets. The training set contains 4.699.405 triplets, the validation set contains 587.426 triplets, and the test set contains 587.426 triplets. The training partition was used to train the models, and the validation partition was used to evaluate the models. The test dataset was used to make predictions on unseen data."
   },
   {
-    "objectID": "projects/COVID19-Dashboard/index.html",
-    "href": "projects/COVID19-Dashboard/index.html",
-    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
-    "section": "",
-    "text": "Source code  Web application\nI created this dashboard for the 30DaysOfStreamlit challenge using the Streamlit Python package."
+    "objectID": "projects/DengueDrugRep/index.html#exploratory-data-analysis",
+    "href": "projects/DengueDrugRep/index.html#exploratory-data-analysis",
+    "title": "DengueDrugRep",
+    "section": "Exploratory data analysis",
+    "text": "Exploratory data analysis\nIn this project, I focused on the drug-disease relationships in the DRKG. So, the first step was to explore what are the predicates that represent these relationships, obtaining the following list:\n\n\n\nDrug-Disease predicate\n\n\n\n\nDRUGBANK:: treats::Compound:Disease\n\n\nGNBR:: C::Compound:Disease\n\n\nGNBR:: J::Compound:Disease\n\n\nGNBR:: Mp::Compound:Disease\n\n\nGNBR:: Pa::Compound:Disease\n\n\nGNBR:: Pr::Compound:Disease\n\n\nGNBR:: Sa::Compound:Disease\n\n\nGNBR:: T::Compound:Disease\n\n\nHetionet:: CpD::Compound:Disease\n\n\nHetionet:: CtD::Compound:Disease\n\n\n\nMore details about the predicates, their provenance and meaning are available in the relation_glossary.tsv file and the DRKG GitHub repository.\nNext, I explored the number of compounds per database in the DRKG. The following figure shows the results:\n\n\n\n\nFigure 3.- Distribution of compounds per database in DRKG."
   },
   {
-    "objectID": "projects/COVID19-Dashboard/index.html#summary",
-    "href": "projects/COVID19-Dashboard/index.html#summary",
-    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
-    "section": "Summary",
-    "text": "Summary\nThe dashboard shows the weekly reports of SARS-CoV2 variants in European countries since January 2020 until April 2022. The user can select a country in the sidebar, and a year and week in the main page to show the available data of SARS-CoV2 variants from the selected country. Information about the number of cases, sequenced genomes, and the percentage of the different variants are displayed in tables and plots.\nThe screenshot below shows how the dashboard looks like:"
+    "objectID": "projects/DengueDrugRep/index.html#graph-neural-network-models",
+    "href": "projects/DengueDrugRep/index.html#graph-neural-network-models",
+    "title": "DengueDrugRep",
+    "section": "Graph neural network models",
+    "text": "Graph neural network models\nIn general, GNNs represent entities and relationships in a KG as vectors in a low-dimensional space (embeddings). Then, these vectors are scored to predict new triplets. The scoring function can be based on distance or similarity measures, depending on the type of GNN. During the training process, there is a loss function that measures the difference between the predicted and the true triplets. The goal is to minimize this loss function. Also, there is a negative generator that creates false triplets to train the model. The negative generator creates triplets by replacing the subject, predicate, or object of a true triplet with a random entity of the same type.\nThe following figure illustrates the general structure of a knowledge graph neural network (KGNN):\n\n\n\n\nFigure 4.- Strcuture of a Knowledge Graph Neural Network. Obtained from [1].\n\nFor this project, four GNN algorithms, namely PairRE, DistMult, ERMLP, and TransR, were trained to predict new drug-disease associations using the Drug Repurposing Knowledge Graph (DRKG). These algorithms are implemented in the PyKEEN library. The models were trained using the Marging Ranking Loss function and a random seed of 1235. The rest of the hyperparameters were the default values of the library.\nFirst, the models were trained for 50 epochs with a general evaluation procedure using all the triplets in the DRKG. In this way, the evaluation results reflected the link prediction performance for all the entity pairs in the KG. Next, new models were trained for 10 epochs with a drug repurposing evaluation procedure using only the triplets that involve drugs and diseases. Here, it was shown the link prediction performance for the task of predicting new drug-disease associations.\nThe trained models are available through Zenodo with the following DOI: 10.5281/zenodo.10010151."
   },
   {
-    "objectID": "projects/COVID19-Dashboard/index.html#dataset",
-    "href": "projects/COVID19-Dashboard/index.html#dataset",
-    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
-    "section": "Dataset",
-    "text": "Dataset\nThe entire dataset is available here. I only considered information from the GISAID database."
+    "objectID": "projects/DengueDrugRep/index.html#evaluation",
+    "href": "projects/DengueDrugRep/index.html#evaluation",
+    "title": "DengueDrugRep",
+    "section": "Evaluation",
+    "text": "Evaluation\nThe KGNN models were evaluated: a) intrinsically, within the scope of the knowledge graph and its defined triples, and b) externally, against a ground truth (drugs on clinical trials to treat dengue) to understand their predictive power over real-world information.\n\nInternal evaluation\nTwo standard rank-based metrics were used to measure each KGNN model’s intrinsic performance on link prediction:\n\nAdjusted Mean Rank(AMR): the ratio of the Mean Rank to the Expected Mean Rank, assessing a model’s performance independently of the underlying set size. It lies on the open interval (0,2), where lower is better.\nHits@k: the fraction of times when the correct or “true” entity appears under the top-k entities in the ranked list. The value of hits@k is between 0 and 1. The larger the value, the better the model works. For this project, I estimated hits@1, hits@3, hits@5, and hits@10 metrics\n\nAll the internal evaluation metrics were calculated using the PyKEEN library. I reported the optimistic rank values for both the tail and head entities, which assumes that the true choice is on the first position of all those with equal score when there are multiple choices. More details about how the evaluation for KGNN models works in PyKEEN can be found here.\n\n\nExternal evaluation\nTo validate the KGNN models externally, I analyzed the predicted ranked compound list against the drugs on clinical trials to treat dengue defined in ground truth using the following metrics:\n\nFirst hit: the ranking position at which compounds proposed by a KGNN model match one from the ground truth database.\nMedian hit: the ranking position at which compounds proposed by a KGNN model match 50% of the compounds from the ground truth database.\nLast hit: the ranking position at which compounds proposed by a KGNN model match all the compounds from the ground truth database.\n\nFor all these metrics, the smaller the value, the better, meaning that a model with lower “first”, “median”, or “last hit” values compared to another one, matches real-world compounds using fewer predictions.\nThe ground truth database was obtained from the ClinicalTrials.gov website. I searched for clinical trials that use drugs to treat dengue. I found 21 clinical trials that use 16 drugs to treat this disease. Also, I look for the IDs of these drugs from the 17 compound databases in the DRKG using the CHEMBL API and manual validation. The list of the drugs in the ground truth database and their IDs in the compound databases of DRKG are available in the dengue_validated_drugs_clin.csv."
   },
   {
-    "objectID": "projects/COVID19-Dashboard/index.html#additional-information",
-    "href": "projects/COVID19-Dashboard/index.html#additional-information",
-    "title": "Dashboard of weekly reports of SARS-CoV2 variants in European countries",
+    "objectID": "projects/DengueDrugRep/index.html#results",
+    "href": "projects/DengueDrugRep/index.html#results",
+    "title": "DengueDrugRep",
+    "section": "Results",
+    "text": "Results\n\nInternal performance evaluation results\nThe KGNN models were first evaluated on their general link prediction performance across the entire DRKG (trained for 50 epochs) and then specifically for the drug repurposing task (trained for 10 epochs).\nThe following tables show that PairRE achieved the best overall link prediction performance on the full graph. However, when focusing to drug-repurposing triplets, DistMult and ERMLP showed higher values, suggesting that while some models excel at capturing global graph topology, others are better suited for specific biomedical associations.\nTable 1. Internal evaluation for all triplets (50 epochs)\n\n\n\n\n\n\n\n\n\n\n\nModel\nAdjusted Mean Rank (AMR)\nHits@1\nHits@3\nHits@5\nHits@10\n\n\n\n\nPairRE\n0.0179\n0.0211\n0.114\n0.160\n0.221\n\n\nERMLP\n0.0188\n0.0276\n0.079\n0.110\n0.164\n\n\nTransR\n0.0193\n0.0121\n0.064\n0.088\n0.132\n\n\nDistMult\n0.0400\n0.0160\n0.036\n0.050\n0.076\n\n\n\nTable 2. Internal evaluation for drug repurposing triplets (10 epochs)\n\n\n\n\n\n\n\n\n\n\n\nModel\nAdjusted Mean Rank (AMR)\nHits@1\nHits@3\nHits@5\nHits@10\n\n\n\n\nDistMult\n0.0293\n0.0078\n0.0188\n0.0270\n0.0424\n\n\nERMLP\n0.0310\n0.0086\n0.0209\n0.0286\n0.0461\n\n\nPairRE\n0.0333\n0.0041\n0.0119\n0.0178\n0.0314\n\n\nTransR\n0.0392\n0.0013\n0.0042\n0.0073\n0.0139\n\n\n\n\n\nExternal performance evaluation results\nThe following tables show how well the models ranked the 16 drugs known to be in clinical trials for Dengue (ground truth).\nTable 3. External evaluation for all triplets\n\n\n\nModel\nFirst Hit\nMedian Hit\nLast Hit\n\n\n\n\nERMLP\n26\n1,432\n11,354\n\n\nDistMult\n31\n1,407\n10,689\n\n\nPairRE\n219\n1,397\n17,149\n\n\nTransR\n440\n2,297\n16,402\n\n\n\nTable 4. External evaluation for drug repurposing triplets\n\n\n\nModel\nFirst Hit\nMedian Hit\nLast Hit\n\n\n\n\nERMLP\n9\n2,849\n15,369\n\n\nDistMult\n17\n2,655\n18,005\n\n\nPairRE\n82\n1,352\n5,619\n\n\nTransR\n323\n4,321\n18,393\n\n\n\nThe ERMLP model demonstrated the strongest predictive power for real-world applications, achieving a “First Hit” at the 9th position in the drug repurposing task. This indicates that the model successfully ranked a clinically validated drug within its top 10 predictions, outperforming more complex models like TransR in identifying relevant therapeutic candidates.\n\n\nPredicted repurposed drugs for Dengue\nBased on the ERMLP model, the top three predictions for potential repurposed drugs are:\n\nBetamethasone: A corticosteroid with anti-inflammatory and immunosuppressive properties.\nDexamethasone: A potent glucocorticoid often used to treat severe inflammation.\nAspirin: A common nonsteroidal anti-inflammatory drug (NSAID).\n\nThe identification of these compounds suggests that the models effectively captured the importance of managing the systemic inflammatory response and pain symptoms characteristic of Dengue infection, as all top candidates are established anti-inflammatory or analgesic agents. However, this focus on symptomatic relief suggests the models may be biased toward well-documented inflammatory pathways in the KG, potentially overlooking compounds with direct antiviral mechanisms against the dengue virus."
+  },
+  {
+    "objectID": "projects/DengueDrugRep/index.html#additional-information",
+    "href": "projects/DengueDrugRep/index.html#additional-information",
+    "title": "DengueDrugRep",
     "section": "Additional information",
-    "text": "Additional information\nThe complete information regarding this project is available on this GitHub repository."
+    "text": "Additional information\nMore details about the biological background of the project, the exploratory data analysis, feature engineering, models training, hyperparameter tuning, interpretation of the results, and ideas for further work are available in the GitHub repository of this project and its presentation."
+  },
+  {
+    "objectID": "projects/DengueDrugRep/index.html#citation",
+    "href": "projects/DengueDrugRep/index.html#citation",
+    "title": "DengueDrugRep",
+    "section": "Citation",
+    "text": "Citation\nAyala-Ruano, S. (2023). DengueDrugRep: Drug repurposing for dengue using a biomedicine knowledge graph and graph neural networks (Version 1.0.0) [Model]. Zenodo. doi: doi.org/10.5281/zenodo.10010151."
+  },
+  {
+    "objectID": "projects/ACore/index.html",
+    "href": "projects/ACore/index.html",
+    "title": "ACore",
+    "section": "",
+    "text": "Source code  Documentation  Python package\nI contributed to this project as part of my work as research assistant at the Multiomics Network Analytics Group (MoNA) - Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)."
+  },
+  {
+    "objectID": "projects/ACore/index.html#summary",
+    "href": "projects/ACore/index.html#summary",
+    "title": "ACore",
+    "section": "Summary",
+    "text": "Summary\n\n\n\nACore is a Python package with statistical functions to analyse multimodal molecular data. It is designed to be flexible and extensible, allowing users to perform a wide range of analyses on multi-omics datasets. It is part of a broader ecosystem of tools for multi-omics analysis, working in conjunction with VueCore and VueGen to enable end-to-end data processing, visualization, and reporting.\nThis package is still in development, but it already includes functions for data preprocessing, normalization, batch correction, enrichment analysis, and differential analysis of multi-omics data."
+  },
+  {
+    "objectID": "projects/ACore/index.html#additional-information",
+    "href": "projects/ACore/index.html#additional-information",
+    "title": "ACore",
+    "section": "Additional information",
+    "text": "Additional information\nThe ACore documentation is available at analytics-core.readthedocs.io, where you can find detailed information of the package’s classes and functions, installation and execution instructions, and API usage notebooks for all analyses. The source code is openly available on GitHub, where you can also find the latest updates and contribute to the project."
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html",
+    "href": "projects/AuditWC-fMRI-ML/index.html",
+    "title": "AuditWC-fMRI-ML",
+    "section": "",
+    "text": "Source code  Manuscript\nI developed this project for the second group project period of the MSc in Systems Biology at Maastricht University.It was an end-to-end assignment with data pre-processing, feature engineering, training, hyperparameter tuning, and interpretation of the results."
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html#background",
+    "href": "projects/AuditWC-fMRI-ML/index.html#background",
+    "title": "AuditWC-fMRI-ML",
+    "section": "Background",
+    "text": "Background\nThe human brain processes sound through specialized ventral and dorsal streams within the auditory cortex. While computational models like the Wilson-Cowan (WC) firing-rate model have been developed to simulate these dynamics, their ability to replicate real physiological responses remains to be fully validated.\nIn this project, we developed AuditWC-fMRI-ML, a classification framework designed to compare the predictive capacity of the WC model against functional magnetic resonance imaging (fMRI) data. The goal was to determine if the model accurately simulates the biological processing of spectrotemporal modulations in sound. To achive this, we trained machine learnning (ML) classifiers on both datasets to classify 288 sounds across six categories (speech, voice, animal, music, nature, and tools) and compared their performance across different brain regions.\nOur methodology encompasses four main stages:\n\nPreprocessing: Concatenation of voxels across subjects and feature extraction for the modeling data.\nModel Selection: Screening algorithms for multiclass classification.\nHyperparameter Tuning: Fine-tuning the best models using GridSearchCV.\nEvaluation: Comparing regional performance using various classification metrics.\n\nAn overview of the workflow of this project is shown in the graphical abstract below.\n\n\n\n\nFigure 1.- Graphical abstract of the AuditWC-fMRI-ML workflow.\n\nThe main objectives were to:\n\nClassify 288 diverse sounds using neural signatures from both fMRI and simulated firing rates.\nCompare the performance of model-simulated data against experimental fMRI responses across specific brain regions (A1, R, Slow, and Fast).\nIdentify potential refinements for the firing-rate model based on classification discrepancies."
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html#dataset",
+    "href": "projects/AuditWC-fMRI-ML/index.html#dataset",
+    "title": "AuditWC-fMRI-ML",
+    "section": "Dataset",
+    "text": "Dataset\nThis study uses two distinct datasets containing responses to 288 sounds across six categories: speech, voice, animal, music, nature, and tools.\n\nExperimental (fMRI) Dataset: Neural responses measured in 47,505 voxels from five subjects, distributed across core (A1, R) and belt (Slow, Fast) areas of the auditory cortex.\nModeling (WC) Dataset: Simulated firing rates in 98 channels for the four regions. This was supplemented with 2D Fourier Transform (2DFT) features (80 temporal and 48 spectral) to better capture sound modulations.\n\n\n\n\nRegion\nVoxel Count (fMRI)\nChannels (WC Model)\n\n\n\n\nA1\n9,511\n98\n\n\nR\n8,884\n98\n\n\nSlow\n15,539\n98\n\n\nFast\n13,571\n98"
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html#machine-learning-models",
+    "href": "projects/AuditWC-fMRI-ML/index.html#machine-learning-models",
+    "title": "AuditWC-fMRI-ML",
+    "section": "Machine Learning Models",
+    "text": "Machine Learning Models\nWe tested four multiclass classifiers using scikit-learn: Random Forest (RF), XGBoost, Support Vector Machine (SVM), and Multilayer Perceptron (MLP). Models were implemented using the One-vs-All strategy and evaluated through 3-fold cross-validation.\nThe Random Forest algorithm was the top performer for both the modeling and fMRI datasets and was selected for in-depth comparative analysis."
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html#results-of-the-ml-models",
+    "href": "projects/AuditWC-fMRI-ML/index.html#results-of-the-ml-models",
+    "title": "AuditWC-fMRI-ML",
+    "section": "Results of the ML models",
+    "text": "Results of the ML models\nThe classifiers achieved performance significantly above random chance, demonstrating that both biological and simulated data capture distinguishable sound features. However, the fMRI-trained models consistently outperformed the basic WC model.\n\nAlgorithm Comparison (Cross-Validation Accuracy)\n\n\n\nDataset\nRF\nSVM\nXGBoost\nMLP\n\n\n\n\nModeling\n0.55\n0.52\n0.51\n0.49\n\n\nfMRI\n0.67\n0.68\n0.64\n0.58\n\n\n\n\n\nFeature Integration Impact (Random Forest Test Data)\nIntegrating 2DFT features into the modeling dataset significantly closed the performance gap with biological fMRI data.\n\n\n\nMetric\nfMRI\nModeling\nModeling + 2DFT\n\n\n\n\nAccuracy\n0.74\n0.62\n0.69\n\n\nF1-score\n0.73\n0.63\n0.69\n\n\nMCC\n0.69\n0.55\n0.63\n\n\n\nThe ROC curves below show that RF models achieved high classification performance on the fMRI dataset (AUROC&gt;0.85), with performance declining on the modeling dataset but substantially improving when 2DFT features were added, particularly for speech and voice categories (AUROC&gt;0.95).\n\n\n\n\nFigure 2.- ROC curves for all the categories of the multi-class Random Forest algorithms for A) fMRI, B) modeling, and C) modeling + 2DFT datasets."
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html#biological-interpretation",
+    "href": "projects/AuditWC-fMRI-ML/index.html#biological-interpretation",
+    "title": "AuditWC-fMRI-ML",
+    "section": "Biological Interpretation",
+    "text": "Biological Interpretation\n\nRegional Specialization: Biological data (fMRI) showed increased classification accuracy in the Slow and Fast regions compared to the primary regions (A1, R), supporting the hypothesis that belt areas are specialized for complex sound characterization.\nModel Limitations: The WC model exhibited uniform performance across all regions, failing to replicate the regional specialization observed in the human brain. This suggests the need for region-specific parameter tuning.\nInformation Recovery: The success of the 2DFT features indicates that current firing-rate models lose critical temporal and spectral modulation data that the biological brain preserves.\n\nAs shown in the figure below, the fMRI-trained models demonstrate clear regional hierarchy with highest accuracy in the S region, while the basic WC model shows uniform performance across regions—a gap that narrows considerably when 2DFT features are added.\n\n\n\n\nFigure 3.- Accuracy of the classifiers by auditory regions for the fMRI, modeling, and modeling + 2DFT features datasets. Every line represents one dataset and each point corresponds to one auditory region."
+  },
+  {
+    "objectID": "projects/AuditWC-fMRI-ML/index.html#additional-information",
+    "href": "projects/AuditWC-fMRI-ML/index.html#additional-information",
+    "title": "AuditWC-fMRI-ML",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the GitHub repository of this project and in the manuscript."
+  },
+  {
+    "objectID": "projects/VueGen/index.html",
+    "href": "projects/VueGen/index.html",
+    "title": "VueGen",
+    "section": "",
+    "text": "Publication  Source code  Documentation  Python package  Docker container  Web application example  HTML report example  BOSC-ISMB 2025 Slides (English)\nI contributed to this project as part of my work as research assistant at the Multiomics Network Analytics Group (MoNA) - Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)."
+  },
+  {
+    "objectID": "projects/VueGen/index.html#summary",
+    "href": "projects/VueGen/index.html#summary",
+    "title": "VueGen",
+    "section": "Summary",
+    "text": "Summary\n\n\n\nVueGen is a tool that automates the creation of reports from bioinformatics outputs, allowing researchers with minimal coding experience to communicate their results effectively. With VueGen, users can produce reports by simply specifying a directory containing output files, such as plots, tables, networks, Markdown text, HTML components, and API calls, along with the report format. Supported formats include documents (PDF, HTML, DOCX, ODT), presentations (PPTX, Reveal.js), Jupyter notebooks, and Streamlit web applications. By generating reports in all these formats, VueGen simplifies the reporting process, eliminating the need to manage multiple pipelines or manually reformat content.\nA YAML configuration file is generated from the directory to define the structure of the report. Users can customize the report by modifying the configuration file, or they can create their own configuration file instead of passing a directory as input. The configuration file specifies the structure of the report, including sections, subsections, and various components such as plots, dataframes, markdown, html, and API calls.\nAn overview of the VueGen workflow is shown in the figure below:\n\n\n\n\nFigure 1.- Graphical overview of VueGen’s workflow and components. The diagram illustrates VueGen’s pipeline and report structure, starting from either a directory or a YAML configuration file.\n\nIts modular and cross-platform design facilitates integration into various analytical workflows and enables researchers with minimal or no coding experience to communicate their results effectively. By combining ease of use for non-programmers with extensibility for advanced users, VueGen benefits a broad audience and shifts the focus from time-consuming report generation to the meaningful analysis and interpretation of results.\nA schema diagram was created to illustrate the structure of the configuration file and the relationships between its elements:\n\n\n\n\nFigure 2.- VueGen schema diagram (v0.4.0). Circles represent elements of the report configuration, including report, sections, subsections, and components. Arrows indicate hierarchical relationships and data flow within the configuration file.\n\nAlso, the class diagram for the project’s current version is presented below to show the architecture and relationships between classes:\n\n\n\n\nFigure 3.- VueGen class diagram (v0.4.0). Boxes represent classes, and arrows show their relationships. Colors indicate functionality: gray for classes managing input files and metadata, blue for those defining the report structure, and red for classes generating reports."
+  },
+  {
+    "objectID": "projects/VueGen/index.html#implementation",
+    "href": "projects/VueGen/index.html#implementation",
+    "title": "VueGen",
+    "section": "Implementation",
+    "text": "Implementation\nVueGen offers various implementation options for both non-technical and experienced users. It is available as a Python package, Docker image, nf-core module, and cross-platform desktop application with a user-friendly interface, making it accessible and customizable for different user needs and expertise levels. To streamline software maintenance, VueGen applies a continuous integration and deployment (CI/CD) pipeline for automated releases of the tool and its documentation."
+  },
+  {
+    "objectID": "projects/VueGen/index.html#additional-information",
+    "href": "projects/VueGen/index.html#additional-information",
+    "title": "VueGen",
+    "section": "Additional information",
+    "text": "Additional information\nThe VueGen documentation is available at vuegen.readthedocs.io, where you can find detailed information of the package’s classes and functions, installation and execution instructions, and case studies to demonstrate its functionality. The publication describing the software is available in Bioinformatics Advances. The source code is openly available on GitHub, where you can also find the latest updates and contribute to the project."
+  },
+  {
+    "objectID": "projects/VueGen/index.html#citation",
+    "href": "projects/VueGen/index.html#citation",
+    "title": "VueGen",
+    "section": "Citation",
+    "text": "Citation\nAyala-Ruano, S., Webel, H., & Santos, A. (2025). VueGen: Automating the generation of scientific reports. Bioinformatics Advances, vbaf149. doi: doi.org/10.1093/bioadv/vbaf149."
+  },
+  {
+    "objectID": "projects/JAZ-MYC_coupling/index.html",
+    "href": "projects/JAZ-MYC_coupling/index.html",
+    "title": "The molecular basis of JAZ-MYC coupling, a key component of plant immunity",
+    "section": "",
+    "text": "Publication  Oral presentation (Spanish)  Oral presentation (English)\nSlides (Spanish)  Slides (English)  Poster (Spanish)\nI worked on this project during my bachelor, collaborating as an undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador."
+  },
+  {
+    "objectID": "projects/JAZ-MYC_coupling/index.html#summary",
+    "href": "projects/JAZ-MYC_coupling/index.html#summary",
+    "title": "The molecular basis of JAZ-MYC coupling, a key component of plant immunity",
+    "section": "Summary",
+    "text": "Summary\nThe jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role. JA is a volatile organic compound with an essential role in plant immunity. The increase in the concentration of JA leads to the decoupling of the JAZ repressor proteins and the bHLH transcription factor MYC3 causing the induction of genes of interest.\n\n\n\n\nFigure 1.- JA perception via the COI1–JAZ co-receptor complex – mechanisms in JA-induced gene expression. Retrieved from Wasternack & Hause, 2013, Annals of Botany.\n\nThe primary goal of this study was to identify the molecular basis of JAZ-MYC coupling. For this purpose, we modeled and validated 12 JAZ-MYC3 3D in silico structures and developed a molecular dynamics/machine learning pipeline to obtain two outcomes. First, we calculated the average free binding energy of JAZ-MYC3 complexes, which was predicted to be -10.94 +/-2.67 kJ/mol. Second, we predicted which ones should be the interface residues that make the predominant contribution to the free energy of binding (molecular hotspots).\n\n\n\n\nFigure 2.- In silico workflow proposed to unravel structural, energetic, and molecular features of JAZ-MYC3 complexes. The pipeline is divided into three stages: protein homology modeling, binding energy calculation, and molecular hotspots discovery.\n\nThe predicted protein hotspots matched a conserved linear motif SL••FL•••R, which may have a crucial role during MYC3 recognition of JAZ proteins.\n\n\n\n\nFigure 3.- A) Spatial location of the SL.FL.R motif in the JAZ-MYC3 complex. Red sticks represent the small binding motif. B) Multiple sequence alignment logos representation of the Jas domain. Red asterisks denote the position of the SL.FL.R motif.\n\nAs a proof of concept, we tested, both in silico and in vitro, the importance of this motif on PEAPOD (PPD) proteins, which also belong to the TIFY protein family, like the JAZ proteins, but cannot bind to MYC3. By mutating these proteins to match the SL••FL•••R motif, we could force PPDs to bind the MYC3 transcription factor. Taken together,modeling protein-protein interactions and using machine learning will help to find essential motifs and molecular mechanisms in the JA pathway.\n\n\n\n\nFigure 4.- Site-directed mutagenesis assay of PPD-MYC3 complexes. A) Amino acid alignment showing changes in the Jas-like domain of PPD1, PPD2, and mutants mPPD1 and mPPD2. B) Yeast-two hybrid experiments are showing the favorable change in affinity upon mutation of the SL.FL.R motif in PPD1 and PPD2. C) Predicted free binding energy of PPD1, PPD2, and mPPD1, mPPD2 mutants."
+  },
+  {
+    "objectID": "projects/JAZ-MYC_coupling/index.html#citation",
+    "href": "projects/JAZ-MYC_coupling/index.html#citation",
+    "title": "The molecular basis of JAZ-MYC coupling, a key component of plant immunity",
+    "section": "Citation",
+    "text": "Citation\nOña-Chuquimarca, S., Ayala-Ruano, S., Goossens, Pauwels, L., Goossens, A., Leon-Reyes, A., & Méndez, M. A (2020). The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors. Frontiers in Plant Science, 11, 1139. doi: 10.3389/fpls.2020.01139.\nThis article was chosen to feature in the Frontiers in Plant Science 2020 highlights e-book collection. doi: 10.3389/978-2-88966-723-9."
+  },
+  {
+    "objectID": "projects/APPs_networks/index.html",
+    "href": "projects/APPs_networks/index.html",
+    "title": "Antiparasitic peptides discovery",
+    "section": "",
+    "text": "Publication  Preprint  Slides (English)  Oral presentation (English)\nI contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador."
+  },
+  {
+    "objectID": "projects/APPs_networks/index.html#summary",
+    "href": "projects/APPs_networks/index.html#summary",
+    "title": "Antiparasitic peptides discovery",
+    "section": "Summary",
+    "text": "Summary\nAntimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the AMPs’ chemical space (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we present a new approach based on network science and similarity searching to discover new potential AMPs, specifically antiparasitic peptides (APPs). The graphical summary of this research is presented below.\n\n\n\n\nFigure 1.- Graphical Abstract of the project.\n\nWe took advantage of network-based representation of APPs’ chemical space (APPCS) to retrieve valuable information, using three types of networks: chemical space (CSN), half-space proximal (HSPN), and metadata (METN).\n\n\n\n\nFigure 2.- Networks of the Antiparasitic peptides discovery project.\n\nSome centrality measures were applied to identify the most important and non-redundant nodes, and these peptides were taken as queries against the graph database starPepDB to discover new potential APPs with similarity searching by group fusion (MAX-SIM rule) models. We evaluated the multi-query similarity searching models (mQSSMs) performance with five benchmarking data sets of APP/non-APPs. It can be stated that the predictions performed by the best mQSSMs presented a strong-to-very strong predictive agreement since their external Matthews correlation coefficient values ranged from 0.834 to 0.965. Then, we compared the performance metrics of our mQSSMs with machine learning APP prediction servers AMPDiscover and AMPFun. The model proposed in this report outperformed the machine learning approaches with statistically significant differences, showing the enormous potential of this method.\n\n\n\n\nFigure 3.- Workflow corresponding to the similarity searching modeling process.\n\nAfter applying our method and additional filters, we proposed 95 repurposed leads as potential APPs, which have not been associated with this activity until now. In addition, we explored sequence similarities and motifs shared by these peptides, which can serve as templates for searching and designing new promising APPs. The analyses showed that the similarity models proposed in this study could contribute to identifying APPs with high effectivity and reliability. Our models and pipeline are freely available through the starPep toolbox software.\n\n\n\n\nFigure 4.- Filtering workflow to obtain the new potential APPs."
+  },
+  {
+    "objectID": "projects/APPs_networks/index.html#citation",
+    "href": "projects/APPs_networks/index.html#citation",
+    "title": "Antiparasitic peptides discovery",
+    "section": "Citation",
+    "text": "Citation\nAyala-Ruano S., Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2022). Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching. ACS omega. doi: doi.org/10.1021/acsomega.2c03398."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sebastián Ayala Ruano",
+    "section": "",
+    "text": "I’m a researcher and freelance data scientist with a background in bioinformatics and cheminformatics. Over the last six years, my work has taken me to labs in Ecuador, South Korea, the Netherlands, and Denmark. My current research interests are focused on network science, deep learning, and software development to study complex biological systems. I’m also a big believer in open science and spend a lot of my time hanging out with communities like The Turing Way, Open Life Science, Streamlit Creators, and ISCBSC.\nWhen I am not coding, I am almost definitely outdoors. I am really into hiking, mountaineering, and bouldering. I also spend a lot of time on two wheels, either riding my mountain bike or planning the next bikepacking trip. I also enjoy traveling and discovering new music, movies, and books.\nIf you want the full story, check out my About page →"
+  },
+  {
+    "objectID": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html",
+    "href": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html",
+    "title": "Sentiment analysis of Ecuadorian political tweets from 2021 elections",
+    "section": "",
+    "text": "Source code\nThis project was developed as a final group assignment for the Artificial Intelligence course at my bachelor, which I took as a requirement for obtaining my minor degree in Systems Engineering."
+  },
+  {
+    "objectID": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#summary",
+    "href": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#summary",
+    "title": "Sentiment analysis of Ecuadorian political tweets from 2021 elections",
+    "section": "Summary",
+    "text": "Summary\nIn this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral. The training dataset was obtained from the Workshop on Semantic Analysis at SEPLN (TASS) of 2020, 2019, and 2012. Thus, we joined together data of the three editions in one dataset that had information about the id, text, and sentiment associated with tweets. Due to privacy policies, we cannot share the datasets here, but you can register on this page to access all datasets.\nThe main library used to build our model was Keras and we trained it using Google Cloud GPUs through Google Colab."
+  },
+  {
+    "objectID": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#additional-information",
+    "href": "projects/Ecuadorian_elections_2021_sentiment_analysis/index.html#additional-information",
+    "title": "Sentiment analysis of Ecuadorian political tweets from 2021 elections",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information regarding model performance metrics, a jupyter notebook and python scripts of reference to reproduce our work, and further details are available on the GitHub repository of this project."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html",
+    "href": "projects/CardiomyoML/index.html",
+    "title": "CardiomyoML",
+    "section": "",
+    "text": "Source code  Web application  Manuscript  Supplementary information\nI developed this project for the first group project period of the MSc in Systems Biology at Maastricht University.It was an end-to-end assignment with data pre-processing, feature engineering, training, hyperparameter tuning, and deployment of the best model as a web application with Streamlit."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#background",
+    "href": "projects/CardiomyoML/index.html#background",
+    "title": "CardiomyoML",
+    "section": "Background",
+    "text": "Background\nCardiomyopathies are morphological and functional abnormalities in the myocardium that affect millions of people worldwide. Despite a clear genetic component, characterizing the molecular signatures that distinguish different cardiomyopathy etiologies (dilated (DCM), hypertrophic (HCM), or peripartum (PPCM)) remains a significant challenge.\nIn this project, we developed CardiomyoML, a machine learning framework to classify heart tissue samples based on RNA-seq gene expression data. An overview of the workflow of this project is shown in the graphical abstract below.\n\n\n\n\nFigure 1.- Graphical abstract of the CardiomyoML workflow.\n\nThe main objectives were to:\n\nClassify samples into Non-failing (NF), DCM, HCM, or PPCM cardiomyopathies.\nIdentify a robust set of genetic biomarkers using feature selection and consensus ranking.\nValidate the biological relevance of these genes through enrichment analysis and literature review."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#dataset",
+    "href": "projects/CardiomyoML/index.html#dataset",
+    "title": "CardiomyoML",
+    "section": "Dataset",
+    "text": "Dataset\nThe primary dataset for training and testing the ML models was the Myocardial Applied Genomics Network (MAGNet) (GSE141910). For validation, we used three external datasets (GSE46224, GSE116250, and E-GEOD-55296).\n\n\n\nDataset partition\nSamples\nNF\nDCM\nHCM\nPPCM\n\n\n\n\nMAGNet (Training/Test)\n366\n166\n166\n28\n6\n\n\nExternal Validation 1 (GSE46224)\n16\n8\n8\n-\n-\n\n\nExternal Validation 2 (GSE116250)\n51\n14\n37\n-\n-\n\n\nExternal Validation 3 (GSE55296)\n10\n13\n-\n-\n-"
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#feature-selection",
+    "href": "projects/CardiomyoML/index.html#feature-selection",
+    "title": "CardiomyoML",
+    "section": "Feature Selection",
+    "text": "Feature Selection\nThe feature matrices were generated using log-transformed Counts Per Million (log-CPM) values. To handle the high dimensionality of RNA-seq data, we implemented a multi-stage feature selection process.\n\nEnsemble Ranking: Extracted the top 500 features from the best-performing ML models.\nConsensus List: Identified a list of 94 genes consistently ranked high across all models.\nBiological Validation: Analyzed consensus genes (e.g., MYH6, NPPA) for Gene Ontology (GO) enrichment."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#machine-learning-models",
+    "href": "projects/CardiomyoML/index.html#machine-learning-models",
+    "title": "CardiomyoML",
+    "section": "Machine Learning Models",
+    "text": "Machine Learning Models\nFirst, we tested more than 30 ML classifiers for the binary and multiclass classification tasks using the LazyPredict Python library. We chose the top 3 models according to some performance metrics such as accuracy, ROC AUC, precision, recall, F1 score, and Matthews Correlation Coefficient (MCC). Then, we fine-tuned the hyperparameters of the best models using sklearn’s class GridSearchCV. Finally, considering the results of hyperparameter tuning and performance metrics, we obtained the best ML model to predict the cardiomyopathy etiology of the samples."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#results-of-the-best-ml-models",
+    "href": "projects/CardiomyoML/index.html#results-of-the-best-ml-models",
+    "title": "CardiomyoML",
+    "section": "Results of the best ML models",
+    "text": "Results of the best ML models\nThe models achieved high performance on internal test data, particularly in the NF/DCM task. However, performance significantly decreased when evaluated on external datasets.\n\n\n\n\nFigure 2. ROC curves of the top 3 ML models in A) the binary classification task of NF/DCM using test and external data and B) individual performances for each etiology in the multiclass classification task on test data.\n\n\n1. Binary Classification: NF/DCM (Test Data)\n\n\n\nMetric\nRF\nLGBM\nXGBoost\n\n\n\n\nAccuracy\n0.99\n0.99\n0.97\n\n\nBalanced Accuracy\n0.99\n0.99\n0.97\n\n\nPrecision\n0.97\n0.97\n0.94\n\n\nRecall\n1.00\n1.00\n1.00\n\n\nF1score\n0.99\n0.99\n0.97\n\n\nMCC\n0.97\n0.97\n0.94\n\n\n\n\n\n2. External Validation: NF/DCM (External Data)\n\n\n\nMetric\nRF\nLGBM\nXGBoost\n\n\n\n\nAccuracy\n0.66\n0.52\n0.62\n\n\nBalanced accuracy\n0.58\n0.48\n0.55\n\n\nPrecision\n0.69\n0.63\n0.68\n\n\nRecall\n0.84\n0.62\n0.79\n\n\nF1score\n0.76\n0.63\n0.73\n\n\nMCC\n0.18\n-0.04\n0.12\n\n\n\n\n\n3. Multiclass Classification (Test Data)\n\n\n\nMetric\nRF\nLGBM\nXGBoost\n\n\n\n\nAccuracy\n0.91\n0.91\n0.89\n\n\nBalanced accuracy\n0.50\n0.53\n0.49\n\n\nPrecision\n0.83\n0.91\n0.82\n\n\nRecall\n0.91\n0.91\n0.89\n\n\nF1score\n0.86\n0.88\n0.85\n\n\nMCC\n0.84\n0.84\n0.82"
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#biological-interpretation",
+    "href": "projects/CardiomyoML/index.html#biological-interpretation",
+    "title": "CardiomyoML",
+    "section": "Biological Interpretation",
+    "text": "Biological Interpretation\nUsing the 500 most important genes from the top 3 ensemble models (RF, LGBM, and XGBoost) in the NF/DCM task, we identified 94 consensus genes shared by at least two models, as shown in the Venn diagram in Figure 3A.\n\nLiterature Comparison: When compared against established literature datasets, only one gene, MYH6 (myosin heavy chain 6), was shared. MYH6 is vital for cardiac muscle contraction, and its mutations are linked to cardiomyopathies and sudden cardiac death.\nEnrichment Analysis: GSE analysis using the Enrichr web server identified enriched ontologies related to myocardial infarction and HCM in the Phenotype-Genotype Integrator and OMIM Disease databases (Figure 3B).\n\n\n\n\n\nFigure 3. A) Venn diagram of the top 500 most important genes for DCM. B) Gene set enrichment results associated with heart diseases, obtained via Enrichr."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#web-application",
+    "href": "projects/CardiomyoML/index.html#web-application",
+    "title": "CardiomyoML",
+    "section": "Web Application",
+    "text": "Web Application\nUsing the best-performing model of the NF vs. DCM task, we developed CardiomyoPred, a Streamlit web application that allows users to predict the cardiomyopathy etiology of heart tissue samples based on gene expression data for the 94 consensus genes. The source code for this web application is available in this GitHub repository."
+  },
+  {
+    "objectID": "projects/CardiomyoML/index.html#additional-information",
+    "href": "projects/CardiomyoML/index.html#additional-information",
+    "title": "CardiomyoML",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the GitHub repository of this project and in the manuscript. The supplementary information of this project is available in Zenodo."
+  },
+  {
+    "objectID": "projects/HerrCompBioinfo/index.html",
+    "href": "projects/HerrCompBioinfo/index.html",
+    "title": "HerrCompBioinfo",
+    "section": "",
+    "text": "E-book  Source code  Slides (English)  Oral presentation (English)\nThis project started as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador. Then, we extended this project by participating in the 4th cohort of Open Life Science, an initiative to learn how to create and manage open projects."
+  },
+  {
+    "objectID": "projects/HerrCompBioinfo/index.html#summary",
+    "href": "projects/HerrCompBioinfo/index.html#summary",
+    "title": "HerrCompBioinfo",
+    "section": "Summary",
+    "text": "Summary\nIn general, Bioinformatics is the application of computational tools to understand biological data. Due to the interdisciplinary nature of Bioinformatics, its practitioners must hold a wide range of knowledge about Biology, Computer Science, and Mathematics. Traditionally, people with a background in Biological sciences have not had proper training on programming, terminal usage, among other useful computational tools for Bioinformatics.\nThere are some great initiatives to help newcomers in Bioinformatics to learn fundamental computational skills required to work in this field. Some examples of open and online resources with this aim are Rosalind, Software Carpentry, among others. However, most of these resources are written in English, so it could be difficult for many non-native English speakers to take advantage of these resources.\nSpecifically, we have identified the lack of unified and high-quality educational resources for Bioinformatics written in Spanish. Although there are some Bioinformatics courses taught in Spanish, prices to attend these events can be restrictive for students. In this scenario, we developed HerrCompBioinfo, an open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish. In this way, our users can build important skills to start their careers in this field, despite possible language barriers. We are working open because in this way our project can be supported by the community, and it could help a broader audience. We present this resource as an ebook that you can access with this link. This initiative is meant to be a community-driven initiative, where everyone can contribute and collaborate with the development of this open educational resource.\nThis project was based on the contents of a study group and a course developed by the Regional Student Group (RSG) Ecuador, part of the International Society for Computational Biology Student Council."
+  },
+  {
+    "objectID": "projects/HerrCompBioinfo/index.html#citation",
+    "href": "projects/HerrCompBioinfo/index.html#citation",
+    "title": "HerrCompBioinfo",
+    "section": "Citation",
+    "text": "Citation\nSebastián Ayala Ruano & Juan Esteban Zurita. (2021). HerrCompBioinfo: un recurso educativo de código abierto de herramientas computacionales para entusiastas de la Bioinformática. Zenodo. https://doi.org/10.5281/zenodo.5748335"
+  },
+  {
+    "objectID": "projects/Phenology_ML/index.html",
+    "href": "projects/Phenology_ML/index.html",
+    "title": "Prediction of the phenological stages of tropical forest species using herbarium records",
+    "section": "",
+    "text": "Publication  Source code\nI contributed to this project as part of my work as data scientist consultant at Universidad de las Américas, in Ecuador."
+  },
+  {
+    "objectID": "projects/Phenology_ML/index.html#summary",
+    "href": "projects/Phenology_ML/index.html#summary",
+    "title": "Prediction of the phenological stages of tropical forest species using herbarium records",
+    "section": "Summary",
+    "text": "Summary\nThe initial species list comprised 636 unique names, which were filtered to delete duplicates and records identified at a genus level. The final list comprised 438 accepted names verified based on the Checklist of the Vascular Plants of the Americas (CVPA), publicly available on a website on the Missouri Botanical Garden database Tropicos. Then, we used the taxize R package to retrieve synonyms reported on the Tropicos database, obtaining a list of 2,823 records of the original species and their synonyms.\nWe looked for herbarium records from our list in the Global Biodiversity Information Facility - GBIF. We used the GBIF API to automate the searches, implemented with in-house Python scripts. Then, we applied some filters to get only preserved herbarium specimens with information about latitude and longitude coordinates, dates with at least the month, locations from American tropical areas, field notes, and no geospatial issues. The resulting dataset had 68,114 records from 424 species with at least one of the columns with field notes information. After applying a preprocessing pipeline and removing duplicates, we obtained a final dataset of 53,793 records. In the final dataset, we manually assigned the synonyms in the scientific names column to the accepted names according to the CVPA.\nWe created a validation dataset of 3,000 records to get an estimation of the performance metrics of the machine learning models. The records for the validation dataset were selected by applying a stratified sampling considering the variables of year, latitude, and longitude of all records that had links to images. Then, we manually labeled the flowering and fruiting conditions of these records by reading their field notes and observing their linked images.\n\n\nFigure 1.- Proportions of flowering and fruiting labels of the validation dataset.\n\nBefore creating the machine learning models with the validation dataset, we applied a preprocessing pipeline to the field notes. First, we removed the punctuation, numbers, special symbols, and certain repetitive expressions that were not informative (i.e., “na”, “ca”, “PORT US”, etc.). Then, we used the Natural Language Toolkit Python package to delete the stop words from different languages, including Spanish, English, Portuguese, and French.\n\n\nFigure 2.- Word cloud of the words from the fieldnotes of the validation dataset after preprocessing.\n\nMachine learning algorithms usually require matrices of numbers as their input, so we converted our text data from field notes into a numerical matrix using the “bag of words” method using the CountVectorizer function from the scikit-learn Python package.\nWe created six different models to predict the flowering and fruiting stages of plants considering field notes data. First, we created base models for flowering and fruiting using the scikit-learn “DummyClassifier” function, which were simple classifiers that always predicted the most frequent class in the data. Then, naïve Bayes and random forest algorithms were applied for the same purposes. We observed that random forest models had the best performance metrics for both flowering and fruiting, showing values greater than 90% on most of the performance metrics.\n\n\nFigure 3.- Performance metrics of A) flowering and B) fruiting models.\n\nRandom forest algorithms allow an estimation of the importance of their parameters, which is known as feature importance. These results demonstrated that the features that provide more information to the model are the ones that summarize the phenology information from field notes.\n\n\nFigure 4.- Feature importance of A) flowering and B) fruiting random forest models.\n\nFinally, we made the predictions of flowering and fruiting from the field notes of the final dataset using the random forest models created in the last section. These models and results can be used to design conservation strategies of the tropical forest species."
+  },
+  {
+    "objectID": "projects/Phenology_ML/index.html#citation",
+    "href": "projects/Phenology_ML/index.html#citation",
+    "title": "Prediction of the phenological stages of tropical forest species using herbarium records",
+    "section": "Citation",
+    "text": "Citation\nOrdoñez, J., Tovar, C., Walker, B., Wheeler, J., Ayala-Ruano, S., Aguirre-Carvajal, K., McMahon S., & Cuesta, F. (2025). Phenological patterns of tropical mountain forest trees across the neotropics: evidence from herbarium specimens. Proc. R. Soc. B, 292 (2041), 20242748. doi: doi.org/10.1098/rspb.2024.2748."
+  },
+  {
+    "objectID": "projects/CornDiseaseDetector/index.html",
+    "href": "projects/CornDiseaseDetector/index.html",
+    "title": "Corn Disease Detector",
+    "section": "",
+    "text": "Source code  Web application  Blog post (Spanish)\nThis project was built as a final group assignment during the Saturdays AI Quito 2021 artificial intelligence workshop."
+  },
+  {
+    "objectID": "projects/CornDiseaseDetector/index.html#background",
+    "href": "projects/CornDiseaseDetector/index.html#background",
+    "title": "Corn Disease Detector",
+    "section": "Background",
+    "text": "Background\nInfectious diseases are a major threat for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported pre-harvest losses due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato. Outbreaks of infectious plant diseases could endanger the country’s economy and cause many people to lose their jobs. This project was an effort to develop an early plant disease detector as a proof of concept, using publicly available datasets of maize. In the future, we plan to expand this project to cover other important farming Ecuadorian species."
+  },
+  {
+    "objectID": "projects/CornDiseaseDetector/index.html#dataset",
+    "href": "projects/CornDiseaseDetector/index.html#dataset",
+    "title": "Corn Disease Detector",
+    "section": "Dataset",
+    "text": "Dataset\nThe image dataset split into training, validation, and test used to build our model is available at this link."
+  },
+  {
+    "objectID": "projects/CornDiseaseDetector/index.html#about-the-model",
+    "href": "projects/CornDiseaseDetector/index.html#about-the-model",
+    "title": "Corn Disease Detector",
+    "section": "About the model",
+    "text": "About the model\nOur model was a classifier based on convolutional neural networks, trained to recognize two types of maize infectious diseases: Common rust of corn and Northern corn leaf blight. The available datasets for maize are too small to be used in deep neural networks. To solve this problem we used a Transfer Learning strategy and reused some layers from a ResNet50 neural network trained on the ImageNet dataset, from torchvision.models.resnet50. In this way, general image patterns are identified by pre-trained layers, and we trained additional layers of the network to identify healthy and diseased corn images. This network architecture has shown very promising results in previous studies of computer vision for agriculture.\nThe main library used to build our model was Pytorch, and we trained it using Google Cloud GPUs through Google Colab."
+  },
+  {
+    "objectID": "projects/CornDiseaseDetector/index.html#additional-information",
+    "href": "projects/CornDiseaseDetector/index.html#additional-information",
+    "title": "Corn Disease Detector",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information regarding model performance metrics, a web application to test CDD, a jupyter notebook of reference to reproduce our work, and further details are available on the GitHub Page of the CDD project."
+  },
+  {
+    "objectID": "projects/NTDs2RDF/index.html",
+    "href": "projects/NTDs2RDF/index.html",
+    "title": "NTDs2RDF",
+    "section": "",
+    "text": "Source code  Web application  Knowledge graph  Manuscript\nI developed this project for a project of a course about knowledge graphs from the MSc in Systems Biology at Maastricht University.It was an end-to-end assignment with data pre-processing, normalization, graph design, integration of multiple data sources, and the creation of a web application for querying the graph."
+  },
+  {
+    "objectID": "projects/NTDs2RDF/index.html#background",
+    "href": "projects/NTDs2RDF/index.html#background",
+    "title": "NTDs2RDF",
+    "section": "Background",
+    "text": "Background\nNeglected tropical diseases (NTDs) are a heterogeneous group of 20 bacterial, viral, parasitic, and fungal conditions that generally occur in developing tropical countries in the Americas, Africa, and Asia. NTDs mainly affect poor populations that do not have access to safe water, sanitation, and high-quality healthcare. Because of the severe effects of NTDs (i.e., they can cause long-lasting disabilities), they reinforce the cycle of poverty in vulnerable communities.\nCurrently, there are several independent databases that contain information about proteins, metabolic pathways, and drugs involved in NTDs, but no integrated databases with all the information. This unified resource could enable the systematic exploration of all the components of the NTDs, contributing to the research of potential therapies for these diseases.\nThe NTDs2RDF project aimed to create a knowledge graph (KG) of genes, proteins, metabolic pathways, gene ontologies, single nucleotide variants, drugs, and other relevant data for three NTDs (Chagas disease, leishmaniasis, and African trypanosomiasis), integrating all the information in a single data structure that can be explored through a query interface implemented with a Streamlit web application. This software provides a user-friendly platform to extract information from the KG using SPARQL queries.\nAn overview of the workflow of this project is shown in the graphical abstract below.\n\n\n\n\nFigure 1.- Graphical abstract of the NTDs2RDF workflow.\n\nThe project represents an initial step towards the creation of a heterogeneous database for different NTDs with several potential applications in advancing the understanding of NTDs biology and providing insights that cannot be obtained through alternative resources.\nThis project was divided into various modules for data collection, data cleaning, programmatic creation of the KG, and the development of a web application for querying the RDF graph. The software architecture of all the parts of the NTDs2RDF project is presented in the figure below.\n\n\n\n\nFigure 2.- Software architecture of the NTDs2RDF project. The workflow was divided into three main stages with some modules (blue rectangles) and components (green rectangles)."
+  },
+  {
+    "objectID": "projects/NTDs2RDF/index.html#knowledge-graph",
+    "href": "projects/NTDs2RDF/index.html#knowledge-graph",
+    "title": "NTDs2RDF",
+    "section": "Knowledge graph",
+    "text": "Knowledge graph\nThe NTDs2RDF KG has ten classes and 33.892 triplets. The Biolink model was the main source to define classes and predicates of the RDF graph because it has many human-readable and domain-specific predicates for Biology, and its entities also follow a machine-readable format and they are integrated with other ontologies using semantic mappings, which makes the KGs interoperable.\nTo assure that all the entities of the KG have standardized and stable identifiers, the Bioregistry metaregistry was used to assign the URIs and CURIEs. The figure below shows the meta-graph of the NTDs2RDF KG with all the classes and predicates from the Biolink Model and other standard ontologies.\n\n\n\n\nFigure 2.- Meta-graph of the NTDs2RDF KG. The classes are represented as blue ovals, the literals as green rounded rectangles, the references to external databases as orange rounded rectangles, and the provenance for the classes as yellow rounded rectangles."
+  },
+  {
+    "objectID": "projects/NTDs2RDF/index.html#web-application",
+    "href": "projects/NTDs2RDF/index.html#web-application",
+    "title": "NTDs2RDF",
+    "section": "Web application",
+    "text": "Web application\nTo guarantee the accessibility and findability of the NTDs2RDF KG, a multi-page Streamlit web application was developed. This software was divided into three pages: Meta-graph with all the classes and predicates from the Biolink model and other standard ontologies, examples of SPARQL queries to extract relevant information from the graph, and the query interface. The web application is available online at the link below, and it can also be run locally by following the instructions in the next section."
+  },
+  {
+    "objectID": "projects/NTDs2RDF/index.html#additional-information",
+    "href": "projects/NTDs2RDF/index.html#additional-information",
+    "title": "NTDs2RDF",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information about the data sources, data pre-processing, graph design, and software development of the NTDs2RDF project is available in the GitHub repository and the manuscript."
+  },
+  {
+    "objectID": "projects/NTDs2RDF/index.html#citation",
+    "href": "projects/NTDs2RDF/index.html#citation",
+    "title": "NTDs2RDF",
+    "section": "Citation",
+    "text": "Citation\nAyala-Ruano, S. (2023). NTDs2RDF: A heterogeneous and integrated knowledge graph for the exploration of neglected tropical diseases (Version 1.0.0) [Database]. Zenodo. doi: doi.org/10.5281/zenodo.7772554."
+  },
+  {
+    "objectID": "projects/Betalactamase_drug_discovery/index.html",
+    "href": "projects/Betalactamase_drug_discovery/index.html",
+    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "section": "",
+    "text": "Source code\nI developed this project as the Midterm assignment for the Machine Learning Zoomcamp. Data Professor proposed the idea and dataset of this project."
+  },
+  {
+    "objectID": "projects/Betalactamase_drug_discovery/index.html#background",
+    "href": "projects/Betalactamase_drug_discovery/index.html#background",
+    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "section": "Background",
+    "text": "Background\nThis project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to Beta-Lactamases. Some of these proteins allow multi-drug resistant bacteria or superbugs to inactivate a wide range of penicillin-like antibiotics, which is known as antimicrobial resistance (AMR). According to the World Health Organization, AMR is one of the top ten global public health threats facing humanity in this century, so it is important to search for potential compounds that combat these superbugs and prevent AMR, which is the aim of this project. You can find detailed information about AMR and Beta-Lactamase in this blog."
+  },
+  {
+    "objectID": "projects/Betalactamase_drug_discovery/index.html#dataset",
+    "href": "projects/Betalactamase_drug_discovery/index.html#dataset",
+    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "section": "Dataset",
+    "text": "Dataset\nThe dataset of this project consists of 136 csv files with information on interactions between small molecules and Beta-Lactamases."
+  },
+  {
+    "objectID": "projects/Betalactamase_drug_discovery/index.html#data-preparation-and-feature-matrix",
+    "href": "projects/Betalactamase_drug_discovery/index.html#data-preparation-and-feature-matrix",
+    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "section": "Data preparation and feature matrix",
+    "text": "Data preparation and feature matrix\nThe feature matrix to train machine learning models was obtained by calculating molecular descriptors from the canonical smiles of molecules. These molecular descriptors are also known as molecular fingerprints, and they are property profiles of molecules, represented as vectors with each vector element representing the existence or the frequency of a structural feature. The extraction of molecular fingerprints from SMILES was performed with PaDEL software, following instructions from this video.\nPaDEL has 12 available fingerprints, but for this project, I calculated 10 of them because KlekotaRothFingerprintCount and KlekotaRothFingerprinter required a long computing time to be obtained. In this project, the target protein was Beta-lactamase AmpC."
+  },
+  {
+    "objectID": "projects/Betalactamase_drug_discovery/index.html#machine-learning-models",
+    "href": "projects/Betalactamase_drug_discovery/index.html#machine-learning-models",
+    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "section": "Machine Learning Models",
+    "text": "Machine Learning Models\nFor this project, I tested three machine learning models, including Logistic Regression, Random Forest, and XGBoost, for a binary classification task. I chose pchembl value as the target variable. To fine-tune hyperparameters, I used sklearn class GridSearchCV."
+  },
+  {
+    "objectID": "projects/Betalactamase_drug_discovery/index.html#additional-information",
+    "href": "projects/Betalactamase_drug_discovery/index.html#additional-information",
+    "title": "Prediction of potential drug ligands that bind to Beta-Lactamases",
+    "section": "Additional information",
+    "text": "Additional information\nThe complete information regarding exploratory data analysis and selection of the best model jupyter notebook, training and validation python scripts, implementation of the best model as a web service using Flask, deployment to the cloud with Heroku, and further details are available on the GitHub repository of this project."
+  },
+  {
+    "objectID": "projects/VueCore/index.html",
+    "href": "projects/VueCore/index.html",
+    "title": "VueCore",
+    "section": "",
+    "text": "Source code  Documentation  Python package\nI contributed to this project as part of my work as research assistant at the Multiomics Network Analytics Group (MoNA) - Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)."
+  },
+  {
+    "objectID": "projects/VueCore/index.html#summary",
+    "href": "projects/VueCore/index.html#summary",
+    "title": "VueCore",
+    "section": "Summary",
+    "text": "Summary\n\n\n\nVueCore provides a comprehensive suite of functions to create both interactive and static visualizations of multi-omics data. It is designed to be flexible and customizable, allowing users to tailor visualizations to their specific needs and preferences. It is part of a broader ecosystem of tools for multi-omics analysis, working in conjunction with ACore and VueGen to enable end-to-end data processing, visualization, and reporting.\nThis package is still in development, but it already includes functions to create various types of visualizations, such as histograms, scatter plots, bar plots, and box/violin plots. Currently, the package supports the Plotly backend for interactive and static visualizations, but it is designed to be extensible to support other backends in the future such as Matplotlib, Seaborn, among others."
+  },
+  {
+    "objectID": "projects/VueCore/index.html#additional-information",
+    "href": "projects/VueCore/index.html#additional-information",
+    "title": "VueCore",
+    "section": "Additional information",
+    "text": "Additional information\nThe VueCore documentation is available at vuecore.readthedocs.io, where you can find detailed information of the package’s classes and functions, installation and execution instructions, and API usage notebooks for all plots and visualizations. The source code is openly available on GitHub, where you can also find the latest updates and contribute to the project."
+  },
+  {
+    "objectID": "projects/StarPep/index.html",
+    "href": "projects/StarPep/index.html",
+    "title": "StarPep Toolbox",
+    "section": "",
+    "text": "Publication  Source code  Documentation\nI contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador."
+  },
+  {
+    "objectID": "projects/StarPep/index.html#summary",
+    "href": "projects/StarPep/index.html#summary",
+    "title": "StarPep Toolbox",
+    "section": "Summary",
+    "text": "Summary\nAntimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the AMPs’ chemical space (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides.\nTherefore, we developed StarPep toolbox, an open-source software to study the AMPCS using networks, clustering, and similarity-searching models, which can contribute to peptide drug repurposing, development, and optimization.\n\n\n\nThis tool was developed as a Java desktop application that integrates the functionalities of several open-source projects. The graphical user interface was built on top of the NetBeans Platform, using the Java SE Runtime Environment 8. The graph database structure was implemented with the Neo4j platform. Some visualization features and the calculation of network properties were based on Gephi. The sequence alignment algorithms were implemented using the BioJava API.\nThe AMPs were collected from a large variety of biological data sources to be organized into an integrated graph database called starPepDB, composed of 45.120 AMPs and their metadata. This integrated graph database is embedded into StarPep toolbox to enable end-user querying, filtering, visualizing, and analyzing the AMPs, taking advantage of network-based representations.\nThe main modules of StarPep toolbox are listed below:\n\nAMPs’ chemical space filtering: Obtain a subset of AMPs from the StarPepDB using their metadata (function, target pathogen, biological origin, chemical modifications, original database, and cross-referenced entries to PDB, PubMed, and UniProt).\nMolecular descriptors: Calculate molecular descriptors of the AMPs by applying statistical and aggregation operators on physicochemical amino acid properties (e.g., net charge, isoelectric point, molecular weight, etc.).\nNetwork Science: Build different types of networks (metadata, chemical space, and half-space proximal) and calculate global/local properties, centrality metrics, communities, among other metrics.\nSimilarity searching: Create multi-query similarity searching models that can lead to the repurposing of AMPs with novel functional activities.\n\nThe figure below shows the software architecture and components of StarPep toolbox:\n\n\n\n\nFigure 1.- StarPep modules and components. The software has four main modules to load and filter AMPs, calculate MDs, create and analyze networks, and develop multi-query similarity-searching models.\n\nFor more details about the software, read its online User Guide and publication. Also, you can check the source code to explore the implementation of the software."
+  },
+  {
+    "objectID": "projects/StarPep/index.html#citation",
+    "href": "projects/StarPep/index.html#citation",
+    "title": "StarPep Toolbox",
+    "section": "Citation",
+    "text": "Citation\nAguilera-Mendoza, L., Ayala-Ruano, S.^, Martinez-Rios, F., Chavez, E., García-Jacas, C. R., Brizuela, C. A., & Marrero-Ponce, Y. (2023). StarPep Toolbox: an open-source software to assist chemical space analysis of bioactive peptides and their functions using complex networks. Bioinformatics, 39 (8), btad506. doi: doi.org/10.1093/bioinformatics/btad506.\n^co-first author"
+  },
+  {
+    "objectID": "projects/Img2brain/index.html",
+    "href": "projects/Img2brain/index.html",
+    "title": "Img2brain",
+    "section": "",
+    "text": "Source code  Manuscript  Dataset/Software archive\nI developed this project for my capstone project of the Machine learning course from the MSc in Systems Biology at Maastricht University. It was an end-to-end assignment with data pre-processing, feature engineering, training, hyperparameter tuning, and interpretation of the results."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#background",
+    "href": "projects/Img2brain/index.html#background",
+    "title": "Img2brain",
+    "section": "Background",
+    "text": "Background\nVision is one of the main sensory pathways that enable living organisms to perceive external stimuli and interpret the world. The human visual system (HVS) involves a complex interplay between the eyes, the brain, and multiple neural pathways. To study the HVS, investigators employ various experimental methods such as psychophysics, eye tracking, and neuroimaging techniques like functional magnetic resonance imaging (fMRI). fMRI uses magnetic resonance imaging to measure the blood-oxygen-level-dependent (BOLD) variation induced by neuronal activity.\nThe data acquired through fMRI experiments are stored in the form of voxels, which are three-dimensional units representing tiny volume elements. Each voxel encompasses millions of brain cells, collectively forming areas with different functional properties, known as regions of interest (ROIs). Computational models are essential tools for interpreting the large datasets produced by fMRI experiments.\nThe goal of this project is to employ machine learning techniques to forecast the neural visual responses triggered by naturalistic scenes. These computational models aim to replicate the process through which neuronal activity encodes to visual stimuli aroused by the external environment. The following figure gives an schematic representation of the brain encoding and decoding processes.\n\n\n\n\nFigure 1.- Brain encoding and decoding in fMRI. Obtained from [1].\n\nVisual encoding models based on fMRI data employ algorithms that transform image pixels into model features and map these features to brain activity. This framework enables the prediction of neural responses from images. The following figure illustrates the mapping between the pixel, feature, and brain spaces.\n\n\n\n\nFigure 2.- The general architecture of visual encoding models that consists of three spaces (the input space, the feature space, and the brain activity space) and two in-between mappings. Obtained from [2]."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#dataset",
+    "href": "projects/Img2brain/index.html#dataset",
+    "title": "Img2brain",
+    "section": "Dataset",
+    "text": "Dataset\nThe data for this project is part of the [Natural Scenes Dataset][nsd] (NSD), a massive dataset of 7T fMRI responses to images of natural scenes coming from the [COCO dataset][coco]. The training dataset consists of brain responses measured at 10.000 brain locations (voxels) to 8857 images (in jpg format) for one subject. The 10.000 voxels are distributed around the visual pathway and may encode perceptual and semantic features in different proportions. The test dataset comprises 984 images (in jpg format), and the goal is to predict the brain responses to these images.\nYou can access the dataset through Zenodo with the following DOI: doi.org/10.5281/zenodo.7979729.\nThe training dataset was split into training and validation partitions with an 80/20 ratio. The training partition was used to train the models, and the validation partition was used to evaluate the models. The test dataset was used to make predictions with the best model on unseen data.\nThe figure below summarizes the data splitting process and the rest of the steps to build the visual encoding models.\n\n\n\n\nFigure 3.- Summary of the main steps for the creation of the visual encoding models. Obtained from [2]."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#feature-engineering",
+    "href": "projects/Img2brain/index.html#feature-engineering",
+    "title": "Img2brain",
+    "section": "Feature engineering",
+    "text": "Feature engineering\nDue to the high dimensionality of the feature representation of images using the raw pixel values (i.e., the original images have a size of 425x425 and 3 channels (RGB), which results in a feature representation of 425x425x3 = 541875 features), I used the representations obtained from different layers of pretrained CNNs to obtain a lower dimensional representation of the images. In this case, I tried various layers of four different pretrained CNNs: AlexNet, VGG16, ResNet50, and InceptionV3, available in the torchvision package.\nA graphical representation of the feature engineering process is presented below.\n\n\n\n\nFigure 4.- Diagram of the feature engineering stage. Obtained from [3].\n\nThe feature representations of the images was obtained by passing the images through the pretrained CNNs and extracting the output of the desired layer. The size of the feature vectors at this point was still very large, so I used PCA to overcome this problem and got a set of 30 features. I fit the PCA on the training images features, and used it to downsample the training, validation and test images features.\nI evaluated the best feature representation by training a simple linear regression model to predict the brain activity of the voxels from the feature representation of the images. The best feature representation was the one that resulted in the highest encoding accuracy (i.e., median correlation between the predicted and actual brain activity of the voxels) on the validation set."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#machine-learning-models",
+    "href": "projects/Img2brain/index.html#machine-learning-models",
+    "title": "Img2brain",
+    "section": "Machine learning models",
+    "text": "Machine learning models\nI trained 6 different machine learnning algorithms (linear regression - base model, ridge regression, lasso regression, elasticnet regression, k-nearest neighbours regressor, and decision tree regressor) to predict the brain activity of the voxels from the feature representation of the images. In this project, the learning task was a multioutput regression problem, where the input is the feature representation of the images and the output is the brain activity of all the voxels. Each regressor maps from the feature space to each voxel, so there is a separate encoding model per voxel, leading to voxelwise encoding models. Therefore, every model trained with this dataset have 10.000 independently regression models with n coeficients each (the number of features). As in the previous section, the best model was the one that resulted in the highest encoding accuracy on the validation set."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#results-of-the-ml-models",
+    "href": "projects/Img2brain/index.html#results-of-the-ml-models",
+    "title": "Img2brain",
+    "section": "Results of the ML models",
+    "text": "Results of the ML models\nThe best model was Lasso regression with an encoding accuracy of 0.2417 on the validation set. The best hyperparameters were alpha=0.01 and the default max_iter=1000. This model was trained with the feature representation of the images obtained from layer features.12 of the AlexNet CNN, reduced to 100 features using PCA.\n\n\n\nMachine Learning Model\nEncoding Accuracy\n\n\n\n\nLasso (alpha=0.01)\n0.2417\n\n\nElasticNet (alpha=0.001)\n0.2415\n\n\nRidge (alpha=1.0)\n0.2412\n\n\nLinear Regression\n0.2402\n\n\nK-Nearest Neighbors\n0.1021\n\n\nDecision Tree\n0.0382\n\n\n\nWhile the overall encoding accuracy of the best model is low, the distribution of predictions across voxels reveals important patterns: regularized linear models show right-skewed accuracy distributions with a heavy tail between 0.4-0.7, indicating that the models make accurate predictions on a subset of voxels while struggling with others. The lack of ROI information prevents us from identifying which visual areas correspond to high or low predictions.\n\n\n\n\nFigure 5.- Histograms of encoding accuracy for machine learning models across all voxels. Models were trained to predict neural responses to visual stimuli from naturalistic images.\n\nTo validate these findings, we compared predictions from the best and worst performing voxels. The top-performing voxel showed strong agreement between predicted and actual BOLD signals with high positive correlation, while the lowest-performing voxel showed no meaningful overlap or correlation pattern. This demonstrates that the model successfully captures neural responses for a subset of voxels but fails to generalize across the entire brain.\n\n\n\n\nFigure 6.- Predicted vs. actual BOLD variation for the best (A-B) and worst (C-D) performing voxels from the Lasso regression model."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#additional-information",
+    "href": "projects/Img2brain/index.html#additional-information",
+    "title": "Img2brain",
+    "section": "Additional information",
+    "text": "Additional information\nMore details about the biological background of the project, the exploratory data analysis, feature engineering, model training, hyperparameter tuning, interpretation of the results, and ideas for further work are available in the GitHub repository of this project and in the manuscript."
+  },
+  {
+    "objectID": "projects/Img2brain/index.html#citation",
+    "href": "projects/Img2brain/index.html#citation",
+    "title": "Img2brain",
+    "section": "Citation",
+    "text": "Citation\nAyala-Ruano, S. (2023). Img2brain: Predicting the neural responses to visual stimuli of naturalistic scenes using machine learning (Version 1.0.0) [Dataset/Software]. Zenodo. doi: doi.org/10.5281/zenodo.7979729."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html",
+    "href": "projects/MicW2Graph/index.html",
+    "title": "MicW2Graph",
+    "section": "",
+    "text": "Source code  Web application  Software archive  Thesis Defense Slides (English)  CCS Slides (English)\nI developed this project for my master’s thesis from the MSc in Systems Biology at the Multiomics Network Analytics Group (MoNA) - Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#background",
+    "href": "projects/MicW2Graph/index.html#background",
+    "title": "MicW2Graph",
+    "section": "Background",
+    "text": "Background\nWastewater treatment (WWT) is the process of removing contaminants from used water before it is discharged back into the environment, which contributes to address water scarcity and to protect aquatic ecosystems. Recent advances in high-throughput omics technologies have facilitated the study of microbiomes from complex environmental samples such as WWT. A comprehensive study of an environmental microbiome requires integrating data from various studies and meta-omics technologies, as well as biological knowledge to interpret these data.\n\n\n\n\nFigure 1.- Multi-stage molecular investigations of microbiomes in environmental biotechnology from microorganisms to DNA, RNA, proteins, metabolites and their fluxes. Designed by Cerruti, et al., 2021, Env Science: Water Research & Technology.\n\nIn this project, we investigated the microbiome of the WWT process to build MicW2Graph, an open-source knowledge graph that integrates metagenomic and metatranscriptomic information with their biological context, including biological processes, environmental and phenotypic features, chemical compounds, and additional metadata. We developed a workflow to collect meta-omics datasets from MGnify and infer potential interactions among microorganisms through microbial association networks (MANs).\n\n\n\n\nFigure 2.- Workflow to infer microbial association networks (MANs) from meta-omics datasets.\n\nMicW2Graph enables the investigation of research questions related to WWT, focusing on aspects such as microbial connections, community memberships, and potential ecological functions. The following figure shows the general workflow of the MicW2Graph project:\n\n\n\n\nFigure 3.- Schematic summary of the methods for the MicW2Graph project. The workflow was divided into six stages: data collection and preprocessing, exploratory data analysis, inference of microbial association networks (MANs), knowledge graph (KG) creation, network analysis, and web application development."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#data",
+    "href": "projects/MicW2Graph/index.html#data",
+    "title": "MicW2Graph",
+    "section": "Data",
+    "text": "Data\nWWT meta-omics studies were queried from the MGnify API using experiment type and biome parameters. Further filters were applied based on experimental and taxonomic criteria. The abundance tables from the filtered studies were then grouped by biome and experiment type to infer MANs.\nThe workflow for retrieving and filtering WWT meta-omics studies from MGnify is summarized in the diagram below:\n\n\n\n\nFigure 4.- Workflow for retrieving and filtering wastewater treatment meta-omics studies from MGnify.\n\nThe code to retrieve the data from MGnify is available in this GitHub repository."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#exploratory-data-analysis",
+    "href": "projects/MicW2Graph/index.html#exploratory-data-analysis",
+    "title": "MicW2Graph",
+    "section": "Exploratory data analysis",
+    "text": "Exploratory data analysis\nA general overview of the filtered studies was provided through various plots, describing the number of studies and samples, experiment types, sampling countries, sub-biomes, and other relevant metadata.\nThe exploratory data analysis was encapsulated in a module of the MicW2Graph web application, containing a general overview of all studies, studies by sub-biomes, individual studies, and a section for conducting pairwise comparisons between studies.\n\n\n\n\nFigure 5.- Exploratory data analysis module of the MicW2Graph web application."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#microbial-association-networks-mans",
+    "href": "projects/MicW2Graph/index.html#microbial-association-networks-mans",
+    "title": "MicW2Graph",
+    "section": "Microbial association networks (MANs)",
+    "text": "Microbial association networks (MANs)\nMANs are weighted and undirected networks, defined as G = (V, E), where V is a set of nodes and E is a set of edges. Nodes in these networks are Operational Taxonomic Units at a specific taxonomic level, while edges indicate substantial co-presence (positive interaction) or mutual exclusion (negative interaction) trends in microorganism abundances across samples.\nWeights in MANs correspond to association values among species defined by the inference method, and there is an edge between two nodes if this number is greater than or equal to a given cutoff t.\nIn this project, we selected the Correlation inference for Compositional data through Lasso (CCLasso) method. Network inference was conducted using the NetCoMi R package.\n\n\n\n\nFigure 6.- Microbial association networks module of the MicW2Graph web application.\n\nThe code for the network inference and analysis of MANs is available in this GitHub repository."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#micw2graph",
+    "href": "projects/MicW2Graph/index.html#micw2graph",
+    "title": "MicW2Graph",
+    "section": "MicW2Graph",
+    "text": "MicW2Graph\nMicW2Graph incorporates the MANs with the optimal association threshold for each WWT sub-biome and experiment type, the biological context of the species within the MANs, and ontologies that standardize and expand the information of this resource. This KG comprises 1247 nodes and 9749 relationships, categorized into 12 node labels and 8 relationship labels. The relationships in MicW2Graph are classified as taxonomic, functional, and data-driven, reflecting the different layers of knowledge available in the KG.\nThe MicW2Graph metagraph and a snapshot of the graph database with nodes and edges for all sub-biomes and experiment types are shown below:\n\n\n\n\nFigure 7.- MicW2Graph metagraph illustrating the schema of the knowledge graph (KG) and visualization of the MicW2Graph KG displaying all nodes and edges, colored according to the metagraph conventions.\n\n\n\n\n\nFigure 8.- Knowledge graph module of the MicW2Graph web application."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#case-studies",
+    "href": "projects/MicW2Graph/index.html#case-studies",
+    "title": "MicW2Graph",
+    "section": "Case studies",
+    "text": "Case studies\nThe use cases demonstrate the potential of MicW2Graph to discover new species associated with WWT biological processes, showing how the available information of well-known species can help to predict potential functions and traits for less studied species. These species and communities can be further investigated as potential candidates to optimize the bioremediation process.\n\n\n\n\nFigure 9.- Case studies module of the MicW2Graph web application."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#additional-information",
+    "href": "projects/MicW2Graph/index.html#additional-information",
+    "title": "MicW2Graph",
+    "section": "Additional information",
+    "text": "Additional information\nThe source code for the MicW2Graph project is available in this GitHub repository. The web application is freely available at this link. The software archive with the code and data of the project is available at this Zenodo link."
+  },
+  {
+    "objectID": "projects/MicW2Graph/index.html#citation",
+    "href": "projects/MicW2Graph/index.html#citation",
+    "title": "MicW2Graph",
+    "section": "Citation",
+    "text": "Citation\nAyala-Ruano, S., Luu Phanthanourak, A., Reverenna, M., Palleja Caro, A., & Santos, A. (2024). MicW2Graph: Building a knowledge graph of the wastewater treatment microbiome and its biological context (Version 1.0.0) [Software]. Zenodo. doi: doi.org/10.5281/zenodo.113946188."
+  },
+  {
+    "objectID": "projects/LACBioinfoEdForum/index.html",
+    "href": "projects/LACBioinfoEdForum/index.html",
+    "title": "LACBioinfoEdForum",
+    "section": "",
+    "text": "Source code  Website\nThis project involved the development and maintenance of the official website for the Latin American and Caribbean (LAC) Forum on Bioinformatics Education 2022."
+  },
+  {
+    "objectID": "projects/LACBioinfoEdForum/index.html#background",
+    "href": "projects/LACBioinfoEdForum/index.html#background",
+    "title": "LACBioinfoEdForum",
+    "section": "Background",
+    "text": "Background\nThe LAC Forum on Bioinformatics Education 2022 is a working meeting for representatives and parties interested in generating, including or maintaining academic programs in bioinformatics, genomic sciences, computational biology and related disciplines; all geolocated within the Latin American and Caribbean regions. The forum was held virtually within the framework of the series of tutorials and workshops of the conference ISCB-Latin America SoIBio BioNetMX Conference on Bioinformatics 2022, on November 7, 2022.\nIn general, different topics of interest related to the strengthening of bioinformatics in educational programs, whether undergraduate, master, PhD or specialization, are discussed; promote the inclusion of bioinformatics curricula in the life sciences; and address current challenges in the region, such as common infrastructures and decentralization of education/research.\nSpecifically, the event addressed the following topics:\n\nBioinformatics for Life Sciences Careers\nInfrastructure: from language barriers to computing infrastructure\nDecentralization at regional, national and continental level"
+  },
+  {
+    "objectID": "projects/LACBioinfoEdForum/index.html#additional-information",
+    "href": "projects/LACBioinfoEdForum/index.html#additional-information",
+    "title": "LACBioinfoEdForum",
+    "section": "Additional information",
+    "text": "Additional information\nTo learn more about the project, the community, and the technical implementation, you can explore the LACBioinfoEdForum website and its source code."
   },
   {
     "objectID": "LICENSE.html",
@@ -438,7 +949,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPrediction of the phenological stages of tropical forest species using herbarium records\n\n\n\n🏞️Ecology\n\n🤖Machine learning\n\n\n\nCreating a database of herbarium records from tropical forest species of the Americas and developing machine learning classifiers to predict their phenology.\n\n\n\n\n\n\nJan 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nAntiparasitic peptides discovery\n\n\n\n💊Drug discovery\n\n🕸️Network science\n\n🧬Bioinformatics\n\n\n\nExploring the antiparasitic peptides’ chemical space and predicting new potential compounds through network science and similarity searching.\n\n\n\n\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of antimicrobial peptides using machine learning classifiers\n\n\n\n💊Drug discovery\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n🎈Streamlit\n\n\n\nTraining machine learning classifiers to predict the antimicrobial activity of peptides.\n\n\n\n\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard of weekly reports of SARS-CoV2 variants in European countries\n\n\n\n🩺Human health\n\n📊Data visualization\n\n🎈Streamlit\n\n\n\nSummarizing the weekly reports of SARS-CoV2 variants in European countries using data from the GISAID database.\n\n\n\n\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nHerrCompBioinfo\n\n\n\n📚Education\n\n🧬Bioinformatics\n\n\n\nAn open-source educational resource of computational tools for bioinformatics enthusiasts written in Spanish.\n\n\n\n\n\n\nJan 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment analysis of Ecuadorian political tweets from 2021 elections\n\n\n\n🏘️Social sciences\n\n🧠Deep learning\n\n💬NLP\n\n\n\nSentiment analysis of replies to tweets from Ecuadorian presidential candidates in the 2021 elections using natural language processing and neural networks.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe molecular basis of JAZ-MYC coupling, a key component of plant immunity\n\n\n\n🌾Agriculture\n\n⚛️Molecular dynamics\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n\n\nBinding specificity between repressor proteins and a transcriptional factor associated with the jasmonic acid pathway through molecular dynamics and machine learning.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorn Disease Detector\n\n\n\n🌾Agriculture\n\n🧠Deep learning\n\n🖼️Computer vision\n\n🎈Streamlit\n\n\n\nA plant disease detector based on convolutional neural networks, trained to recognize two types of maize infectious diseases.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of potential drug ligands that bind to Beta-Lactamases\n\n\n\n💊Drug discovery\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n\n\nTraining machine learning classifiers to evaluate the activity of molecules that have been experimentally tested to bind or not bind to beta-lactamases.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nCRBN mutations\n\n\n\n🩺Human health\n\n⚛️Molecular dynamics\n\n🧬Bioinformatics\n\n\n\nComputational study of the structural changes of two Cereblon protein mutations through molecular dynamics and quantum mechanics simulations.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nKolekti\n\n\n\n🏘️Social sciences\n\n🌐Web development\n\n\n\nA webpage to gather information from labor informality in Ecuador. The goal was to create a community where people could interact and generate work opportunities.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nHorizontal gene transfer between arthropods and bacteria\n\n\n\n🦠Microbiology\n\n🌳Phylogenetics\n\n🧬Bioinformatics\n\n\n\nUnderstanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nACore\n\n\n\n🛠️Software development\n\n🧫Omics\n\n🧬Bioinformatics\n\n\n\nA Python package with statistical functions to analyse multimodal molecular data.\n\n\n\n\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nVueCore\n\n\n\n🛠️Software development\n\n📊Data visualization\n\n🧫Omics\n\n🧬Bioinformatics\n\n\n\nA Python package for creating interactive and static visualizations of multi-omics data.\n\n\n\n\n\n\nSep 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nVueGen\n\n\n\n🛠️Software development\n\n📊Data visualization\n\n🎈Streamlit\n\n🧬Bioinformatics\n\n\n\nA Python package that automates the creation of reports from bioinformatics outputs, supporting formats like PDF, HTML, DOCX, ODT, PPTX, Reveal.js, Jupyter notebooks, and…\n\n\n\n\n\n\nJun 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicW2Graph\n\n\n\n🦠Microbiology\n\n🧫Omics\n\n🕸️Network science\n\n⛃🕸️Knowledge graphs\n\n🧬Bioinformatics\n\n🎈Streamlit\n\n\n\nBuilding a knowledge graph of the wastewater treatment microbiome and its biological context.\n\n\n\n\n\n\nMay 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nRainForestBacNets\n\n\n\n🦠Microbiology\n\n🧫Omics\n\n🏞️Ecology\n\n🕸️Network science\n\n🧬Bioinformatics\n\n\n\nEvaluating differences in bacterial association networks from rainforest and converted pasturelands in the Colombian Amazon region.\n\n\n\n\n\n\nOct 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDengueDrugRep\n\n\n\n🩺Human health\n\n🦠Microbiology\n\n⛃🕸️Knowledge graphs\n\n🧠‍🕸️Deep learning\n\n🧬Bioinformatics\n\n\n\nDrug repurposing for dengue using a biomedical knowledge graph and graph neural networks.\n\n\n\n\n\n\nOct 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nStarPep Toolbox\n\n\n\n🛠️Software development\n\n💊Drug discovery\n\n🕸️Network science\n\n🧬Bioinformatics\n\n\n\nAn open-source software to study the bioactive chemical space of antimicrobial peptides using networks, clustering, and similarity-searching models.\n\n\n\n\n\n\nAug 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuditWC-fMRI-ML\n\n\n\n🩺Human health\n\n🧠Neroscience\n\n🤖Machine learning\n\n\n\nEvaluating the capacity of the Wilson-Cowan firing-rate model to simulate biological sound processing captured by fMRI data using machine learning classifiers.\n\n\n\n\n\n\nJul 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nImg2brain\n\n\n\n🩺Human health\n\n🧠Neroscience\n\n🤖Machine learning\n\n🧠‍🕸️Deep learning\n\n🖼️Computer vision\n\n\n\nPredicting the neural responses to visual stimuli of naturalistic scenes using ML-based visual encoding models.\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nNTDs2RDF\n\n\n\n🩺Human health\n\n🦠Microbiology\n\n⛃🕸️Knowledge graphs\n\n🧬Bioinformatics\n\n🎈Streamlit\n\n\n\nA heterogeneous and integrated knowledge graph for the exploration of Neglected Tropical Diseases.\n\n\n\n\n\n\nApr 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCardiomyoML\n\n\n\n🩺Human health\n\n🤖Machine learning\n\n🧫Omics\n\n🧬Bioinformatics\n\n🎈Streamlit\n\n\n\nClassification of cardiomyopathies and prediction of new biomarkers with machine learning using RNAseq data.\n\n\n\n\n\n\nFeb 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of the phenological stages of tropical forest species using herbarium records\n\n\n\n🏞️Ecology\n\n🤖Machine learning\n\n\n\nCreating a database of herbarium records from tropical forest species of the Americas and developing machine learning classifiers to predict their phenology.\n\n\n\n\n\n\nJan 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nAntiparasitic peptides discovery\n\n\n\n💊Drug discovery\n\n🕸️Network science\n\n🧬Bioinformatics\n\n\n\nExploring the antiparasitic peptides’ chemical space and predicting new potential compounds through network science and similarity searching.\n\n\n\n\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of antimicrobial peptides using machine learning classifiers\n\n\n\n💊Drug discovery\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n🎈Streamlit\n\n\n\nTraining machine learning classifiers to predict the antimicrobial activity of peptides.\n\n\n\n\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard of weekly reports of SARS-CoV2 variants in European countries\n\n\n\n🩺Human health\n\n📊Data visualization\n\n🎈Streamlit\n\n\n\nSummarizing the weekly reports of SARS-CoV2 variants in European countries using data from the GISAID database.\n\n\n\n\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nHerrCompBioinfo\n\n\n\n📚Education\n\n🧬Bioinformatics\n\n\n\nAn open-source educational resource of computational tools for bioinformatics enthusiasts written in Spanish.\n\n\n\n\n\n\nJan 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nLACBioinfoEdForum\n\n\n\n🌐Web development\n\n📚Education\n\n🧬Bioinformatics\n\n\n\nWeb Development for the Latin American and Caribbean (LAC) Forum on Bioinformatics Education 2022.\n\n\n\n\n\n\nNov 7, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSEH2Bioinfo\n\n\n\n🌐Web development\n\n📚Education\n\n🧬Bioinformatics\n\n\n\nWeb Development for the SEH2Bioinfo Symposium.\n\n\n\n\n\n\nJun 2, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment analysis of Ecuadorian political tweets from 2021 elections\n\n\n\n🏘️Social sciences\n\n🧠‍🕸️Deep learning\n\n💬NLP\n\n\n\nSentiment analysis of replies to tweets from Ecuadorian presidential candidates in the 2021 elections using natural language processing and neural networks.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe molecular basis of JAZ-MYC coupling, a key component of plant immunity\n\n\n\n🌾Agriculture\n\n⚛️Molecular dynamics\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n\n\nBinding specificity between repressor proteins and a transcriptional factor associated with the jasmonic acid pathway through molecular dynamics and machine learning.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorn Disease Detector\n\n\n\n🌾Agriculture\n\n🧠‍🕸️Deep learning\n\n🖼️Computer vision\n\n🎈Streamlit\n\n\n\nA plant disease detector based on convolutional neural networks, trained to recognize two types of maize infectious diseases.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of potential drug ligands that bind to Beta-Lactamases\n\n\n\n💊Drug discovery\n\n🤖Machine learning\n\n🧬Bioinformatics\n\n\n\nTraining machine learning classifiers to evaluate the activity of molecules that have been experimentally tested to bind or not bind to beta-lactamases.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nCRBN mutations\n\n\n\n🩺Human health\n\n⚛️Molecular dynamics\n\n🧬Bioinformatics\n\n\n\nComputational study of the structural changes of two Cereblon protein mutations through molecular dynamics and quantum mechanics simulations.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nKolekti\n\n\n\n🏘️Social sciences\n\n🌐Web development\n\n\n\nA webpage to gather information from labor informality in Ecuador. The goal was to create a community where people could interact and generate work opportunities.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nHorizontal gene transfer between arthropods and bacteria\n\n\n\n🦠Microbiology\n\n🌳Phylogenetics\n\n🧫Omics\n\n🧬Bioinformatics\n\n\n\nUnderstanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.\n\n\n\n\n\n\nSep 7, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/ISCBSC_Webinarseries_2022/index.html",

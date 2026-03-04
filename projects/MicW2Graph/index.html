@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-09-07">
-<meta name="description" content="Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.">
+<meta name="dcterms.date" content="2024-05-30">
+<meta name="description" content="Building a knowledge graph of the wastewater treatment microbiome and its biological context.">
 
-<title>Horizontal gene transfer between arthropods and bacteria</title>
+<title>MicW2Graph</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,17 +141,19 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Horizontal gene transfer between arthropods and bacteria</h1>
+      <h1 class="title">MicW2Graph</h1>
                   <div>
         <div class="description">
-          <p>Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.</p>
+          <p>Building a knowledge graph of the wastewater treatment microbiome and its biological context.</p>
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">🦠Microbiology</div>
-                <div class="quarto-category">🌳Phylogenetics</div>
                 <div class="quarto-category">🧫Omics</div>
+                <div class="quarto-category">🕸️Network science</div>
+                <div class="quarto-category">⛃🕸️Knowledge graphs</div>
                 <div class="quarto-category">🧬Bioinformatics</div>
+                <div class="quarto-category">🎈Streamlit</div>
               </div>
                   </div>
   </div>
@@ -163,7 +165,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 7, 2021</p>
+        <p class="date">May 30, 2024</p>
       </div>
     </div>
     
@@ -179,7 +181,13 @@ ga('send', {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory data analysis</a></li>
+  <li><a href="#microbial-association-networks-mans" id="toc-microbial-association-networks-mans" class="nav-link" data-scroll-target="#microbial-association-networks-mans">Microbial association networks (MANs)</a></li>
+  <li><a href="#micw2graph" id="toc-micw2graph" class="nav-link" data-scroll-target="#micw2graph">MicW2Graph</a></li>
+  <li><a href="#case-studies" id="toc-case-studies" class="nav-link" data-scroll-target="#case-studies">Case studies</a></li>
+  <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional information</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -191,46 +199,102 @@ ga('send', {
 
 
 
-<p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.4924" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://www.youtube.com/watch?v=JEuAOEzI58Y&amp;t=1156s" class="btn" target="_blank"><i class="fa-solid fa-play-circle" aria-label="play-circle"></i> Oral presentation (English)</a> <a href="https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (English)</a> <a href="https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (Spanish)</a></p>
-<p>I worked on this project during a summer research internship in 2018 at the <a href="https://www.udla.edu.ec/investigacion/grupos-de-investigacion/bio-quimio-informatica/">Bio-Chemoinformatics Group</a> - Universidad de Las Américas, in Ecuador.</p>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><em>Streptomyces clavuligerus</em> is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species. Considering the importance of <strong>HGT events</strong> in the life history, the branching coral of life metaphor has been proposed, instead of the traditional three scheme.</p>
+<p><a href="https://github.com/Multiomics-Analytics-Group/MicW2Graph" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a> <a href="https://micw2graph.streamlit.app/" class="btn" target="_blank"><iconify-icon inline="" icon="logos:streamlit" aria-label="Icon streamlit from logos Iconify.design set." title="Icon streamlit from logos Iconify.design set."></iconify-icon> Web application</a> <a href="https://zenodo.org/doi/10.5281/zenodo.11394618" class="btn" target="_blank"><iconify-icon inline="" icon="simple-icons:zenodo" aria-label="Icon zenodo from simple-icons Iconify.design set." title="Icon zenodo from simple-icons Iconify.design set."></iconify-icon> Software archive</a> <a href="https://doi.org/10.5281/zenodo.12511100" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Thesis Defense Slides (English)</a> <a href="https://doi.org/10.5281/zenodo.16965571" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> CCS Slides (English)</a></p>
+<p>I developed this project for my master’s thesis from the <a href="https://www.maastrichtuniversity.nl/education/master/systems-biology">MSc in Systems Biology</a> at the <a href="https://multiomics-analytics-group.github.io/">Multiomics Network Analytics Group (MoNA)</a> - <a href="https://www.biosustain.dtu.dk/">Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)</a>.</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p><strong>Wastewater treatment (WWT)</strong> is the process of removing contaminants from used water before it is discharged back into the environment, which contributes to address water scarcity and to protect aquatic ecosystems. Recent advances in high-throughput omics technologies have facilitated the study of <strong>microbiomes</strong> from complex environmental samples such as WWT. A comprehensive study of an environmental microbiome requires integrating data from various studies and <strong>meta-omics</strong> technologies, as well as biological knowledge to interpret these data.</p>
 <p align="center">
-<img src="../../images/coral_of_life.png" width="600" title="AMP">
+<img src="../../images/wwt_microbiome.png" width="450" title="wwt_microbiome">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 1.-</strong> The prototype of the Coral of Life. Retrieved from <a href="https://link.springer.com/article/10.1007%2Fs11692-019-09474-w">Podani, 2019, Evolutionary Biology</a>.</p>
+<p><strong>Figure 1.-</strong> Multi-stage molecular investigations of microbiomes in environmental biotechnology from microorganisms to DNA, RNA, proteins, metabolites and their fluxes. Designed by Cerruti, et al., 2021, Env Science: Water Research &amp; Technology.</p>
 </div>
-<p>Thus, we studied the impact of HGT in the <em>S. clavuligerus</em> genome. To perform this task, we applied <strong>whole-genome analysis</strong> to identify laterally transferred sequences from different domains. The most relevant result was a putative <strong>antimicrobial peptide</strong> (AMP) with a clear origin in the Hymenoptera order of insects.</p>
+<p>In this project, we investigated the microbiome of the WWT process to build <strong>MicW2Graph</strong>, an open-source <strong>knowledge graph</strong> that integrates <strong>metagenomic and metatranscriptomic</strong> information with their <strong>biological context</strong>, including biological processes, environmental and phenotypic features, chemical compounds, and additional metadata. We developed a workflow to collect meta-omics datasets from <a href="https://www.ebi.ac.uk/metagenomics/">MGnify</a> and infer potential interactions among microorganisms through <strong>microbial association networks (MANs)</strong>.</p>
 <p align="center">
-<img src="../../images/three_hgt.png" width="600" title="AMP">
+<img src="../../images/microb_asso_nets.png" width="800" title="microb_asso_nets">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 2.-</strong> Phylogenetic tree of <em>Streptomyces clavuligerus</em> ATCC 27064 Hymenoptera antimicrobial peptide-like proteins and their homologs. Proteins from bacteria are represented in red, the sequence from Hymenoptera insects are colored in black, and blue highlights the Cyprinus carpio (Chordata) sequence. IDs of sequence and their taxonomy can be observed in terminal nodes.</p>
+<p><strong>Figure 2.-</strong> Workflow to infer microbial association networks (MANs) from meta-omics datasets.</p>
 </div>
-<p>Next, we determined that two copies of these genes were present in the <strong>megaplasmid pSCL4</strong> but absent in the <em>S. clavuligerus</em> ATCC 27064 chromosome. Additionally, we found that these sequences were exclusive to the ATCC 27064 strain (and so were not present in any other bacteria) and we also verified the expression of the genes using <strong>RNAseq data</strong>.</p>
+<p>MicW2Graph enables the investigation of research questions related to WWT, focusing on aspects such as <strong>microbial connections, community memberships, and potential ecological functions</strong>. The following figure shows the general workflow of the MicW2Graph project:</p>
 <p align="center">
-<img src="../../images/rnaseq.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/Methods_MicW2Graph.png" width="800" title="micw2graph_overview">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 3.-</strong> Mapping of the scaffold DS570654 (region from 42,968 to 43,734) of <em>Streptomyces clavuligerus</em> ATCC 27064 using RNAseq data (GSE104738).</p>
+<p><strong>Figure 3.-</strong> Schematic summary of the methods for the MicW2Graph project. The workflow was divided into six stages: data collection and preprocessing, exploratory data analysis, inference of microbial association networks (MANs), knowledge graph (KG) creation, network analysis, and web application development.</p>
 </div>
-<p>Next, we used several <strong>AMP predictors</strong> to validate the original annotation extracted from Hymenoptera sequences and explored the possibility that these proteins had post-translational modifications using peptidase cleavage prediction. We suggest that Hymenoptera AMP-like proteins of <em>S. clavuligerus</em> ATCC 27064 may be useful for both species adaptation and as an antimicrobial molecule with industrial applications.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>WWT meta-omics studies were queried from the <strong>MGnify API</strong> using experiment type and biome parameters. Further filters were applied based on experimental and taxonomic criteria. The abundance tables from the filtered studies were then grouped by <strong>biome</strong> and <strong>experiment type</strong> to infer <strong>MANs</strong>.</p>
+<p>The workflow for retrieving and filtering WWT meta-omics studies from MGnify is summarized in the diagram below:</p>
 <p align="center">
-<img src="../../images/hgt2.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/Funnel_filtering_MGnifystudies.svg" width="450" title="MGnify_studies_filtering">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 4.-</strong> Proposed scenario for the cleavage and secretion of AMPs from EFG03588 and EFG03676 (Hymenoptera AMP-like proteins).</p>
+<p><strong>Figure 4.-</strong> Workflow for retrieving and filtering wastewater treatment meta-omics studies from MGnify.</p>
 </div>
-<p>A summary of the methods applied in this study is presented below:</p>
+<p>The code to retrieve the data from MGnify is available in this <a href="https://github.com/Multiomics-Analytics-Group/Retrieve_info_MGnifyAPI">GitHub repository</a>.</p>
+</section>
+<section id="exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory data analysis</h2>
+<p>A general overview of the filtered studies was provided through various plots, describing the number of studies and samples, experiment types, sampling countries, sub-biomes, and other relevant metadata.</p>
+<p>The exploratory data analysis was encapsulated in a <strong>module of the MicW2Graph web application</strong>, containing a <strong>general overview of all studies</strong>, <strong>studies by sub-biomes</strong>, <strong>individual studies</strong>, and a section for conducting <strong>pairwise comparisons between studies</strong>.</p>
 <p align="center">
-<img src="../../images/methods_hgt.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/EDA_MicW2Graph.gif" width="800" title="EDA_MicW2Graph">
 </p>
+<div class="gray-italic center-text">
+<p><strong>Figure 5.-</strong> Exploratory data analysis module of the MicW2Graph web application.</p>
+</div>
+</section>
+<section id="microbial-association-networks-mans" class="level2">
+<h2 class="anchored" data-anchor-id="microbial-association-networks-mans">Microbial association networks (MANs)</h2>
+<p>MANs are <strong>weighted and undirected networks</strong>, defined as <em>G = (V, E)</em>, where <em>V</em> is a set of nodes and <em>E</em> is a set of edges. Nodes in these networks are Operational Taxonomic Units at a specific taxonomic level, while <strong>edges indicate substantial co-presence (positive interaction) or mutual exclusion (negative interaction) trends</strong> in microorganism abundances across samples.</p>
+<p><strong>Weights</strong> in MANs correspond to association values among species defined by the inference method, and there is an edge between two nodes if this number is greater than or equal to a given cutoff <em>t</em>.</p>
+<p>In this project, we selected the <a href="https://github.com/huayingfang/CCLasso">Correlation inference for Compositional data through Lasso (CCLasso)</a> method. Network inference was conducted using the <a href="https://github.com/stefpeschel/NetCoMi">NetCoMi</a> R package.</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/MANs_MicW2Graph.gif" width="800" title="MANs_MicW2Graph">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 6.-</strong> Microbial association networks module of the MicW2Graph web application.</p>
+</div>
+<p>The code for the network inference and analysis of MANs is available in this <a href="https://github.com/Multiomics-Analytics-Group/Microbial_network_inference_and_analysis_MicW2Graph">GitHub repository</a>.</p>
+</section>
+<section id="micw2graph" class="level2">
+<h2 class="anchored" data-anchor-id="micw2graph">MicW2Graph</h2>
+<p>MicW2Graph incorporates the <strong>MANs with the optimal association threshold for each WWT sub-biome and experiment type</strong>, the <strong>biological context</strong> of the species within the MANs, and <strong>ontologies</strong> that standardize and expand the information of this resource. This KG comprises <strong>1247 nodes and 9749 relationships</strong>, categorized into 12 node labels and 8 relationship labels. The relationships in MicW2Graph are classified as taxonomic, functional, and data-driven, reflecting the different layers of knowledge available in the KG.</p>
+<p>The MicW2Graph <strong>metagraph</strong> and a snapshot of the graph database with nodes and edges for all sub-biomes and experiment types are shown below:</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/MicW2Graph_metagraph_fig_horiz.svg" width="800" title="MicW2Graph_metagraph">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 7.-</strong> MicW2Graph metagraph illustrating the schema of the knowledge graph (KG) and visualization of the MicW2Graph KG displaying all nodes and edges, colored according to the metagraph conventions.</p>
+</div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/Kg_MicW2Graph.gif" width="800" title="KG_MicW2Graph">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 8.-</strong> Knowledge graph module of the MicW2Graph web application.</p>
+</div>
+</section>
+<section id="case-studies" class="level2">
+<h2 class="anchored" data-anchor-id="case-studies">Case studies</h2>
+<p>The use cases demonstrate the <strong>potential of MicW2Graph to discover new species associated with WWT biological processes</strong>, showing how the available information of well-known species can help to predict potential functions and traits for less studied species. These species and communities can be further investigated as potential candidates to optimize the bioremediation process.</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/Case_studies_MicW2Grpah.gif" width="800" title="Case_studies_MicW2Graph">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 9.-</strong> Case studies module of the MicW2Graph web application.</p>
+</div>
+</section>
+<section id="additional-information" class="level2">
+<h2 class="anchored" data-anchor-id="additional-information">Additional information</h2>
+<p>The source code for the MicW2Graph project is available in this <a href="https://github.com/Multiomics-Analytics-Group/MicW2Graph">GitHub repository</a>. The web application is freely available at this <a href="https://micw2graph.streamlit.app/">link</a>. The software archive with the code and data of the project is available at this <a href="https://zenodo.org/doi/10.5281/zenodo.11394618">Zenodo link</a>.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Ayala‐Ruano, S.</strong>, Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., &amp; Armijos-Jaramillo, V. (2019). <strong>A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of <em>Streptomyces clavuligerus</em> ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications</strong>. <em>Ecology and Evolution</em>, 9 (5), 2602-2614. doi: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4924">10.1002/ece3.4924</a>.</p>
+<p><strong>Ayala-Ruano, S.</strong>, Luu Phanthanourak, A., Reverenna, M., Palleja Caro, A., &amp; Santos, A. (2024). <strong>MicW2Graph: Building a knowledge graph of the wastewater treatment microbiome and its biological context</strong> (Version 1.0.0) [Software]. <em>Zenodo</em>. doi: <a href="https://zenodo.org/doi/10.5281/zenodo.11394618">doi.org/10.5281/zenodo.113946188</a>.</p>
 
 
 </section>

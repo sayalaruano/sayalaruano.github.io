@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-09-07">
-<meta name="description" content="Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.">
+<meta name="dcterms.date" content="2023-08-21">
+<meta name="description" content="An open-source software to study the bioactive chemical space of antimicrobial peptides using networks, clustering, and similarity-searching models.">
 
-<title>Horizontal gene transfer between arthropods and bacteria</title>
+<title>StarPep Toolbox</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,16 +141,16 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Horizontal gene transfer between arthropods and bacteria</h1>
+      <h1 class="title">StarPep Toolbox</h1>
                   <div>
         <div class="description">
-          <p>Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.</p>
+          <p>An open-source software to study the bioactive chemical space of antimicrobial peptides using networks, clustering, and similarity-searching models.</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">🦠Microbiology</div>
-                <div class="quarto-category">🌳Phylogenetics</div>
-                <div class="quarto-category">🧫Omics</div>
+                <div class="quarto-category">🛠️Software development</div>
+                <div class="quarto-category">💊Drug discovery</div>
+                <div class="quarto-category">🕸️Network science</div>
                 <div class="quarto-category">🧬Bioinformatics</div>
               </div>
                   </div>
@@ -163,7 +163,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 7, 2021</p>
+        <p class="date">August 21, 2023</p>
       </div>
     </div>
     
@@ -191,46 +191,37 @@ ga('send', {
 
 
 
-<p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.4924" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://www.youtube.com/watch?v=JEuAOEzI58Y&amp;t=1156s" class="btn" target="_blank"><i class="fa-solid fa-play-circle" aria-label="play-circle"></i> Oral presentation (English)</a> <a href="https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (English)</a> <a href="https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (Spanish)</a></p>
-<p>I worked on this project during a summer research internship in 2018 at the <a href="https://www.udla.edu.ec/investigacion/grupos-de-investigacion/bio-quimio-informatica/">Bio-Chemoinformatics Group</a> - Universidad de Las Américas, in Ecuador.</p>
+<p><a href="https://doi.org/10.1093/bioinformatics/btad506" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://github.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a> <a href="https://grupo-medicina-molecular-y-traslacional.github.io/StarPep_doc/" class="btn" target="_blank"><iconify-icon inline="" icon="bi:book" aria-label="Icon book from bi Iconify.design set." title="Icon book from bi Iconify.design set."></iconify-icon> Documentation</a></p>
+<p>I contributed to this project as part of my work as research assistant at the <strong>Applied Signal Processing and Machine Learning Group</strong> and the <strong>Grupo de Medicina Molecular y Traslacional</strong> - Universidad San Francisco de Quito, in Ecuador.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><em>Streptomyces clavuligerus</em> is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species. Considering the importance of <strong>HGT events</strong> in the life history, the branching coral of life metaphor has been proposed, instead of the traditional three scheme.</p>
+<p><strong>Antimicrobial peptides</strong> (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the <strong>AMPs’ chemical space</strong> (AMPCS) is huge, it is estimated that there exist more than <em>10^65</em> unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides.</p>
+<p>Therefore, we developed <a href="https://github.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep">StarPep toolbox</a>, an <strong>open-source software</strong> to study the AMPCS using <strong>networks, clustering, and similarity-searching models</strong>, which can contribute to peptide drug repurposing, development, and optimization.</p>
 <p align="center">
-<img src="../../images/coral_of_life.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep/HEAD/img/StarPep_logo.png" width="500" title="starpep_logo">
+</p>
+<p>This tool was developed as a <strong>Java desktop application</strong> that integrates the functionalities of several open-source projects. The graphical user interface was built on top of the <a href="https://platform.netbeans.org/">NetBeans Platform</a>, using the <em>Java SE Runtime Environment 8</em>. The graph database structure was implemented with the <a href="https://neo4j.com/">Neo4j</a> platform. Some visualization features and the calculation of network properties were based on <a href="https://gephi.org/">Gephi</a>. The sequence alignment algorithms were implemented using the <a href="https://biojava.org/">BioJava</a> API.</p>
+<p>The AMPs were collected from a large variety of biological data sources to be organized into an integrated graph database called <a href="https://doi.org/10.1093/bioinformatics/btv180">starPepDB</a>, composed of <em>45.120 AMPs</em> and their metadata. This integrated graph database is embedded into StarPep toolbox to enable end-user querying, filtering, visualizing, and analyzing the AMPs, taking advantage of network-based representations.</p>
+<p>The main modules of StarPep toolbox are listed below:</p>
+<ul>
+<li><p><strong>AMPs’ chemical space filtering:</strong> Obtain a subset of AMPs from the StarPepDB using their metadata (function, target pathogen, biological origin, chemical modifications, original database, and cross-referenced entries to PDB, PubMed, and UniProt).</p></li>
+<li><p><strong>Molecular descriptors:</strong> Calculate molecular descriptors of the AMPs by applying statistical and aggregation operators on physicochemical amino acid properties (e.g., net charge, isoelectric point, molecular weight, etc.).</p></li>
+<li><p><strong>Network Science:</strong> Build different types of networks (metadata, chemical space, and half-space proximal) and calculate global/local properties, centrality metrics, communities, among other metrics.</p></li>
+<li><p><strong>Similarity searching:</strong> Create multi-query similarity searching models that can lead to the repurposing of AMPs with novel functional activities.</p></li>
+</ul>
+<p>The figure below shows the software architecture and components of StarPep toolbox:</p>
+<p align="center">
+<img src="../../images/starpep-graph-abst.png" width="800" title="graph_summary">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 1.-</strong> The prototype of the Coral of Life. Retrieved from <a href="https://link.springer.com/article/10.1007%2Fs11692-019-09474-w">Podani, 2019, Evolutionary Biology</a>.</p>
+<p><strong>Figure 1.-</strong> StarPep modules and components. The software has four main modules to load and filter AMPs, calculate MDs, create and analyze networks, and develop multi-query similarity-searching models.</p>
 </div>
-<p>Thus, we studied the impact of HGT in the <em>S. clavuligerus</em> genome. To perform this task, we applied <strong>whole-genome analysis</strong> to identify laterally transferred sequences from different domains. The most relevant result was a putative <strong>antimicrobial peptide</strong> (AMP) with a clear origin in the Hymenoptera order of insects.</p>
-<p align="center">
-<img src="../../images/three_hgt.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 2.-</strong> Phylogenetic tree of <em>Streptomyces clavuligerus</em> ATCC 27064 Hymenoptera antimicrobial peptide-like proteins and their homologs. Proteins from bacteria are represented in red, the sequence from Hymenoptera insects are colored in black, and blue highlights the Cyprinus carpio (Chordata) sequence. IDs of sequence and their taxonomy can be observed in terminal nodes.</p>
-</div>
-<p>Next, we determined that two copies of these genes were present in the <strong>megaplasmid pSCL4</strong> but absent in the <em>S. clavuligerus</em> ATCC 27064 chromosome. Additionally, we found that these sequences were exclusive to the ATCC 27064 strain (and so were not present in any other bacteria) and we also verified the expression of the genes using <strong>RNAseq data</strong>.</p>
-<p align="center">
-<img src="../../images/rnaseq.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 3.-</strong> Mapping of the scaffold DS570654 (region from 42,968 to 43,734) of <em>Streptomyces clavuligerus</em> ATCC 27064 using RNAseq data (GSE104738).</p>
-</div>
-<p>Next, we used several <strong>AMP predictors</strong> to validate the original annotation extracted from Hymenoptera sequences and explored the possibility that these proteins had post-translational modifications using peptidase cleavage prediction. We suggest that Hymenoptera AMP-like proteins of <em>S. clavuligerus</em> ATCC 27064 may be useful for both species adaptation and as an antimicrobial molecule with industrial applications.</p>
-<p align="center">
-<img src="../../images/hgt2.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 4.-</strong> Proposed scenario for the cleavage and secretion of AMPs from EFG03588 and EFG03676 (Hymenoptera AMP-like proteins).</p>
-</div>
-<p>A summary of the methods applied in this study is presented below:</p>
-<p align="center">
-<img src="../../images/methods_hgt.png" width="600" title="AMP">
-</p>
+<p>For more details about the software, read its <a href="https://grupo-medicina-molecular-y-traslacional.github.io/StarPep_doc/">online User Guide</a> and <a href="https://doi.org/10.1093/bioinformatics/btad506">publication</a>. Also, you can check the <a href="https://github.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep">source code</a> to explore the implementation of the software.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Ayala‐Ruano, S.</strong>, Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., &amp; Armijos-Jaramillo, V. (2019). <strong>A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of <em>Streptomyces clavuligerus</em> ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications</strong>. <em>Ecology and Evolution</em>, 9 (5), 2602-2614. doi: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4924">10.1002/ece3.4924</a>.</p>
+<p>Aguilera-Mendoza, L., <strong>Ayala-Ruano, S.</strong><sup>^</sup>, Martinez-Rios, F., Chavez, E., García-Jacas, C. R., Brizuela, C. A., &amp; Marrero-Ponce, Y. (2023). <strong>StarPep Toolbox: an open-source software to assist chemical space analysis of bioactive peptides and their functions using complex networks</strong>. <em>Bioinformatics</em>, 39 (8), btad506. doi: <a href="https://doi.org/10.1093/bioinformatics/btad506">doi.org/10.1093/bioinformatics/btad506</a>.</p>
+<p>^co-first author</p>
 
 
 </section>

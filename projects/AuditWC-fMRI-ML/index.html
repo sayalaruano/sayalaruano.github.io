@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-09-07">
-<meta name="description" content="Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.">
+<meta name="dcterms.date" content="2023-07-10">
+<meta name="description" content="Evaluating the capacity of the Wilson-Cowan firing-rate model to simulate biological sound processing captured by fMRI data using machine learning classifiers.">
 
-<title>Horizontal gene transfer between arthropods and bacteria</title>
+<title>AuditWC-fMRI-ML</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,7 +46,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-125022a7aaf6d05363c6ef62fb9cee92.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,17 +140,16 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Horizontal gene transfer between arthropods and bacteria</h1>
+      <h1 class="title">AuditWC-fMRI-ML</h1>
                   <div>
         <div class="description">
-          <p>Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.</p>
+          <p>Evaluating the capacity of the Wilson-Cowan firing-rate model to simulate biological sound processing captured by fMRI data using machine learning classifiers.</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">🦠Microbiology</div>
-                <div class="quarto-category">🌳Phylogenetics</div>
-                <div class="quarto-category">🧫Omics</div>
-                <div class="quarto-category">🧬Bioinformatics</div>
+                <div class="quarto-category">🩺Human health</div>
+                <div class="quarto-category">🧠Neroscience</div>
+                <div class="quarto-category">🤖Machine learning</div>
               </div>
                   </div>
   </div>
@@ -163,7 +161,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 7, 2021</p>
+        <p class="date">July 10, 2023</p>
       </div>
     </div>
     
@@ -179,8 +177,16 @@ ga('send', {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
+  <li><a href="#machine-learning-models" id="toc-machine-learning-models" class="nav-link" data-scroll-target="#machine-learning-models">Machine Learning Models</a></li>
+  <li><a href="#results-of-the-ml-models" id="toc-results-of-the-ml-models" class="nav-link" data-scroll-target="#results-of-the-ml-models">Results of the ML models</a>
+  <ul class="collapse">
+  <li><a href="#algorithm-comparison-cross-validation-accuracy" id="toc-algorithm-comparison-cross-validation-accuracy" class="nav-link" data-scroll-target="#algorithm-comparison-cross-validation-accuracy">Algorithm Comparison (Cross-Validation Accuracy)</a></li>
+  <li><a href="#feature-integration-impact-random-forest-test-data" id="toc-feature-integration-impact-random-forest-test-data" class="nav-link" data-scroll-target="#feature-integration-impact-random-forest-test-data">Feature Integration Impact (Random Forest Test Data)</a></li>
+  </ul></li>
+  <li><a href="#biological-interpretation" id="toc-biological-interpretation" class="nav-link" data-scroll-target="#biological-interpretation">Biological Interpretation</a></li>
+  <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional information</a></li>
   </ul>
 </nav>
     </div>
@@ -191,46 +197,173 @@ ga('send', {
 
 
 
-<p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.4924" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://www.youtube.com/watch?v=JEuAOEzI58Y&amp;t=1156s" class="btn" target="_blank"><i class="fa-solid fa-play-circle" aria-label="play-circle"></i> Oral presentation (English)</a> <a href="https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (English)</a> <a href="https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (Spanish)</a></p>
-<p>I worked on this project during a summer research internship in 2018 at the <a href="https://www.udla.edu.ec/investigacion/grupos-de-investigacion/bio-quimio-informatica/">Bio-Chemoinformatics Group</a> - Universidad de Las Américas, in Ecuador.</p>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><em>Streptomyces clavuligerus</em> is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species. Considering the importance of <strong>HGT events</strong> in the life history, the branching coral of life metaphor has been proposed, instead of the traditional three scheme.</p>
+<p><a href="https://github.com/sayalaruano/AuditWC-fMRI-ML" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a> <a href="https://raw.githubusercontent.com/sayalaruano/AuditWC-fMRI-ML/HEAD/AuditWC-fMRI-ML_manuscript.pdf" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Manuscript</a></p>
+<p>I developed this project for the second group project period of the <a href="https://www.maastrichtuniversity.nl/education/master/systems-biology">MSc in Systems Biology</a> at <a href="https://www.maastrichtuniversity.nl/">Maastricht University</a>.It was an end-to-end assignment with data pre-processing, feature engineering, training, hyperparameter tuning, and interpretation of the results.</p>
 <p align="center">
-<img src="../../images/coral_of_life.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/sayalaruano/AuditWC-fMRI-ML/HEAD/images/auditwc-ml-logo.svg" width="300" title="AuditWC-fMRI-ML">
+</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>The human brain processes sound through specialized ventral and dorsal streams within the <strong>auditory cortex</strong>. While computational models like the <strong>Wilson-Cowan (WC) firing-rate model</strong> have been developed to simulate these dynamics, their ability to replicate real physiological responses remains to be fully validated.</p>
+<p>In this project, we developed <strong>AuditWC-fMRI-ML</strong>, a classification framework designed to compare the predictive capacity of the <strong>WC model</strong> against <strong>functional magnetic resonance imaging (fMRI)</strong> data. The goal was to determine if the model accurately simulates the biological processing of spectrotemporal modulations in sound. To achive this, we trained <strong>machine learnning (ML) classifiers</strong> on both datasets to <strong>classify 288 sounds across six categories</strong> (speech, voice, animal, music, nature, and tools) and compared their performance across different brain regions.</p>
+<p>Our methodology encompasses four main stages:</p>
+<ol type="1">
+<li><strong>Preprocessing:</strong> Concatenation of voxels across subjects and feature extraction for the modeling data.</li>
+<li><strong>Model Selection:</strong> Screening algorithms for multiclass classification.</li>
+<li><strong>Hyperparameter Tuning:</strong> Fine-tuning the best models using <a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html">GridSearchCV</a>.</li>
+<li><strong>Evaluation:</strong> Comparing regional performance using various classification metrics.</li>
+</ol>
+<p>An overview of the workflow of this project is shown in the graphical abstract below.</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/AuditWC-fMRI-ML/HEAD/images/auditwc-ml-graphabstract.png" width="800" title="auditwc-ml-graphabstract">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 1.-</strong> The prototype of the Coral of Life. Retrieved from <a href="https://link.springer.com/article/10.1007%2Fs11692-019-09474-w">Podani, 2019, Evolutionary Biology</a>.</p>
+<p><strong>Figure 1.-</strong> Graphical abstract of the AuditWC-fMRI-ML workflow.</p>
 </div>
-<p>Thus, we studied the impact of HGT in the <em>S. clavuligerus</em> genome. To perform this task, we applied <strong>whole-genome analysis</strong> to identify laterally transferred sequences from different domains. The most relevant result was a putative <strong>antimicrobial peptide</strong> (AMP) with a clear origin in the Hymenoptera order of insects.</p>
-<p align="center">
-<img src="../../images/three_hgt.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 2.-</strong> Phylogenetic tree of <em>Streptomyces clavuligerus</em> ATCC 27064 Hymenoptera antimicrobial peptide-like proteins and their homologs. Proteins from bacteria are represented in red, the sequence from Hymenoptera insects are colored in black, and blue highlights the Cyprinus carpio (Chordata) sequence. IDs of sequence and their taxonomy can be observed in terminal nodes.</p>
-</div>
-<p>Next, we determined that two copies of these genes were present in the <strong>megaplasmid pSCL4</strong> but absent in the <em>S. clavuligerus</em> ATCC 27064 chromosome. Additionally, we found that these sequences were exclusive to the ATCC 27064 strain (and so were not present in any other bacteria) and we also verified the expression of the genes using <strong>RNAseq data</strong>.</p>
-<p align="center">
-<img src="../../images/rnaseq.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 3.-</strong> Mapping of the scaffold DS570654 (region from 42,968 to 43,734) of <em>Streptomyces clavuligerus</em> ATCC 27064 using RNAseq data (GSE104738).</p>
-</div>
-<p>Next, we used several <strong>AMP predictors</strong> to validate the original annotation extracted from Hymenoptera sequences and explored the possibility that these proteins had post-translational modifications using peptidase cleavage prediction. We suggest that Hymenoptera AMP-like proteins of <em>S. clavuligerus</em> ATCC 27064 may be useful for both species adaptation and as an antimicrobial molecule with industrial applications.</p>
-<p align="center">
-<img src="../../images/hgt2.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 4.-</strong> Proposed scenario for the cleavage and secretion of AMPs from EFG03588 and EFG03676 (Hymenoptera AMP-like proteins).</p>
-</div>
-<p>A summary of the methods applied in this study is presented below:</p>
-<p align="center">
-<img src="../../images/methods_hgt.png" width="600" title="AMP">
-</p>
+<p>The main objectives were to:</p>
+<ol type="1">
+<li><strong>Classify</strong> 288 diverse sounds using neural signatures from both fMRI and simulated firing rates.</li>
+<li><strong>Compare</strong> the performance of model-simulated data against experimental fMRI responses across specific brain regions (A1, R, Slow, and Fast).</li>
+<li><strong>Identify</strong> potential refinements for the firing-rate model based on classification discrepancies.</li>
+</ol>
 </section>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Ayala‐Ruano, S.</strong>, Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., &amp; Armijos-Jaramillo, V. (2019). <strong>A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of <em>Streptomyces clavuligerus</em> ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications</strong>. <em>Ecology and Evolution</em>, 9 (5), 2602-2614. doi: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4924">10.1002/ece3.4924</a>.</p>
+<section id="dataset" class="level2">
+<h2 class="anchored" data-anchor-id="dataset">Dataset</h2>
+<p>This study uses two distinct datasets containing responses to <strong>288 sounds</strong> across six categories: speech, voice, animal, music, nature, and tools.</p>
+<ul>
+<li><strong>Experimental (fMRI) Dataset:</strong> Neural responses measured in <strong>47,505 voxels</strong> from five subjects, distributed across <strong>core (A1, R) and belt (Slow, Fast) areas</strong> of the auditory cortex.</li>
+<li><strong>Modeling (WC) Dataset:</strong> Simulated firing rates in <strong>98 channels for the four regions</strong>. This was supplemented with <strong>2D Fourier Transform (2DFT)</strong> features (80 temporal and 48 spectral) to better capture sound modulations.</li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Region</th>
+<th style="text-align: center;">Voxel Count (fMRI)</th>
+<th style="text-align: center;">Channels (WC Model)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A1</strong></td>
+<td style="text-align: center;">9,511</td>
+<td style="text-align: center;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>R</strong></td>
+<td style="text-align: center;">8,884</td>
+<td style="text-align: center;">98</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Slow</strong></td>
+<td style="text-align: center;">15,539</td>
+<td style="text-align: center;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Fast</strong></td>
+<td style="text-align: center;">13,571</td>
+<td style="text-align: center;">98</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="machine-learning-models" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-models">Machine Learning Models</h2>
+<p>We tested four multiclass classifiers using <a href="https://scikit-learn.org/">scikit-learn</a>: <strong>Random Forest (RF)</strong>, <strong>XGBoost</strong>, <strong>Support Vector Machine (SVM)</strong>, and <strong>Multilayer Perceptron (MLP)</strong>. Models were implemented using the <strong>One-vs-All</strong> strategy and evaluated through 3-fold cross-validation.</p>
+<p>The <strong>Random Forest</strong> algorithm was the top performer for both the modeling and fMRI datasets and was selected for in-depth comparative analysis.</p>
+</section>
+<section id="results-of-the-ml-models" class="level2">
+<h2 class="anchored" data-anchor-id="results-of-the-ml-models">Results of the ML models</h2>
+<p>The classifiers achieved performance significantly above random chance, demonstrating that both biological and simulated data capture distinguishable sound features. However, the <strong>fMRI-trained models consistently outperformed the basic WC model</strong>.</p>
+<section id="algorithm-comparison-cross-validation-accuracy" class="level3">
+<h3 class="anchored" data-anchor-id="algorithm-comparison-cross-validation-accuracy">Algorithm Comparison (Cross-Validation Accuracy)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Dataset</th>
+<th style="text-align: center;">RF</th>
+<th style="text-align: center;">SVM</th>
+<th style="text-align: center;">XGBoost</th>
+<th style="text-align: center;">MLP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Modeling</td>
+<td style="text-align: center;">0.55</td>
+<td style="text-align: center;">0.52</td>
+<td style="text-align: center;">0.51</td>
+<td style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">fMRI</td>
+<td style="text-align: center;">0.67</td>
+<td style="text-align: center;">0.68</td>
+<td style="text-align: center;">0.64</td>
+<td style="text-align: center;">0.58</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="feature-integration-impact-random-forest-test-data" class="level3">
+<h3 class="anchored" data-anchor-id="feature-integration-impact-random-forest-test-data">Feature Integration Impact (Random Forest Test Data)</h3>
+<p>Integrating <strong>2DFT features</strong> into the modeling dataset significantly closed the performance gap with biological fMRI data.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metric</th>
+<th style="text-align: center;">fMRI</th>
+<th style="text-align: center;">Modeling</th>
+<th style="text-align: center;">Modeling + 2DFT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Accuracy</td>
+<td style="text-align: center;">0.74</td>
+<td style="text-align: center;">0.62</td>
+<td style="text-align: center;">0.69</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F1-score</td>
+<td style="text-align: center;">0.73</td>
+<td style="text-align: center;">0.63</td>
+<td style="text-align: center;">0.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MCC</td>
+<td style="text-align: center;">0.69</td>
+<td style="text-align: center;">0.55</td>
+<td style="text-align: center;">0.63</td>
+</tr>
+</tbody>
+</table>
+<p>The ROC curves below show that <strong>RF models achieved high classification performance on the fMRI dataset (AUROC&gt;0.85)</strong>, with performance declining on the modeling dataset but substantially <strong>improving when 2DFT features were added</strong>, particularly for speech and voice categories (AUROC&gt;0.95).</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/AuditWC-fMRI-ML/HEAD/images/Fig2_ROC_curves.png" width="800" title="roc-curves">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 2.-</strong> ROC curves for all the categories of the multi-class Random Forest algorithms for A) fMRI, B) modeling, and C) modeling + 2DFT datasets.</p>
+</div>
+</section>
+</section>
+<section id="biological-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="biological-interpretation">Biological Interpretation</h2>
+<ul>
+<li><strong>Regional Specialization:</strong> Biological data (fMRI) showed increased classification accuracy in the <strong>Slow</strong> and <strong>Fast</strong> regions compared to the primary regions (A1, R), supporting the hypothesis that belt areas are specialized for complex sound characterization.</li>
+<li><strong>Model Limitations:</strong> The WC model exhibited uniform performance across all regions, failing to replicate the regional specialization observed in the human brain. This suggests the need for region-specific parameter tuning.</li>
+<li><strong>Information Recovery:</strong> The success of the <strong>2DFT features</strong> indicates that current firing-rate models lose critical temporal and spectral modulation data that the biological brain preserves.</li>
+</ul>
+<p>As shown in the figure below, the fMRI-trained models demonstrate clear regional hierarchy with highest accuracy in the S region, while the basic WC model shows uniform performance across regions—a gap that narrows considerably when 2DFT features are added.</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/AuditWC-fMRI-ML/HEAD/images/Fig3_lineplot_acc_allmodels_and_regions.png" width="800" title="accuracy_by_regions">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 3.-</strong> Accuracy of the classifiers by auditory regions for the fMRI, modeling, and modeling + 2DFT features datasets. Every line represents one dataset and each point corresponds to one auditory region.</p>
+</div>
+</section>
+<section id="additional-information" class="level2">
+<h2 class="anchored" data-anchor-id="additional-information">Additional information</h2>
+<p>The complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the <a href="https://github.com/sayalaruano/AuditWC-fMRI-ML">GitHub repository</a> of this project and in the <a href="https://raw.githubusercontent.com/sayalaruano/AuditWC-fMRI-ML/HEAD/AuditWC-fMRI-ML_manuscript.pdf">manuscript</a>.</p>
 
 
 </section>

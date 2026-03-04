@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-10-16">
+<meta name="description" content="Drug repurposing for dengue using a biomedical knowledge graph and graph neural networks.">
+
+<title>DengueDrugRep</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/network.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-125022a7aaf6d05363c6ef62fb9cee92.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-212436276-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/network.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/network.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://sayalaruano.github.io/cv/"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">DengueDrugRep</h1>
+                  <div>
+        <div class="description">
+          <p>Drug repurposing for dengue using a biomedical knowledge graph and graph neural networks.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">🩺Human health</div>
+                <div class="quarto-category">🦠Microbiology</div>
+                <div class="quarto-category">⛃🕸️Knowledge graphs</div>
+                <div class="quarto-category">🧠‍🕸️Deep learning</div>
+                <div class="quarto-category">🧬Bioinformatics</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 16, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#dataset---knowledge-graph" id="toc-dataset---knowledge-graph" class="nav-link" data-scroll-target="#dataset---knowledge-graph">Dataset - Knowledge graph</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory data analysis</a></li>
+  <li><a href="#graph-neural-network-models" id="toc-graph-neural-network-models" class="nav-link" data-scroll-target="#graph-neural-network-models">Graph neural network models</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a>
+  <ul class="collapse">
+  <li><a href="#internal-evaluation" id="toc-internal-evaluation" class="nav-link" data-scroll-target="#internal-evaluation">Internal evaluation</a></li>
+  <li><a href="#external-evaluation" id="toc-external-evaluation" class="nav-link" data-scroll-target="#external-evaluation">External evaluation</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#internal-performance-evaluation-results" id="toc-internal-performance-evaluation-results" class="nav-link" data-scroll-target="#internal-performance-evaluation-results">Internal performance evaluation results</a></li>
+  <li><a href="#external-performance-evaluation-results" id="toc-external-performance-evaluation-results" class="nav-link" data-scroll-target="#external-performance-evaluation-results">External performance evaluation results</a></li>
+  <li><a href="#predicted-repurposed-drugs-for-dengue" id="toc-predicted-repurposed-drugs-for-dengue" class="nav-link" data-scroll-target="#predicted-repurposed-drugs-for-dengue">Predicted repurposed drugs for Dengue</a></li>
+  </ul></li>
+  <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional information</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<p><a href="https://github.com/sayalaruano/DengueDrugRep" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a> <a href="https://doi.org/10.5281/zenodo.10010151" class="btn" target="_blank"><iconify-icon inline="" icon="simple-icons:zenodo" aria-label="Icon zenodo from simple-icons Iconify.design set." title="Icon zenodo from simple-icons Iconify.design set."></iconify-icon> GNN models</a> <a href="https://colab.research.google.com/github/sayalaruano/DengueDrugRep/blob/main/Scripts/Training_KGNN_models_Pykeen.ipynb" class="btn" target="_blank"><iconify-icon inline="" icon="simple-icons:googlecolab" aria-label="Icon googlecolab from simple-icons Iconify.design set." title="Icon googlecolab from simple-icons Iconify.design set."></iconify-icon> Run in Colab</a> <a href="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/DengueDrugRep_presentation.pdf" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides</a></p>
+<p>I developed this project for my capstone project of the <strong>Scientific Programming</strong> course from the <a href="https://www.maastrichtuniversity.nl/education/master/systems-biology">MSc in Systems Biology</a> at <a href="https://www.maastrichtuniversity.nl/">Maastricht University</a>. It was an end-to-end assignment with data pre-processing, feature engineering, training, hyperparameter tuning, and interpretation of the results.</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/img/logo/denguedrugrep-logo.svg" width="300" title="NTDs2RDF">
+</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p><a href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue">Dengue</a> is a <strong>viral infection</strong> transmitted to humans through the bite of <strong>Aedes mosquitoes</strong>. This disease is a <strong>neglected tropical disease</strong> that mainly affects poor populations with no access to safe water, sanitation, and high-quality healthcare. Currently, there is <strong>no specific treatment for dengue</strong> and the focus is on treating pain symptoms. Therefore, there is an <strong>urgent need to find new drugs to treat this disease</strong>.</p>
+<p>The goal of this project is to <strong>predict new repurposed drugs for dengue</strong> using a <strong>biomedical knowledge graph and graph neural networks</strong>. A <strong>knowledge graph (KG)</strong> is a heterogeneous network with different types of nodes and edges that incorporate semmantic information. A KG is composed of a <strong>set of triplets</strong> (subject, predicate, object) that represent relationships between entities. For example, a <strong>drug-disease triplet</strong> represents the relationship between a drug (subject) and a disease (object) through a predicate (e.g., treats, causes, etc.). The advantage of using a KG is that it allows the integration of different types of data from different sources.</p>
+<p><strong>Graph neural networks (GNNs)</strong> are a class of neural networks that can <strong>learn from graph data</strong>. GNNs have been used to solve different tasks in KGs, such as node classification, link prediction, and entity alignment. The <strong>drug repurposing problem can be formulated as a link prediction task</strong> in a KG. The goal is to <strong>predict new drug-disease associations</strong> for Dengue.</p>
+<p>The following figure shows the general workflow of this project:</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/img/DengueDrugRep_workflow.svg" width="800" title="DengueDrugRep-graphabstract">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 1.-</strong> Graphical abstract of the DengueDrugRep workflow.</p>
+</div>
+</section>
+<section id="dataset---knowledge-graph" class="level2">
+<h2 class="anchored" data-anchor-id="dataset---knowledge-graph">Dataset - Knowledge graph</h2>
+<p>The <a href="https://github.com/gnn4dr/DRKG">DRKG</a> is a large-scale biomedical KG that integrates information from six existing databases: <a href="https://go.drugbank.com/">DrugBank</a>, <a href="https://het.io/about/">Hetionet</a>, Global network of biomedical relationships (<a href="https://doi.org/10.1093/bioinformatics/bty114">GNBR</a>), <a href="https://string-db.org/">String</a>, <a href="https://www.ebi.ac.uk/intact/">IntAct</a>, and <a href="https://www.dgidb.org/">DGIdb</a>. This KG contains <strong>97.238 nodes belonging to 13 entity-types</strong> (e.g., drugs, diseases, genes, etc.) and <strong>5.874.257 triplets belonging to 107 edge-types</strong>. Also, the DRKG contains 24.313 compounds from 17 different databases (the list of databases’ names is available in the <a href="https://github.com/sayalaruano/DengueDrugRep/Data/DRKG/Names_datasources_compounds_DRKG.csv">Names_datasources_compounds_DRKG.csv</a> file).</p>
+<p>The following figure shows the <strong>metagraph</strong> of the DRKG:</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/img/DRKG.png" width="800" title="DRKG-metagraph">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 2.-</strong> Metagraph of the DRKG. The number next to an edge indicates the number of relation-types for that entity-pair in the KG. Obtained from <a href="https://github.com/gnn4dr/DRKG">[2]</a>.</p>
+</div>
+<p>The <a href="https://github.com/pykeen/pykeen">PyKEEN</a> library implements the DRKG as part of its datasets, so it is possible to load the DRKG directly from the library.</p>
+<p>The DRKG was split into training, validation, and test sets. The <strong>training set contains 4.699.405 triplets</strong>, the <strong>validation set contains 587.426 triplets</strong>, and the <strong>test set contains 587.426 triplets</strong>. The training partition was used to train the models, and the validation partition was used to evaluate the models. The test dataset was used to make predictions on unseen data.</p>
+</section>
+<section id="exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory data analysis</h2>
+<p>In this project, I focused on the <strong>drug-disease relationships in the DRKG</strong>. So, the first step was to explore what are the predicates that represent these relationships, obtaining the following list:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Drug-Disease predicate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DRUGBANK:: treats::Compound:Disease</td>
+</tr>
+<tr class="even">
+<td>GNBR:: C::Compound:Disease</td>
+</tr>
+<tr class="odd">
+<td>GNBR:: J::Compound:Disease</td>
+</tr>
+<tr class="even">
+<td>GNBR:: Mp::Compound:Disease</td>
+</tr>
+<tr class="odd">
+<td>GNBR:: Pa::Compound:Disease</td>
+</tr>
+<tr class="even">
+<td>GNBR:: Pr::Compound:Disease</td>
+</tr>
+<tr class="odd">
+<td>GNBR:: Sa::Compound:Disease</td>
+</tr>
+<tr class="even">
+<td>GNBR:: T::Compound:Disease</td>
+</tr>
+<tr class="odd">
+<td>Hetionet:: CpD::Compound:Disease</td>
+</tr>
+<tr class="even">
+<td>Hetionet:: CtD::Compound:Disease</td>
+</tr>
+</tbody>
+</table>
+<p>More details about the predicates, their provenance and meaning are available in the <a href="https://github.com/sayalaruano/DengueDrugRep/Data/DRKG/relation_glossary.tsv">relation_glossary.tsv</a> file and the DRKG <a href="https://github.com/gnn4dr/DRKG">GitHub repository</a>.</p>
+<p>Next, I explored the number of compounds per database in the DRKG. The following figure shows the results:</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/img/Compounds_DRKG_distribution.png" width="800" title="DRKG-compounds">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 3.-</strong> Distribution of compounds per database in DRKG.</p>
+</div>
+</section>
+<section id="graph-neural-network-models" class="level2">
+<h2 class="anchored" data-anchor-id="graph-neural-network-models">Graph neural network models</h2>
+<p>In general, GNNs represent <strong>entities and relationships</strong> in a KG as <strong>vectors in a low-dimensional space (embeddings)</strong>. Then, these vectors are scored to predict new triplets. The <strong>scoring function</strong> can be based on distance or similarity measures, depending on the type of GNN. During the training process, there is a <strong>loss function</strong> that measures the <strong>difference between the predicted and the true triplets</strong>. The goal is to minimize this loss function. Also, there is a <strong>negative generator</strong> that creates false triplets to train the model. The negative generator creates triplets by replacing the subject, predicate, or object of a true triplet with a random entity of the same type.</p>
+<p>The following figure illustrates the <strong>general structure of a knowledge graph neural network (KGNN)</strong>:</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/img/KGNN_pipeline.png" width="800" title="KGNN">
+</p>
+<div class="gray-italic center-text">
+<p><strong>Figure 4.-</strong> Strcuture of a Knowledge Graph Neural Network. Obtained from <a href="https://kge-tutorial-ecai2020.github.io/">[1]</a>.</p>
+</div>
+<p>For this project, <strong>four GNN algorithms</strong>, namely <a href="http://arxiv.org/abs/2011.03798">PairRE</a>, <a href="https://arxiv.org/abs/1412.6575">DistMult</a>, <a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45634.pdf">ERMLP</a>, and <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9571/9523/">TransR</a>, were trained to predict new drug-disease associations using the Drug Repurposing Knowledge Graph (<a href="https://github.com/gnn4dr/DRKG">DRKG</a>). These algorithms are implemented in the <a href="https://github.com/pykeen/pykeen">PyKEEN</a> library. The models were trained using the <strong>Marging Ranking Loss function</strong> and a random seed of 1235. The rest of the hyperparameters were the default values of the library.</p>
+<p>First, the models were trained for <strong>50 epochs</strong> with a general evaluation procedure using all the triplets in the DRKG. In this way, the evaluation results reflected the <strong>link prediction performance for all the entity pairs</strong> in the KG. Next, new models were trained for <strong>10 epochs</strong> with a drug repurposing evaluation procedure using <strong>only the triplets that involve drugs and diseases</strong>. Here, it was shown the link prediction performance for the task of predicting new drug-disease associations.</p>
+<p>The trained models are available through Zenodo with the following DOI: <a href="https://doi.org/10.5281/zenodo.10010151">10.5281/zenodo.10010151</a>.</p>
+</section>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<p>The KGNN models were evaluated: <strong>a) intrinsically</strong>, within the scope of the knowledge graph and its defined triples, and <strong>b) externally</strong>, against a ground truth (drugs on clinical trials to treat dengue) to understand their predictive power over real-world information.</p>
+<section id="internal-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="internal-evaluation">Internal evaluation</h3>
+<p>Two standard <strong>rank-based metrics</strong> were used to measure each KGNN model’s intrinsic performance on link prediction:</p>
+<ul>
+<li><strong>Adjusted Mean Rank(AMR):</strong> the ratio of the Mean Rank to the Expected Mean Rank, assessing a model’s performance independently of the underlying set size. It lies on the <strong>open interval (0,2)</strong>, where lower is better.</li>
+<li><strong>Hits@k:</strong> the fraction of times when the correct or “true” entity appears under the top-k entities in the ranked list. The value of hits@k is <strong>between 0 and 1</strong>. The larger the value, the better the model works. For this project, I estimated hits@1, hits@3, hits@5, and hits@10 metrics</li>
+</ul>
+<p>All the internal evaluation metrics were calculated using the <a href="https://github.com/pykeen/pykeen">PyKEEN</a> library. I reported the <strong>optimistic rank values for both the tail and head entities</strong>, which assumes that the true choice is on the first position of all those with equal score when there are multiple choices. More details about how the evaluation for KGNN models works in PyKEEN can be found <a href="https://pykeen.readthedocs.io/en/stable/tutorial/understanding_evaluation.html">here</a>.</p>
+</section>
+<section id="external-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="external-evaluation">External evaluation</h3>
+<p>To validate the KGNN models externally, I analyzed the <strong>predicted ranked compound list against the drugs on clinical trials to treat dengue</strong> defined in ground truth using the following metrics:</p>
+<ul>
+<li><strong>First hit:</strong> the ranking position at which compounds proposed by a KGNN model match one from the ground truth database.</li>
+<li><strong>Median hit:</strong> the ranking position at which compounds proposed by a KGNN model match 50% of the compounds from the ground truth database.</li>
+<li><strong>Last hit:</strong> the ranking position at which compounds proposed by a KGNN model match all the compounds from the ground truth database.</li>
+</ul>
+<p>For all these metrics, the smaller the value, the better, meaning that a model with lower “first”, “median”, or “last hit” values compared to another one, matches real-world compounds using fewer predictions.</p>
+<p>The <strong>ground truth database</strong> was obtained from the <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> website. I searched for clinical trials that use drugs to treat dengue. I found <strong>21 clinical trials that use 16 drugs</strong> to treat this disease. Also, I look for the IDs of these drugs from the 17 compound databases in the DRKG using the CHEMBL API and manual validation. The list of the drugs in the ground truth database and their IDs in the compound databases of DRKG are available in the <a href="https://github.com/sayalaruano/DengueDrugRep/Data/Clinical_trials/dengue_validated_drugs_clin.csv">dengue_validated_drugs_clin.csv</a>.</p>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="internal-performance-evaluation-results" class="level3">
+<h3 class="anchored" data-anchor-id="internal-performance-evaluation-results">Internal performance evaluation results</h3>
+<p>The KGNN models were first evaluated on their <strong>general link prediction performance</strong> across the entire DRKG (trained for 50 epochs) and then specifically for the <strong>drug repurposing task</strong> (trained for 10 epochs).</p>
+<p>The following tables show that <strong>PairRE</strong> achieved the best overall link prediction performance on the full graph. However, when focusing to drug-repurposing triplets, <strong>DistMult</strong> and <strong>ERMLP</strong> showed higher values, suggesting that while some models excel at capturing global graph topology, others are better suited for specific biomedical associations.</p>
+<p><strong>Table 1.</strong> Internal evaluation for all triplets (50 epochs)</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Model</th>
+<th style="text-align: center;">Adjusted Mean Rank (AMR)</th>
+<th style="text-align: center;">Hits@1</th>
+<th style="text-align: center;">Hits@3</th>
+<th style="text-align: center;">Hits@5</th>
+<th style="text-align: center;">Hits@10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>PairRE</strong></td>
+<td style="text-align: center;">0.0179</td>
+<td style="text-align: center;">0.0211</td>
+<td style="text-align: center;">0.114</td>
+<td style="text-align: center;">0.160</td>
+<td style="text-align: center;">0.221</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>ERMLP</strong></td>
+<td style="text-align: center;">0.0188</td>
+<td style="text-align: center;">0.0276</td>
+<td style="text-align: center;">0.079</td>
+<td style="text-align: center;">0.110</td>
+<td style="text-align: center;">0.164</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>TransR</strong></td>
+<td style="text-align: center;">0.0193</td>
+<td style="text-align: center;">0.0121</td>
+<td style="text-align: center;">0.064</td>
+<td style="text-align: center;">0.088</td>
+<td style="text-align: center;">0.132</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DistMult</strong></td>
+<td style="text-align: center;">0.0400</td>
+<td style="text-align: center;">0.0160</td>
+<td style="text-align: center;">0.036</td>
+<td style="text-align: center;">0.050</td>
+<td style="text-align: center;">0.076</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 2.</strong> Internal evaluation for drug repurposing triplets (10 epochs)</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Model</th>
+<th style="text-align: center;">Adjusted Mean Rank (AMR)</th>
+<th style="text-align: center;">Hits@1</th>
+<th style="text-align: center;">Hits@3</th>
+<th style="text-align: center;">Hits@5</th>
+<th style="text-align: center;">Hits@10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>DistMult</strong></td>
+<td style="text-align: center;">0.0293</td>
+<td style="text-align: center;">0.0078</td>
+<td style="text-align: center;">0.0188</td>
+<td style="text-align: center;">0.0270</td>
+<td style="text-align: center;">0.0424</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>ERMLP</strong></td>
+<td style="text-align: center;">0.0310</td>
+<td style="text-align: center;">0.0086</td>
+<td style="text-align: center;">0.0209</td>
+<td style="text-align: center;">0.0286</td>
+<td style="text-align: center;">0.0461</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>PairRE</strong></td>
+<td style="text-align: center;">0.0333</td>
+<td style="text-align: center;">0.0041</td>
+<td style="text-align: center;">0.0119</td>
+<td style="text-align: center;">0.0178</td>
+<td style="text-align: center;">0.0314</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>TransR</strong></td>
+<td style="text-align: center;">0.0392</td>
+<td style="text-align: center;">0.0013</td>
+<td style="text-align: center;">0.0042</td>
+<td style="text-align: center;">0.0073</td>
+<td style="text-align: center;">0.0139</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="external-performance-evaluation-results" class="level3">
+<h3 class="anchored" data-anchor-id="external-performance-evaluation-results">External performance evaluation results</h3>
+<p>The following tables show how well the models ranked the <strong>16 drugs known to be in clinical trials for Dengue</strong> (ground truth).</p>
+<p><strong>Table 3.</strong> External evaluation for all triplets</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Model</th>
+<th style="text-align: center;">First Hit</th>
+<th style="text-align: center;">Median Hit</th>
+<th style="text-align: center;">Last Hit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>ERMLP</strong></td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">1,432</td>
+<td style="text-align: center;">11,354</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DistMult</strong></td>
+<td style="text-align: center;">31</td>
+<td style="text-align: center;">1,407</td>
+<td style="text-align: center;">10,689</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>PairRE</strong></td>
+<td style="text-align: center;">219</td>
+<td style="text-align: center;">1,397</td>
+<td style="text-align: center;">17,149</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>TransR</strong></td>
+<td style="text-align: center;">440</td>
+<td style="text-align: center;">2,297</td>
+<td style="text-align: center;">16,402</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 4.</strong> External evaluation for drug repurposing triplets</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Model</th>
+<th style="text-align: center;">First Hit</th>
+<th style="text-align: center;">Median Hit</th>
+<th style="text-align: center;">Last Hit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>ERMLP</strong></td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">2,849</td>
+<td style="text-align: center;">15,369</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DistMult</strong></td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">2,655</td>
+<td style="text-align: center;">18,005</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>PairRE</strong></td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">1,352</td>
+<td style="text-align: center;">5,619</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>TransR</strong></td>
+<td style="text-align: center;">323</td>
+<td style="text-align: center;">4,321</td>
+<td style="text-align: center;">18,393</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>ERMLP</strong> model demonstrated the strongest predictive power for real-world applications, achieving a <strong>“First Hit” at the 9th position in the drug repurposing task</strong>. This indicates that the model successfully ranked a clinically validated drug within its top 10 predictions, outperforming more complex models like TransR in identifying relevant therapeutic candidates.</p>
+</section>
+<section id="predicted-repurposed-drugs-for-dengue" class="level3">
+<h3 class="anchored" data-anchor-id="predicted-repurposed-drugs-for-dengue">Predicted repurposed drugs for Dengue</h3>
+<p>Based on the ERMLP model, the top three predictions for potential repurposed drugs are:</p>
+<ol type="1">
+<li><strong>Betamethasone</strong>: A corticosteroid with anti-inflammatory and immunosuppressive properties.</li>
+<li><strong>Dexamethasone</strong>: A potent glucocorticoid often used to treat severe inflammation.</li>
+<li><strong>Aspirin</strong>: A common nonsteroidal anti-inflammatory drug (NSAID).</li>
+</ol>
+<p>The identification of these compounds suggests that the models effectively captured the importance of managing the <strong>systemic inflammatory response and pain symptoms</strong> characteristic of Dengue infection, as all top candidates are established <strong>anti-inflammatory or analgesic agents</strong>. However, this focus on symptomatic relief suggests the models may be <strong>biased toward well-documented inflammatory pathways</strong> in the KG, potentially overlooking compounds with direct antiviral mechanisms against the dengue virus.</p>
+</section>
+</section>
+<section id="additional-information" class="level2">
+<h2 class="anchored" data-anchor-id="additional-information">Additional information</h2>
+<p>More details about the biological background of the project, the exploratory data analysis, feature engineering, models training, hyperparameter tuning, interpretation of the results, and ideas for further work are available in the <a href="https://github.com/sayalaruano/DengueDrugRep">GitHub repository</a> of this project and its <a href="https://raw.githubusercontent.com/sayalaruano/DengueDrugRep/HEAD/DengueDrugRep_presentation.pdf">presentation</a>.</p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p><strong>Ayala-Ruano, S.</strong> (2023). <strong>DengueDrugRep: Drug repurposing for dengue using a biomedicine knowledge graph and graph neural networks</strong> (Version 1.0.0) [Model]. <em>Zenodo</em>. doi: <a href="https://doi.org/10.5281/zenodo.10010151">doi.org/10.5281/zenodo.10010151</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sayalaruano\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2026, Sebastian Ayala Ruano</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This website is built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i>, <a href="https://github.com/sayalaruano/sayalaruano.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-label="github"></i></a>, and <a href="https://quarto.org/" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

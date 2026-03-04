@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-09-07">
-<meta name="description" content="Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.">
+<meta name="dcterms.date" content="2025-06-24">
+<meta name="description" content="A Python package that automates the creation of reports from bioinformatics outputs, supporting formats like PDF, HTML, DOCX, ODT, PPTX, Reveal.js, Jupyter notebooks, and Streamlit web applications. Users simply provide a directory with output files and VueGen compiles them into a structured report.">
 
-<title>Horizontal gene transfer between arthropods and bacteria</title>
+<title>VueGen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,16 +141,16 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Horizontal gene transfer between arthropods and bacteria</h1>
+      <h1 class="title">VueGen</h1>
                   <div>
         <div class="description">
-          <p>Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.</p>
+          <p>A Python package that automates the creation of reports from bioinformatics outputs, supporting formats like PDF, HTML, DOCX, ODT, PPTX, Reveal.js, Jupyter notebooks, and Streamlit web applications. Users simply provide a directory with output files and VueGen compiles them into a structured report.</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">🦠Microbiology</div>
-                <div class="quarto-category">🌳Phylogenetics</div>
-                <div class="quarto-category">🧫Omics</div>
+                <div class="quarto-category">🛠️Software development</div>
+                <div class="quarto-category">📊Data visualization</div>
+                <div class="quarto-category">🎈Streamlit</div>
                 <div class="quarto-category">🧬Bioinformatics</div>
               </div>
                   </div>
@@ -163,7 +163,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 7, 2021</p>
+        <p class="date">June 24, 2025</p>
       </div>
     </div>
     
@@ -180,6 +180,8 @@ ga('send', {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#implementation" id="toc-implementation" class="nav-link" data-scroll-target="#implementation">Implementation</a></li>
+  <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional information</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -191,46 +193,49 @@ ga('send', {
 
 
 
-<p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.4924" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://www.youtube.com/watch?v=JEuAOEzI58Y&amp;t=1156s" class="btn" target="_blank"><i class="fa-solid fa-play-circle" aria-label="play-circle"></i> Oral presentation (English)</a> <a href="https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (English)</a> <a href="https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (Spanish)</a></p>
-<p>I worked on this project during a summer research internship in 2018 at the <a href="https://www.udla.edu.ec/investigacion/grupos-de-investigacion/bio-quimio-informatica/">Bio-Chemoinformatics Group</a> - Universidad de Las Américas, in Ecuador.</p>
+<p><a href="https://doi.org/10.1093/bioadv/vbaf149" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://github.com/Multiomics-Analytics-Group/vuegen" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a> <a href="https://vuegen.readthedocs.io/" class="btn" target="_blank"><iconify-icon inline="" icon="bi:book" aria-label="Icon book from bi Iconify.design set." title="Icon book from bi Iconify.design set."></iconify-icon> Documentation</a> <a href="https://pypi.org/project/vuegen/" class="btn" target="_blank"><iconify-icon inline="" icon="ion:logo-python" aria-label="Icon logo-python from ion Iconify.design set." title="Icon logo-python from ion Iconify.design set."></iconify-icon> Python package</a> <a href="https://quay.io/repository/dtu_biosustain_dsp/vuegen" class="btn" target="_blank"><iconify-icon inline="" icon="ion:logo-docker" aria-label="Icon logo-docker from ion Iconify.design set." title="Icon logo-docker from ion Iconify.design set."></iconify-icon> Docker container</a> <a href="https://earth-microbiome-vuegen-demo.streamlit.app/" class="btn" target="_blank"><iconify-icon inline="" icon="logos:streamlit" aria-label="Icon streamlit from logos Iconify.design set." title="Icon streamlit from logos Iconify.design set."></iconify-icon> Web application example</a> <a href="https://multiomics-analytics-group.github.io/vuegen/" class="btn" target="_blank"><iconify-icon inline="" icon="ion:logo-html5" aria-label="Icon logo-html5 from ion Iconify.design set." title="Icon logo-html5 from ion Iconify.design set."></iconify-icon> HTML report example</a> <a href="https://doi.org/10.5281/zenodo.16104896" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> BOSC-ISMB 2025 Slides (English)</a></p>
+<p>I contributed to this project as part of my work as research assistant at the <a href="https://multiomics-analytics-group.github.io/">Multiomics Network Analytics Group (MoNA)</a> - <a href="https://www.biosustain.dtu.dk/">Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)</a>.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><em>Streptomyces clavuligerus</em> is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species. Considering the importance of <strong>HGT events</strong> in the life history, the branching coral of life metaphor has been proposed, instead of the traditional three scheme.</p>
 <p align="center">
-<img src="../../images/coral_of_life.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/HEAD/docs/images/logo/vuegen_logo.svg" width="350" title="vuegen_logo">
+</p>
+<p><strong>VueGen</strong> is a tool that automates the creation of <strong>reports</strong> from bioinformatics outputs, allowing researchers with minimal coding experience to communicate their results effectively. With VueGen, users can produce reports by simply specifying a directory containing output files, such as plots, tables, networks, Markdown text, HTML components, and API calls, along with the report format. Supported formats include <strong>documents</strong> (PDF, HTML, DOCX, ODT), <strong>presentations</strong> (PPTX, Reveal.js), <strong>Jupyter notebooks</strong>, and <a href="https://streamlit.io/">Streamlit</a> <strong>web applications</strong>. By generating reports in all these formats, VueGen simplifies the reporting process, eliminating the need to manage multiple pipelines or manually reformat content.</p>
+<p>A <strong>YAML configuration file</strong> is generated from the directory to define the structure of the report. Users can customize the report by modifying the configuration file, or they can create their own configuration file instead of passing a directory as input. The configuration file specifies the structure of the report, including sections, subsections, and various <strong>components</strong> such as <strong>plots, dataframes, markdown, html, and API calls</strong>.</p>
+<p>An overview of the VueGen workflow is shown in the figure below:</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/main/docs/images/vuegen_graph_abstract.png" width="700" title="vuegen_abstract">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 1.-</strong> The prototype of the Coral of Life. Retrieved from <a href="https://link.springer.com/article/10.1007%2Fs11692-019-09474-w">Podani, 2019, Evolutionary Biology</a>.</p>
+<p><strong>Figure 1.-</strong> Graphical overview of VueGen’s workflow and components. The diagram illustrates VueGen’s pipeline and report structure, starting from either a directory or a YAML configuration file.</p>
 </div>
-<p>Thus, we studied the impact of HGT in the <em>S. clavuligerus</em> genome. To perform this task, we applied <strong>whole-genome analysis</strong> to identify laterally transferred sequences from different domains. The most relevant result was a putative <strong>antimicrobial peptide</strong> (AMP) with a clear origin in the Hymenoptera order of insects.</p>
+<p>Its <strong>modular and cross-platform design</strong> facilitates integration into various analytical workflows and enables researchers with minimal or no coding experience to communicate their results effectively. By combining <strong>ease of use</strong> for non-programmers with <strong>extensibility</strong> for advanced users, VueGen benefits a broad audience and shifts the focus from time-consuming report generation to the meaningful analysis and interpretation of results.</p>
+<p>A <strong>schema diagram</strong> was created to illustrate the structure of the configuration file and the relationships between its elements:</p>
 <p align="center">
-<img src="../../images/three_hgt.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/main/docs/images/vuegen_schema_diagram.png" width="600" title="schema_vuegen">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 2.-</strong> Phylogenetic tree of <em>Streptomyces clavuligerus</em> ATCC 27064 Hymenoptera antimicrobial peptide-like proteins and their homologs. Proteins from bacteria are represented in red, the sequence from Hymenoptera insects are colored in black, and blue highlights the Cyprinus carpio (Chordata) sequence. IDs of sequence and their taxonomy can be observed in terminal nodes.</p>
+<p><strong>Figure 2.-</strong> VueGen schema diagram (v0.4.0). Circles represent elements of the report configuration, including report, sections, subsections, and components. Arrows indicate hierarchical relationships and data flow within the configuration file.</p>
 </div>
-<p>Next, we determined that two copies of these genes were present in the <strong>megaplasmid pSCL4</strong> but absent in the <em>S. clavuligerus</em> ATCC 27064 chromosome. Additionally, we found that these sequences were exclusive to the ATCC 27064 strain (and so were not present in any other bacteria) and we also verified the expression of the genes using <strong>RNAseq data</strong>.</p>
+<p>Also, the <strong>class diagram</strong> for the project’s current version is presented below to show the architecture and relationships between classes:</p>
 <p align="center">
-<img src="../../images/rnaseq.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/main/docs/images/vuegen_classdiagram_noattmeth.png" width="700" title="classdiagram_vuegen">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 3.-</strong> Mapping of the scaffold DS570654 (region from 42,968 to 43,734) of <em>Streptomyces clavuligerus</em> ATCC 27064 using RNAseq data (GSE104738).</p>
+<p><strong>Figure 3.-</strong> VueGen class diagram (v0.4.0). Boxes represent classes, and arrows show their relationships. Colors indicate functionality: gray for classes managing input files and metadata, blue for those defining the report structure, and red for classes generating reports.</p>
 </div>
-<p>Next, we used several <strong>AMP predictors</strong> to validate the original annotation extracted from Hymenoptera sequences and explored the possibility that these proteins had post-translational modifications using peptidase cleavage prediction. We suggest that Hymenoptera AMP-like proteins of <em>S. clavuligerus</em> ATCC 27064 may be useful for both species adaptation and as an antimicrobial molecule with industrial applications.</p>
-<p align="center">
-<img src="../../images/hgt2.png" width="600" title="AMP">
-</p>
-<div class="gray-italic center-text">
-<p><strong>Figure 4.-</strong> Proposed scenario for the cleavage and secretion of AMPs from EFG03588 and EFG03676 (Hymenoptera AMP-like proteins).</p>
-</div>
-<p>A summary of the methods applied in this study is presented below:</p>
-<p align="center">
-<img src="../../images/methods_hgt.png" width="600" title="AMP">
-</p>
+</section>
+<section id="implementation" class="level2">
+<h2 class="anchored" data-anchor-id="implementation">Implementation</h2>
+<p>VueGen offers <strong>various implementation options</strong> for both non-technical and experienced users. It is available as a <a href="https://pypi.org/project/vuegen/">Python package</a>, <a href="https://quay.io/repository/dtu_biosustain_dsp/vuegen">Docker image</a>, <a href="https://nf-co.re/modules/vuegen/">nf-core module</a>, and <a href="https://github.com/Multiomics-Analytics-Group/vuegen/releases/latest/">cross-platform desktop application</a> with a user-friendly interface, making it accessible and customizable for different user needs and expertise levels. To streamline software maintenance, VueGen applies a <strong>continuous integration and deployment (CI/CD)</strong> pipeline for automated releases of the tool and its documentation.</p>
+</section>
+<section id="additional-information" class="level2">
+<h2 class="anchored" data-anchor-id="additional-information">Additional information</h2>
+<p>The VueGen documentation is available at <a href="https://vuegen.readthedocs.io/">vuegen.readthedocs.io</a>, where you can find detailed information of the package’s classes and functions, installation and execution instructions, and case studies to demonstrate its functionality. The publication describing the software is available in <a href="https://doi.org/10.1093/bioadv/vbaf149">Bioinformatics Advances</a>. The source code is openly available on <a href="https://github.com/Multiomics-Analytics-Group/vuegen">GitHub</a>, where you can also find the latest updates and contribute to the project.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Ayala‐Ruano, S.</strong>, Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., &amp; Armijos-Jaramillo, V. (2019). <strong>A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of <em>Streptomyces clavuligerus</em> ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications</strong>. <em>Ecology and Evolution</em>, 9 (5), 2602-2614. doi: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4924">10.1002/ece3.4924</a>.</p>
+<p><strong>Ayala-Ruano, S.</strong>, Webel, H., &amp; Santos, A. (2025). <strong>VueGen: Automating the generation of scientific reports</strong>. <em>Bioinformatics Advances</em>, vbaf149. doi: <a href="https://doi.org/10.1093/bioadv/vbaf149">doi.org/10.1093/bioadv/vbaf149</a>.</p>
 
 
 </section>

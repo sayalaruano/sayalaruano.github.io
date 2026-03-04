@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-09-07">
-<meta name="description" content="Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.">
+<meta name="dcterms.date" content="2023-04-03">
+<meta name="description" content="A heterogeneous and integrated knowledge graph for the exploration of Neglected Tropical Diseases.">
 
-<title>Horizontal gene transfer between arthropods and bacteria</title>
+<title>NTDs2RDF</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,17 +141,18 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Horizontal gene transfer between arthropods and bacteria</h1>
+      <h1 class="title">NTDs2RDF</h1>
                   <div>
         <div class="description">
-          <p>Understanding the impact of horizontal gene transfer in the genome of Streptomyces clavuligerus using phylogenetics and RNAseq data.</p>
+          <p>A heterogeneous and integrated knowledge graph for the exploration of Neglected Tropical Diseases.</p>
         </div>
       </div>
                           <div class="quarto-categories">
+                <div class="quarto-category">🩺Human health</div>
                 <div class="quarto-category">🦠Microbiology</div>
-                <div class="quarto-category">🌳Phylogenetics</div>
-                <div class="quarto-category">🧫Omics</div>
+                <div class="quarto-category">⛃🕸️Knowledge graphs</div>
                 <div class="quarto-category">🧬Bioinformatics</div>
+                <div class="quarto-category">🎈Streamlit</div>
               </div>
                   </div>
   </div>
@@ -163,7 +164,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 7, 2021</p>
+        <p class="date">April 3, 2023</p>
       </div>
     </div>
     
@@ -179,7 +180,10 @@ ga('send', {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#knowledge-graph" id="toc-knowledge-graph" class="nav-link" data-scroll-target="#knowledge-graph">Knowledge graph</a></li>
+  <li><a href="#web-application" id="toc-web-application" class="nav-link" data-scroll-target="#web-application">Web application</a></li>
+  <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional information</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -191,46 +195,58 @@ ga('send', {
 
 
 
-<p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.4924" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Publication</a> <a href="https://www.youtube.com/watch?v=JEuAOEzI58Y&amp;t=1156s" class="btn" target="_blank"><i class="fa-solid fa-play-circle" aria-label="play-circle"></i> Oral presentation (English)</a> <a href="https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (English)</a> <a href="https://www.researchgate.net/publication/354369575_Deteccion_in_silico_de_un_peptido_antimicrobiano_AMP_transferido_horizontalmente_de_artropodos_a_bacterias" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (Spanish)</a></p>
-<p>I worked on this project during a summer research internship in 2018 at the <a href="https://www.udla.edu.ec/investigacion/grupos-de-investigacion/bio-quimio-informatica/">Bio-Chemoinformatics Group</a> - Universidad de Las Américas, in Ecuador.</p>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><em>Streptomyces clavuligerus</em> is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species. Considering the importance of <strong>HGT events</strong> in the life history, the branching coral of life metaphor has been proposed, instead of the traditional three scheme.</p>
+<p><a href="https://github.com/sayalaruano/NTDs2RDF" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a> <a href="https://ntds2rdf.streamlit.app/" class="btn" target="_blank"><iconify-icon inline="" icon="logos:streamlit" aria-label="Icon streamlit from logos Iconify.design set." title="Icon streamlit from logos Iconify.design set."></iconify-icon> Web application</a> <a href="https://doi.org/10.5281/zenodo.7772554" class="btn" target="_blank"><iconify-icon inline="" icon="simple-icons:zenodo" aria-label="Icon zenodo from simple-icons Iconify.design set." title="Icon zenodo from simple-icons Iconify.design set."></iconify-icon> Knowledge graph</a> <a href="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/NTDs2RDF_report.pdf" class="btn" target="_blank"><i class="fa-newspaper fa-solid" aria-label="solid"></i> Manuscript</a></p>
+<p>I developed this project for a project of a course about knowledge graphs from the <a href="https://www.maastrichtuniversity.nl/education/master/systems-biology">MSc in Systems Biology</a> at <a href="https://www.maastrichtuniversity.nl/">Maastricht University</a>.It was an end-to-end assignment with data pre-processing, normalization, graph design, integration of multiple data sources, and the creation of a web application for querying the graph.</p>
 <p align="center">
-<img src="../../images/coral_of_life.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/ntds2rdf-logo.svg" width="300" title="NTDs2RDF">
+</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p><a href="https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases">Neglected tropical diseases (NTDs)</a> are a <strong>heterogeneous group of 20 bacterial, viral, parasitic, and fungal conditions</strong> that generally occur in <strong>developing tropical countries</strong> in the Americas, Africa, and Asia. NTDs mainly affect poor populations that do not have access to safe water, sanitation, and high-quality healthcare. Because of the severe effects of NTDs (i.e., they can cause long-lasting disabilities), they <strong>reinforce the cycle of poverty</strong> in vulnerable communities.</p>
+<p>Currently, there are several independent databases that contain information about proteins, metabolic pathways, and drugs involved in NTDs, but no integrated databases with all the information. This <strong>unified resource</strong> could enable the <strong>systematic exploration of all the components of the NTDs</strong>, contributing to the research of potential therapies for these diseases.</p>
+<p>The <strong>NTDs2RDF</strong> project aimed to create <strong>a knowledge graph (KG) of genes, proteins, metabolic pathways, gene ontologies, single nucleotide variants, drugs</strong>, and other relevant data for <strong>three NTDs (Chagas disease, leishmaniasis, and African trypanosomiasis)</strong>, integrating all the information in a single data structure that can be explored through a query interface implemented with a <a href="https://streamlit.io/">Streamlit</a> <strong>web application</strong>. This software provides a user-friendly platform to extract information from the KG using <strong>SPARQL queries</strong>.</p>
+<p>An overview of the workflow of this project is shown in the graphical abstract below.</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/NTDs2RDF_graphabstract.png" width="800" title="ntds2rdf-graphabstract">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 1.-</strong> The prototype of the Coral of Life. Retrieved from <a href="https://link.springer.com/article/10.1007%2Fs11692-019-09474-w">Podani, 2019, Evolutionary Biology</a>.</p>
+<p><strong>Figure 1.-</strong> Graphical abstract of the NTDs2RDF workflow.</p>
 </div>
-<p>Thus, we studied the impact of HGT in the <em>S. clavuligerus</em> genome. To perform this task, we applied <strong>whole-genome analysis</strong> to identify laterally transferred sequences from different domains. The most relevant result was a putative <strong>antimicrobial peptide</strong> (AMP) with a clear origin in the Hymenoptera order of insects.</p>
+<p>The project represents an initial step towards the creation of a heterogeneous database for different NTDs with several potential applications in advancing the understanding of NTDs biology and providing insights that cannot be obtained through alternative resources.</p>
+<p>This project was divided into <strong>various modules for data collection, data cleaning, programmatic creation of the KG, and the development of a web application</strong> for querying the RDF graph. The <strong>software architecture</strong> of all the parts of the NTDs2RDF project is presented in the figure below.</p>
 <p align="center">
-<img src="../../images/three_hgt.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/Architecture_NTDs2RDF.png" width="800" title="ntds2rdf-architecture">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 2.-</strong> Phylogenetic tree of <em>Streptomyces clavuligerus</em> ATCC 27064 Hymenoptera antimicrobial peptide-like proteins and their homologs. Proteins from bacteria are represented in red, the sequence from Hymenoptera insects are colored in black, and blue highlights the Cyprinus carpio (Chordata) sequence. IDs of sequence and their taxonomy can be observed in terminal nodes.</p>
+<p><strong>Figure 2.-</strong> Software architecture of the NTDs2RDF project. The workflow was divided into three main stages with some modules (blue rectangles) and components (green rectangles).</p>
 </div>
-<p>Next, we determined that two copies of these genes were present in the <strong>megaplasmid pSCL4</strong> but absent in the <em>S. clavuligerus</em> ATCC 27064 chromosome. Additionally, we found that these sequences were exclusive to the ATCC 27064 strain (and so were not present in any other bacteria) and we also verified the expression of the genes using <strong>RNAseq data</strong>.</p>
+</section>
+<section id="knowledge-graph" class="level2">
+<h2 class="anchored" data-anchor-id="knowledge-graph">Knowledge graph</h2>
+<p>The NTDs2RDF KG has <strong>ten classes and 33.892 triplets</strong>. The <a href="https://biolink.github.io/biolink-model/">Biolink</a> model was the main source to define classes and predicates of the <strong>RDF graph</strong> because it has many <strong>human-readable and domain-specific</strong> predicates for Biology, and its entities also follow a <strong>machine-readable format</strong> and they are integrated with other ontologies using <strong>semantic mappings</strong>, which makes the KGs <strong>interoperable</strong>.</p>
+<p>To assure that all the entities of the KG have standardized and stable identifiers, the <a href="https://bioregistry.io/">Bioregistry</a> metaregistry was used to assign the URIs and CURIEs. The figure below shows the meta-graph of the NTDs2RDF KG with all the classes and predicates from the Biolink Model and other standard ontologies.</p>
 <p align="center">
-<img src="../../images/rnaseq.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/RDF2NTDs_schema.png" width="800" title="ntds2rdf-schema">
 </p>
 <div class="gray-italic center-text">
-<p><strong>Figure 3.-</strong> Mapping of the scaffold DS570654 (region from 42,968 to 43,734) of <em>Streptomyces clavuligerus</em> ATCC 27064 using RNAseq data (GSE104738).</p>
+<p><strong>Figure 2.-</strong> Meta-graph of the NTDs2RDF KG. The classes are represented as blue ovals, the literals as green rounded rectangles, the references to external databases as orange rounded rectangles, and the provenance for the classes as yellow rounded rectangles.</p>
 </div>
-<p>Next, we used several <strong>AMP predictors</strong> to validate the original annotation extracted from Hymenoptera sequences and explored the possibility that these proteins had post-translational modifications using peptidase cleavage prediction. We suggest that Hymenoptera AMP-like proteins of <em>S. clavuligerus</em> ATCC 27064 may be useful for both species adaptation and as an antimicrobial molecule with industrial applications.</p>
+</section>
+<section id="web-application" class="level2">
+<h2 class="anchored" data-anchor-id="web-application">Web application</h2>
+<p>To guarantee the <strong>accessibility and findability</strong> of the NTDs2RDF KG, a <strong>multi-page Streamlit web application</strong> was developed. This software was divided into three pages: <strong>Meta-graph</strong> with all the classes and predicates from the <strong>Biolink</strong> model and other standard ontologies, <strong>examples of SPARQL queries</strong> to extract relevant information from the graph, and the <strong>query interface</strong>. The web application is available online at the link below, and it can also be run locally by following the instructions in the next section.</p>
+<p><a href="https://NTDs2RDF.streamlit.app/" title="NTDs2RDF"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br></p>
 <p align="center">
-<img src="../../images/hgt2.png" width="600" title="AMP">
+<img src="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/img/NTDs2RDF.gif" width="800" title="ntds2rdf-webapp">
 </p>
-<div class="gray-italic center-text">
-<p><strong>Figure 4.-</strong> Proposed scenario for the cleavage and secretion of AMPs from EFG03588 and EFG03676 (Hymenoptera AMP-like proteins).</p>
-</div>
-<p>A summary of the methods applied in this study is presented below:</p>
-<p align="center">
-<img src="../../images/methods_hgt.png" width="600" title="AMP">
-</p>
+</section>
+<section id="additional-information" class="level2">
+<h2 class="anchored" data-anchor-id="additional-information">Additional information</h2>
+<p>The complete information about the data sources, data pre-processing, graph design, and software development of the NTDs2RDF project is available in the <a href="https://github.com/sayalaruano/NTDs2RDF">GitHub repository</a> and the <a href="https://raw.githubusercontent.com/sayalaruano/NTDs2RDF/HEAD/NTDs2RDF_report.pdf">manuscript</a>.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Ayala‐Ruano, S.</strong>, Santander‐Gordón, D., Tejera, E., Perez‐Castillo, Y., &amp; Armijos-Jaramillo, V. (2019). <strong>A putative antimicrobial peptide from Hymenoptera in the megaplasmid pSCL4 of <em>Streptomyces clavuligerus</em> ATCC 27064 reveals a singular case of horizontal gene transfer with potential applications</strong>. <em>Ecology and Evolution</em>, 9 (5), 2602-2614. doi: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4924">10.1002/ece3.4924</a>.</p>
+<p><strong>Ayala-Ruano, S.</strong> (2023). <strong>NTDs2RDF: A heterogeneous and integrated knowledge graph for the exploration of neglected tropical diseases</strong> (Version 1.0.0) [Database]. <em>Zenodo</em>. doi: <a href="https://doi.org/10.5281/zenodo.7772554">doi.org/10.5281/zenodo.7772554</a>.</p>
 
 
 </section>
