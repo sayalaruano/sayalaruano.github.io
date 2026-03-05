@@ -2,6 +2,9 @@ name: Quarto Website Deploy
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -10,9 +13,23 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      # Check if Quarto is installed correctly
+      - name: Quarto Check
+        run: quarto check
+
+      # On PR: Render the website to make sure there are \
+      # no syntax errors or missing files/images.
+      - name: Test Build (PR Only)
+        if: github.event_name == 'pull_request'
+        run: quarto render
+
+      # On Push to Main: Render and Publish to gh-pages
       - name: Render and Publish
+        if: github.event_name == 'push'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
