@@ -5,17 +5,20 @@ description: |
 categories: 
   - 📚Education
   - 🧬Bioinformatics
-date: "2023-01-13"
+date: "2021-12-01"
 draft: false
-image: ../../images/herrcompbioinfo.png
+image: https://raw.githubusercontent.com/RSG-Ecuador/HerrCompBioinfo/HEAD/Libro/Contenidos/figuras/logo.png
 ---
 
-[{{< iconify bi book >}} E-book](https://rsg-ecuador.github.io/HerrCompBioinfo/Bienvenida.html){.btn target=_blank} [{{< fa brands github >}} Source code](https://github.com/RSG-Ecuador/HerrCompBioinfo){.btn target=_blank} [{{< iconify ri slideshow-fill >}} Slides (English)](https://doi.org/10.5281/zenodo.5875039){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://youtu.be/BCBRC3vyNYg?list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D&t=1297){.btn target=_blank}
+[{{< iconify bi book >}} E-book][e-book]{.btn target=_blank} 
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill >}} Slides (English)][slides]{.btn target=_blank} 
+[{{< fa play-circle >}} Oral presentation (English)][oral-present]{.btn target=_blank}
 
 This project started as the reference course material of a boot camp organized by [RSG Ecuador][rsg] and [iGEM Ecuador][igem]. Then, we extended this project by participating in the [4th cohort of Open Life Science][ols], an initiative to learn how to create and manage open projects.
 
 <p align="center">
-  <img src="../../images/herrcompbioinfo.png" width="300" title="Herrcompbioinfo">
+  <img src="https://raw.githubusercontent.com/RSG-Ecuador/HerrCompBioinfo/HEAD/Libro/Contenidos/figuras/logo.png" width="300" title="Herrcompbioinfo">
 </p>
 
 ::: {.gray-italic .center-text}
@@ -23,6 +26,7 @@ This project started as the reference course material of a boot camp organized b
 :::
 
 ## Summary
+
 In general, **Bioinformatics** is the application of computational tools to understand biological data. Due to the interdisciplinary nature of Bioinformatics, its practitioners must hold a wide range of knowledge about Biology, Computer Science, and Mathematics. Traditionally, people with a background in Biological sciences have not had proper training on programming, terminal usage, among other useful computational tools for Bioinformatics.
 
 There are some great initiatives to help newcomers in Bioinformatics to learn fundamental computational skills required to work in this field. Some examples of open and online resources with this aim are [Rosalind][rosalind], [Software Carpentry][carpentry], among others. However, most of these resources are written in English, so it could be difficult for many non-native English speakers to take advantage of these resources.
@@ -35,6 +39,10 @@ This project was based on the contents of a [study group][study_group] and a [co
 
 **Sebastián Ayala Ruano** & Juan Esteban Zurita. (2021). **HerrCompBioinfo: un recurso educativo de código abierto de herramientas computacionales para entusiastas de la Bioinformática**. Zenodo. [https://doi.org/10.5281/zenodo.5748335][zenodo]
 
+[e-book]: https://rsg-ecuador.github.io/HerrCompBioinfo/Bienvenida.html
+[source-code]: https://github.com/RSG-Ecuador/HerrCompBioinfo
+[slides]: https://doi.org/10.5281/zenodo.5875039
+[oral-present]: https://youtu.be/BCBRC3vyNYg?list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D&t=1297
 [rsg]: https://rsg-ecuador.iscbsc.org/
 [igem]: https://www.facebook.com/iGEMECUADOR
 [ols]: https://openlifesci.org/ols-4

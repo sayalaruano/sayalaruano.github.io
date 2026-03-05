@@ -5,35 +5,33 @@ description: |
 categories: 
   - 🏘️Social sciences
   - 🌐Web development
-date: "2021-09-07"
-image: ../../images/kolekti.png
+date: "2021-02-02"
+image: https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/kolekti.png
 draft: false
 ---
 
-[{{< iconify icon-park-outline web-page >}} Website](https://kolekti-304615.web.app/){.btn target=_blank} [{{< iconify ri slideshow-fill >}} Slides (Spanish)](https://doi.org/10.5281/zenodo.7536703){.btn target=_blank}
+[{{< iconify icon-park-outline web-page >}} Website][kolekti_website]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill >}} Slides (Spanish)][slides]{.btn target=_blank}
+[{{< fa blog >}} Blog post (Spanish)][blog_spanish]{.btn target=_blank}
 
 This project was developed as the result of the Innovation challenge *For more data on labor informality* hackathon, organized by [Datalat][datalat], [PNUD Ecuador][pnud_ecuador], [UN Women Ecuador][un_women_ecuador], and [the International Labour Organization][ilo].
 
 <p align="center">
-  <img src="../../images/kolekti.png" width="600" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/kolekti.png" width="600" title="AMP">
 </p>
-
-::: {.gray-italic .center-text}
-**Figure 1.-** Logo of the Kolekti project.
-:::
 
 ## The hackathon  
 
 The Innovation challenge *For more data on labor informality* hackathon searched for a **technological solution to collect labor informality data in Ecuador**. In the first stage of this challenge, there were 39 proposals from 80 interdisciplinary teams.
 
 <p align="center">
-  <img src="../../images/reto_inf.JPG" width="600" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/reto_inf.JPG" width="600" title="AMP">
 </p>
 
 Then, three finalists teams were selected to create a prototype of the idea for one month. 
 
 <p align="center">
-  <img src="../../images/reto_inf_finalistas.JPG" width="600" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/reto_inf_finalistas.JPG" width="600" title="AMP">
 </p>
 
 ## Our solution 
@@ -47,19 +45,19 @@ Our solution was able to present **reliable and up-to date information about the
 With this technological solution we were the winners of this hackathon . 
 
 <p align="center">
-  <img src="../../images/reto_inf_winner.JPG" width="600" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/reto_inf_winner.JPG" width="600" title="AMP">
 </p>
 
 In addition, our project was selected to be presented at the [YouthLead Innovation Festival][youthlead], organized by the United Nations offices. 
 
 <p align="center">
-  <img src="../../images/youthlead.jpeg" width="600" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/youthlead.jpeg" width="600" title="AMP">
 </p>
 
 This event gathered innovative youth-led solutions for the achievement of the Sustainable Development Goals and recovery from the COVID-19 pandemic. Kolekti was part of the Digital Technology Session of this event. 
 
 <p align="center">
-  <img src="../../images/kolekti_youthlead.png" width="600" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/Kolekti/kolekti_youthlead.png" width="600" title="AMP">
 </p>
 
 ## Additional information 
@@ -73,3 +71,4 @@ If you want to check out our webpage, it is available at this [link][kolekti_web
 [kolekti_website]: https://kolekti-304615.web.app/
 [youthlead]: https://www.un.org/youthenvoy/youthlead-innovation-festival-thematic-sessions/
 [blog_spanish]: https://www.ec.undp.org/content/ecuador/es/home/blog/2021/sin-miedo-a-intentar-algo-nuevo-reto-de-innovacion-por-mas-datos.html
+[slides]: https://doi.org/10.5281/zenodo.7536703

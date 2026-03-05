@@ -45,7 +45,7 @@ The main modules of StarPep toolbox are listed below:
 The figure below shows the software architecture and components of StarPep toolbox: 
 
 <p align="center">
-  <img src="../../images/starpep-graph-abst.png" width="800" title="graph_summary">
+  <img src="https://raw.githubusercontent.com/Grupo-Medicina-Molecular-y-Traslacional/StarPep/HEAD/img/starpep-graph-abst.png" width="800" title="graph_summary">
 </p>
 
 ::: {.gray-italic .center-text}
