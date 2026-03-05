@@ -1,12 +1,12 @@
 ---
-title: "Prediction of the phenological stages of tropical forest species using herbarium records"
+title: "HerbRec2Phenology" 
 description: |
   Creating a database of herbarium records from tropical forest species of the Americas and developing machine learning classifiers to predict their phenology.
 categories: 
   - 🏞️Ecology
   - 🤖Machine learning
-date: "2023-01-16"
-image: ../../images/phenology.png
+date: "2024-05-28"
+image: https://raw.githubusercontent.com/sayalaruano/HerbRec2Phenology/HEAD/img/phenology.png
 draft: false
 ---
 
@@ -15,23 +15,27 @@ draft: false
 
 I contributed to this project as part of my work as **data scientist consultant** at Universidad de las Américas, in Ecuador.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/HerbRec2Phenology/HEAD/img/phenology.png" width="350" title="Phenology">
+</p>
+
 ## Summary
 
-The initial species list comprised 636 unique names, which were filtered to delete duplicates and records identified at a genus level. The final list comprised 438 accepted names verified based on the Checklist of the Vascular Plants of the Americas (CVPA), publicly available on a website on the [Missouri Botanical Garden database Tropicos][tropicos]. Then, we used the taxize R package to retrieve synonyms reported on the Tropicos database, obtaining a list of 2,823 records of the original species and their synonyms.
+The initial species list comprised 636 unique names, which were filtered to delete duplicates and records identified at a genus level. The final list comprised 438 accepted names verified based on the **Checklist of the Vascular Plants of the Americas (CVPA)**, publicly available on a website on the [Missouri Botanical Garden database Tropicos][tropicos]. Then, we used the **taxize R package** to retrieve synonyms reported on the **Tropicos database**, obtaining a list of 2,823 records of the original species and their synonyms.
 
-We looked for herbarium records from our list in the [Global Biodiversity Information Facility - GBIF][gbif]. We used the GBIF API to automate the searches, implemented with in-house Python scripts. Then, we applied some filters to get only preserved herbarium specimens with information about latitude and longitude coordinates, dates with at least the month, locations from American tropical areas, field notes, and no geospatial issues. The resulting dataset had 68,114 records from 424 species with at least one of the columns with field notes information. After applying a preprocessing pipeline and removing duplicates, we obtained a final dataset of 53,793 records. In the final dataset, we manually assigned the synonyms in the scientific names column to the accepted names according to the CVPA.
+We looked for herbarium records from our list in the [Global Biodiversity Information Facility - GBIF][gbif]. We used the **GBIF API** to automate the searches, implemented with in-house Python scripts. Then, we applied some filters to get only preserved herbarium specimens with information about latitude and longitude coordinates, dates with at least the month, locations from American tropical areas, field notes, and no geospatial issues. The resulting dataset had 68,114 records from 424 species with at least one of the columns with field notes information. After applying a preprocessing pipeline and removing duplicates, we obtained a final dataset of 53,793 records. In the final dataset, we manually assigned the synonyms in the scientific names column to the accepted names according to the CVPA.
 
-We created a validation dataset of 3,000 records to get an estimation of the performance metrics of the machine learning models. The records for the validation dataset were selected by applying a stratified sampling considering the variables of year, latitude, and longitude of all records that had links to images. Then, we manually labeled the flowering and fruiting conditions of these records by reading their field notes and observing their linked images.
+We created a **validation dataset of 3,000 records** to get an estimation of the performance metrics of the machine learning models. The records for the validation dataset were selected by applying a stratified sampling considering the variables of year, latitude, and longitude of all records that had links to images. Then, we manually labeled the flowering and fruiting conditions of these records by reading their field notes and observing their linked images.
 
-<img class="img-styling" src="../../images/phen1.png" alt="Proportions of flowering and fruiting labels of the validation dataset." width="70%">
+<img class="img-styling" src="https://raw.githubusercontent.com/sayalaruano/HerbRec2Phenology/HEAD/img/phen1.png" alt="Proportions of flowering and fruiting labels of the validation dataset." width="70%">
 
 ::: {.gray-italic .center-text}
 **Figure 1.-** Proportions of flowering and fruiting labels of the validation dataset.
 :::
 
-Before creating the machine learning models with the validation dataset, we applied a preprocessing pipeline to the field notes. First, we removed the punctuation, numbers, special symbols, and certain repetitive expressions that were not informative (i.e., “na”, “ca”, “PORT US”, etc.). Then, we used the [Natural Language Toolkit][nltk] Python package to delete the stop words from different languages, including Spanish, English, Portuguese, and French.
+Before creating the machine learning models with the validation dataset, we applied a **preprocessing pipeline** to the field notes. First, we removed the punctuation, numbers, special symbols, and certain repetitive expressions that were not informative (i.e., “na”, “ca”, “PORT US”, etc.). Then, we used the [Natural Language Toolkit][nltk] Python package to delete the stop words from different languages, including Spanish, English, Portuguese, and French.
 
-<img class="img-styling" src="../../images/phen2.png" alt="Word cloud of the words from the fieldnotes of the validation dataset after preprocessing." width="70%">
+<img class="img-styling" src="https://raw.githubusercontent.com/sayalaruano/HerbRec2Phenology/HEAD/img/phen2.png" alt="Word cloud of the words from the fieldnotes of the validation dataset after preprocessing." width="70%">
 
 ::: {.gray-italic .center-text}
 **Figure 2.-** Word cloud of the words from the fieldnotes of the validation dataset after preprocessing.
@@ -39,9 +43,9 @@ Before creating the machine learning models with the validation dataset, we appl
 
 Machine learning algorithms usually require matrices of numbers as their input, so we converted our text data from field notes into a numerical matrix using the “bag of words” method using the *CountVectorizer* function from the [scikit-learn Python package][scikit_learn]. 
 
-We created six different models to predict the flowering and fruiting stages of plants considering field notes data. First, we created base models for flowering and fruiting using the scikit-learn “DummyClassifier” function, which were simple classifiers that always predicted the most frequent class in the data. Then, naïve Bayes and random forest algorithms were applied for the same purposes. We observed that random forest models had the best performance metrics for both flowering and fruiting, showing values greater than 90% on most of the performance metrics.
+We created **six different models** to **predict the flowering and fruiting stages** of plants considering **field notes data**. First, we created base models for flowering and fruiting using the scikit-learn “DummyClassifier” function, which were simple classifiers that always predicted the most frequent class in the data. Then, naïve Bayes and random forest algorithms were applied for the same purposes. We observed that random forest models had the best performance metrics for both flowering and fruiting, showing values greater than 90% on most of the performance metrics.
 
-<img class="img-styling" src="../../images/phen3.png" alt="Performance metrics of A) flowering and B) fruiting models." width="90%">
+<img class="img-styling" src="https://raw.githubusercontent.com/sayalaruano/HerbRec2Phenology/HEAD/img/phen3.png" alt="Performance metrics of A) flowering and B) fruiting models." width="90%">
 
 ::: {.gray-italic .center-text}
 **Figure 3.-** Performance metrics of A) flowering and B) fruiting models.
@@ -49,7 +53,7 @@ We created six different models to predict the flowering and fruiting stages of 
 
 Random forest algorithms allow an estimation of the importance of their parameters, which is known as feature importance. These results demonstrated that the features that provide more information to the model are the ones that summarize the phenology information from field notes.
 
-<img class="img-styling" src="../../images/phen4.png" alt="Feature importance of A) flowering and B) fruiting random forest models." width="90%">
+<img class="img-styling" src="https://raw.githubusercontent.com/sayalaruano/HerbRec2Phenology/HEAD/img/phen4.png" alt="Feature importance of A) flowering and B) fruiting random forest models." width="90%">
 
 ::: {.gray-italic .center-text}
 **Figure 4.-** Feature importance of A) flowering and B) fruiting random forest models.

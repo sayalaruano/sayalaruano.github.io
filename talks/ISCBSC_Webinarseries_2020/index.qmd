@@ -6,12 +6,19 @@ description: |
 date: "2020-05-19"
 image: ISCBSC_Webinarseries_2020.png
 categories:
-- 👨‍🏫Oral presentation 
-- 🦠Microbiology
-- 🧬Bioinformatics
+  - 👨‍🏫Oral presentation 
+  - 🦠Microbiology
+  - 🌳Phylogenetics
+  - 🧫Omics 
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](http://webinars.iscbsc.org/who-we-are/){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://www.youtube.com/watch?v=JEuAOEzI58Y&t=1156s){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus){.btn target=_blank} 
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< fa play-circle >}} Oral presentation (English)][oral-present]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 
 You can find more details about this project [here][amp-hgt]. 
 
 [amp-hgt]: ../../projects/Horizontal_gene_transfer/
+[event]: http://webinars.iscbsc.org/who-we-are/
+[oral-present]: https://www.youtube.com/watch?v=JEuAOEzI58Y&t=1156s
+[slides]: https://www.researchgate.net/publication/354368567_In_silico_detection_of_horizontal_gene_transfer_in_Streptomyces_clavuligerus

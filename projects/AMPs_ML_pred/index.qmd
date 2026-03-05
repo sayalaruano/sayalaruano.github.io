@@ -1,5 +1,5 @@
 ---
-title: "Prediction of antimicrobial peptides using machine learning classifiers"
+title: "PredAMP-ML"
 description: |
   Training machine learning classifiers to predict the antimicrobial activity of peptides.
 categories: 
@@ -7,22 +7,19 @@ categories:
   - 🤖Machine learning
   - 🧬Bioinformatics
   - 🎈Streamlit
-date: "2023-01-14"
+date: "2021-12-13"
 draft: false
-image: ../../images/peptide.png
+image: https://raw.githubusercontent.com/sayalaruano/PredAMP-ML/HEAD/Img/logo/predic-amp-logo.svg
 ---
 
-[{{< fa brands github >}} Source code](https://github.com/sayalaruano/CapstoneProject-MLZoomCamp){.btn target=_blank} [{{< iconify logos streamlit>}} Web application](https://ampredst.streamlit.app/){.btn target=_blank}
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank} 
+[{{< iconify logos streamlit>}} Web application][ampredst]{.btn target=_blank}
 
 I developed this project as the Capstone assignment for the [Machine Learning Zoomcamp][zoomcamp]. It was an end-to-end project with data pre-processing, feature engineering, training, hyperparameter tuning, and deployment of the best model as a web application with Streamlit.
 
 <p align="center">
-  <img src="../../images/peptide.png" width="500" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/PredAMP-ML/HEAD/Img/logo/predic-amp-logo.svg" width="350" title="PredAMP-ML">
 </p>
-
-::: {.gray-italic .center-text}
-**Figure 1.-** 3D-structure of an antimicrobial peptide.
-:::
 
 ## Background
 
@@ -114,6 +111,7 @@ Using the best ML model, I created [AMPredST][ampredst], a web application that 
 
 The complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the [GitHub repository][capstone_github] of this project.
 
+[source-code]: https://github.com/sayalaruano/PredAMP-ML
 [zoomcamp]: https://github.com/alexeygrigorev/mlbookcamp-code
 [amp_wiki]: https://en.wikipedia.org/wiki/Antimicrobial_peptides
 [who_amr]: https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
@@ -130,3 +128,4 @@ The complete information regarding the exploratory data analysis and selection o
 [ampredst]: https://ampredst.streamlit.app/
 [ampredst_github]: https://github.com/sayalaruano/AMPredST
 [capstone_github]: https://github.com/sayalaruano/CapstoneProject-MLZoomCamp
+

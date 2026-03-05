@@ -1,22 +1,23 @@
 ---
-title: "Dashboard of weekly reports of SARS-CoV2 variants in European countries"
+title: "COVID19-EU-Dashboard"
 description: |
   Summarizing the weekly reports of SARS-CoV2 variants in European countries using data from the GISAID database.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - 📊Data visualization
   - 🎈Streamlit
-date: "2023-01-14"
+date: "2022-04-12"
 draft: false
-image: ../../images/SarsCov2.png
+image: https://raw.githubusercontent.com/sayalaruano/Dashboard_SARS-CoV2_variants_Europe/HEAD/img/SarsCov2.png
 ---
 
-[{{< fa brands github >}} Source code](https://github.com/sayalaruano/Dashboard_SARS-CoV2_variants_Europe){.btn target=_blank} [{{< iconify logos streamlit>}} Web application](https://sars-cov2-eu-countries-report.streamlit.app/){.btn target=_blank}
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank} 
+[{{< iconify logos streamlit>}} Web application][web-app]{.btn target=_blank}
 
 I created this dashboard for the [30DaysOfStreamlit][30days] challenge using the [Streamlit][streamlit] Python package.
 
 <p align="center">
-  <img src="../../images/SarsCov2.png" width="300" title="SarsCov2">
+  <img src="https://raw.githubusercontent.com/sayalaruano/Dashboard_SARS-CoV2_variants_Europe/HEAD/img/SarsCov2.png" width="300" title="SarsCov2">
 </p>
 
 ::: {.gray-italic .center-text}
@@ -29,7 +30,7 @@ The dashboard shows the weekly reports of SARS-CoV2 variants in European countri
 The screenshot below shows how the dashboard looks like:
 
 <p align="center">
-  <img src="../../images/dashboard_screenshot.png" width="600" height="400" title="dashboard">
+  <img src="https://raw.githubusercontent.com/sayalaruano/Dashboard_SARS-CoV2_variants_Europe/HEAD/img/dashboard_screenshot.png" width="600" height="400" title="dashboard">
 </p>
 
 ## Dataset 
@@ -39,6 +40,8 @@ The entire dataset is available [here][dataset]. I only considered information f
 ## Additional information
 The complete information regarding this project is available on this [GitHub repository][github].
  
+[source-code]: https://github.com/sayalaruano/Dashboard_SARS-CoV2_variants_Europe 
+[web-app]: https://sars-cov2-eu-countries-report.streamlit.app/
 [gisaid]: https://www.gisaid.org/
 [30days]: https://share.streamlit.io/streamlit/30days
 [streamlit]: https://streamlit.io/

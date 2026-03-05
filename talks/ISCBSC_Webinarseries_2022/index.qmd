@@ -5,13 +5,18 @@ description: |
 date: "2022-05-26"
 image: ISCBSC_Webinarseries_2022.png
 categories:
-- 👨‍🏫Oral presentation 
-- 💊Drug discovery
-- 🕸️Network science
-- 🧬Bioinformatics
+  - 👨‍🏫Oral presentation 
+  - 💊Drug discovery
+  - 🕸️Network science
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](http://webinars.iscbsc.org/who-we-are/){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://www.youtube.com/watch?v=cpcXCdlG1F4){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://doi.org/10.5281/zenodo.6582881){.btn target=_blank} 
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< fa play-circle >}} Oral presentation (English)][oral-present]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 
 You can find more details about this project [here][amps-nets]. 
 
 [amps-nets]: ../../projects/APPs_networks/
+[event]: http://webinars.iscbsc.org/who-we-are/
+[oral-present]: https://www.youtube.com/watch?v=cpcXCdlG1F4
+[slides]: https://doi.org/10.5281/zenodo.6582881

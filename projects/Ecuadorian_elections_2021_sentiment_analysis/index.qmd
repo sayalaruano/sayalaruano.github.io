@@ -1,22 +1,23 @@
 ---
-title: "Sentiment analysis of Ecuadorian political tweets from 2021 elections"
+title: "ECPolitTweets-NLP"
 description: |
   Sentiment analysis of replies to tweets from Ecuadorian presidential candidates in the 2021 elections using natural language processing and neural networks.
 categories: 
   - 🏘️Social sciences
   - 🧠‍🕸️Deep learning
   - 💬NLP
-date: "2021-09-07"
-image: "../../images/nlp.png"
+date: "2020-12-21"
+image: "https://raw.githubusercontent.com/sayalaruano/ECPolitTweets-NLP/HEAD/img/nlp.png"
 draft: false
 ---
 
-[{{< fa brands github >}} Source code](https://github.com/sayalaruano/Sentiment-analysis-of-Ecuadorian-political-tweets-from-2021election-with-Natural-Language-Processing){.btn target=_blank}
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank}
+[{{< iconify simple-icons googlecolab >}} Run in Colab][run_colab]{.btn target=_blank} 
 
 This project was developed as a final group assignment for the Artificial Intelligence course at my bachelor, which I took as a requirement for obtaining my minor degree in Systems Engineering.
 
 <p align="center">
-  <img src="../../images/nlp.png" width="350" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/ECPolitTweets-NLP/HEAD/img/nlp.png" width="350" title="AMP">
 </p>
 
 ::: {.gray-italic .center-text}
@@ -31,10 +32,11 @@ The main library used to build our model was [Keras][keras] and we trained it us
 
 ## Additional information
 
-The complete information regarding model performance metrics, a jupyter notebook and python scripts of reference to reproduce our work, and further details are available on the [GitHub repository][github_repo] of this project.
+The complete information regarding model performance metrics, a jupyter notebook and python scripts of reference to reproduce our work, and further details are available on the [GitHub repository][source-code] of this project.
 
+[source-code]: https://github.com/sayalaruano/ECPolitTweets-NLP
 [noun_project]: https://thenounproject.com/term/natural-language-processing/3261011/
 [tass]: http://tass.sepln.org/
 [tass_page]: http://tass.sepln.org/2020/?page_id=74
 [keras]: https://keras.io/
-[github_repo]: https://github.com/sayalaruano/Sentiment-analysis-of-Ecuadorian-political-tweets-from-2021election-with-Natural-Language-Processing
+[run_colab]: https://colab.research.google.com/github/sayalaruano/ECPolitTweets-NLP/blob/master/Ec_candidates_tweets_sentiment_an.ipynb

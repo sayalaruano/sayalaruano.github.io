@@ -1,9 +1,6 @@
 project:
   type: website
   output-dir: docs
-  post-render: 
-      - quarto check
-
 website:
   site-url: https://sayalaruano.github.io/
   favicon: images/network.ico

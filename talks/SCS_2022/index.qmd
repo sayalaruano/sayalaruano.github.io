@@ -5,13 +5,16 @@ description: |
 date: "2022-07-09"
 image: SCS_2022.png
 categories:
-- 👨‍🏫Oral presentation 
-- 💊Drug discovery
-- 🕸️Network science
-- 🧬Bioinformatics
+  - 👨‍🏫Oral presentation 
+  - 💊Drug discovery
+  - 🕸️Network science
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](https://scs2022.iscbsc.org/){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://doi.org/10.5281/zenodo.6784416){.btn target=_blank} 
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 
 You can find more details about this project [here][amps-nets]. 
 
 [amps-nets]: ../../projects/APPs_networks/
+[event]: https://scs2022.iscbsc.org/
+[slides]: https://doi.org/10.5281/zenodo.6784416

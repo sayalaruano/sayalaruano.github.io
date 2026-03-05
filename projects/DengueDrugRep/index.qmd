@@ -3,7 +3,7 @@ title: "DengueDrugRep"
 description: |
   Drug repurposing for dengue using a biomedical knowledge graph and graph neural networks.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - 🦠Microbiology
   - ⛃🕸️Knowledge graphs
   - 🧠‍🕸️Deep learning

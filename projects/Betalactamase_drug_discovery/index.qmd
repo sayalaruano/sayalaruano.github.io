@@ -1,27 +1,23 @@
 ---
-title: "Prediction of potential drug ligands that bind to Beta-Lactamases"
+title: "BetaLactLigPred-ML"
 description: |
-  Training machine learning classifiers to evaluate the activity of molecules that have been experimentally tested to bind or not bind to beta-lactamases.
+  Training machine learning classifiers to evaluate the activity of molecules/ligands that have been experimentally tested to bind or not bind to beta-lactamases.
 categories: 
   - 💊Drug discovery
   - 🤖Machine learning
   - 🧬Bioinformatics
-date: "2021-09-07"
-image: "../../images/betalactamase.png"
+date: "2021-10-29"
+image: "https://raw.githubusercontent.com/sayalaruano/BetaLactLigPred-ML/HEAD/Img/logo/betalactligpred-logo.svg"
 draft: false
 ---
 
-[{{< fa brands github >}} Source code](https://github.com/sayalaruano/MidtermProject-MLZoomCamp){.btn target=_blank}
+[{{< fa brands github >}} Source code][source-code]{.btn target=_blank}
 
 I developed this project as the Midterm assignment for the [Machine Learning Zoomcamp][ml_zoomcamp]. [Data Professor][data_professor] proposed the idea and dataset of this project.
 
 <p align="center">
-  <img src="../../images/betalactamase.png" width="500" title="AMP">
+  <img src="https://raw.githubusercontent.com/sayalaruano/BetaLactLigPred-ML/HEAD/Img/logo/betalactligpred-logo.svg" width="350" title="AMP">
 </p>
-
-::: {.gray-italic .center-text}
-**Figure 1.-** 3D-structure of a betalactamase (PDB ID: 2q9n). Retrieved from [Wikimedia Commons][wikimedia].
-:::
 
 ## Background
 
@@ -43,7 +39,8 @@ For this project, I tested three machine learning models, including Logistic Reg
 
 ## Additional information
 
-The complete information regarding exploratory data analysis and selection of the best model jupyter notebook, training and validation python scripts, implementation of the best model as a web service using Flask, deployment to the cloud with Heroku, and further details are available on the [GitHub repository][github_repo] of this project.
+The complete information regarding exploratory data analysis and selection of the best model jupyter notebook, training and validation python scripts, implementation of the best model as a web service using Flask, deployment to the cloud with Heroku, and further details are available on the [GitHub repository][source-code] of this project.
+
 
 [ml_zoomcamp]: https://github.com/alexeygrigorev/mlbookcamp-code
 [data_professor]: https://github.com/dataprofessor
@@ -55,4 +52,4 @@ The complete information regarding exploratory data analysis and selection of th
 [padel]: http://www.yapcwsoft.com/dd/padeldescriptor/
 [video_padel]: https://youtu.be/rEmDyZHz5U8
 [gridsearchcv]: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV
-[github_repo]: https://github.com/sayalaruano/MidtermProject-MLZoomCamp
+[source-code]: https://github.com/sayalaruano/BetaLactLigPred-ML

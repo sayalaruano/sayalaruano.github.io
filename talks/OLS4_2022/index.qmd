@@ -5,12 +5,17 @@ description: |
 date: "2022-01-19"
 image: OLS_logo.png
 categories:
-- 👨‍🏫Oral presentation 
-- 📚Education
-- 🧬Bioinformatics
+  - 👨‍🏫Oral presentation 
+  - 📚Education
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](https://openlifesci.org/ols-4){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://youtu.be/BCBRC3vyNYg?list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D&t=1297){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://doi.org/10.5281/zenodo.5875039){.btn target=_blank} 
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< fa play-circle >}} Oral presentation (English)][oral-present]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 
 You can find more details about this project [here][herrcompbio]. 
 
 [herrcompbio]: ../../projects/HerrCompBioinfo/
+[event]: https://openlifesci.org/ols-4
+[oral-present]: https://youtu.be/BCBRC3vyNYg?list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D&t=1297
+[slides]: https://doi.org/10.5281/zenodo.5875039
