@@ -3,7 +3,7 @@ title: "AuditWC-fMRI-ML"
 description: |
   Evaluating the capacity of the Wilson-Cowan firing-rate model to simulate biological sound processing captured by fMRI data using machine learning classifiers.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - 🧠Neroscience
   - 🤖Machine learning
 date: "2023-07-10"

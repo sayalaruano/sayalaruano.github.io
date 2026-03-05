@@ -3,7 +3,7 @@ title: "NTDs2RDF"
 description: |
   A heterogeneous and integrated knowledge graph for the exploration of Neglected Tropical Diseases.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - 🦠Microbiology
   - ⛃🕸️Knowledge graphs
   - 🧬Bioinformatics

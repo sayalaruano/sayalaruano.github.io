@@ -5,14 +5,19 @@ description: |
 date: "2020-08-13"
 image: RSG_Argentine_SAJIB_2020.png
 categories:
-- 👨‍🏫Oral presentation 
-- 🌾Agriculture
-- ⚛️Molecular dynamics
-- 🧠Machine learning
-- 🧬Bioinformatics
+  - 👨‍🏫Oral presentation 
+  - 🌾Agriculture
+  - ⚛️Molecular dynamics
+  - 🤖Machine learning
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](https://rsg-argentina.netlify.app/talk/5sajib/){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (Spanish)](https://www.youtube.com/watch?v=NqamWg_24p4){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (Spanish)](https://www.researchgate.net/publication/354365990_Modelamiento_de_la_interaccion_proteina-_proteina_y_busqueda_de_residuos_clave_por_aprendizaje_automatico_del_complejo_JAZ-_MYC3_de_Arabidopsis_thaliana){.btn target=_blank} 
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< fa play-circle >}} Oral presentation (Spanish)][oral-present]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (Spanish)][slides]{.btn target=_blank} 
 
 You can find more details about this project [here][jaz-mic]. 
 
 [jaz-mic]: ../../projects/JAZ-MYC_coupling/
+[event]: https://rsg-argentina.netlify.app/talk/5sajib/
+[oral-present]: https://www.youtube.com/watch?v=NqamWg_24p4
+[slides]: https://www.researchgate.net/publication/354365990_Modelamiento_de_la_interaccion_proteina-_proteina_y_busqueda_de_residuos_clave_por_aprendizaje_automatico_del_complejo_JAZ-_MYC3_de_Arabidopsis_thaliana

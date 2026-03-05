@@ -5,14 +5,17 @@ description: |
 date: "2019-11-28"
 image: XLIII_National_Biology_Conference_2019.png
 categories:
-- 🗺️Poster presentation 
-- 🌾Agriculture
-- ⚛️Molecular dynamics
-- 🧠Machine learning
-- 🧬Bioinformatics
+  - 🗺️Poster presentation 
+  - 🌾Agriculture
+  - ⚛️Molecular dynamics
+  - 🤖Machine learning
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](https://www.yachaytech.edu.ec/jnb2019/){.btn target=_blank} [{{< iconify uil presentation >}} Poster (Spanish)](https://www.researchgate.net/publication/354369932_Modelamiento_de_la_interaccion_proteina-proteina_y_busqueda_de_residuos_clave_por_aprendizaje_automatico_de_un_complejo_de_proteinas_en_la_ruta_del_acido_jasmonico_en_Arabidopsis_thaliana){.btn target=_blank}
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< iconify uil presentation >}} Poster (Spanish)][poster]{.btn target=_blank}
 
 You can find more details about this project [here][jaz-mic]. 
 
 [jaz-mic]: ../../projects/JAZ-MYC_coupling/
+[event]: https://www.yachaytech.edu.ec/jnb2019/
+[poster]: https://www.researchgate.net/publication/354369932_Modelamiento_de_la_interaccion_proteina-proteina_y_busqueda_de_residuos_clave_por_aprendizaje_automatico_de_un_complejo_de_proteinas_en_la_ruta_del_acido_jasmonico_en_Arabidopsis_thaliana

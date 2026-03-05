@@ -5,14 +5,19 @@ description: |
 date: "2021-10-25"
 image: BR_SCS_2021.png
 categories:
-- 👨‍🏫Oral presentation 
-- 🌾Agriculture
-- ⚛️Molecular dynamics
-- 🤖Machine learning
-- 🧬Bioinformatics
+  - 👨‍🏫Oral presentation 
+  - 🌾Agriculture
+  - ⚛️Molecular dynamics
+  - 🤖Machine learning
+  - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event](https://sites.google.com/view/rsg-brazil/projects/brscs/6-br-scs-2021){.btn target=_blank} [{{< fa play-circle >}} Oral presentation (English)](https://www.youtube.com/watch?v=Ukw7HhBRvmo&t=14675s){.btn target=_blank} [{{< iconify ri slideshow-fill>}} Slides (English)](https://www.researchgate.net/publication/356102435_The_molecular_basis_of_JAZ-MYC_coupling_a_protein-protein_interface_essential_for_plant_response_to_stressors){.btn target=_blank} 
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< fa play-circle >}} Oral presentation (English)][oral-present]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 
 You can find more details about this project [here][jaz-mic]. 
 
 [jaz-mic]: ../../projects/JAZ-MYC_coupling/
+[event]: https://sites.google.com/view/rsg-brazil/projects/brscs/6-br-scs-2021
+[oral-present]: https://www.youtube.com/watch?v=Ukw7HhBRvmo&t=14675s
+[slides]: https://www.researchgate.net/publication/356102435_The_molecular_basis_of_JAZ-MYC_coupling_a_protein-protein_interface_essential_for_plant_response_to_stressors

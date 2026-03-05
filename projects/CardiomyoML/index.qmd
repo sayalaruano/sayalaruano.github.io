@@ -3,7 +3,7 @@ title: "CardiomyoML"
 description: |
   Classification of cardiomyopathies and prediction of new biomarkers with machine learning using RNAseq data.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - 🤖Machine learning
   - 🧫Omics
   - 🧬Bioinformatics

@@ -3,7 +3,7 @@ title: "Img2brain"
 description: |
   Predicting the neural responses to visual stimuli of naturalistic scenes using ML-based visual encoding models.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - 🧠Neroscience
   - 🤖Machine learning
   - 🧠‍🕸️Deep learning

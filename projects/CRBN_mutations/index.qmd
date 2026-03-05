@@ -3,7 +3,7 @@ title: "CRBN mutations"
 description: |
   Computational study of the structural changes of two Cereblon protein mutations through molecular dynamics and quantum mechanics simulations.
 categories: 
-  - 🩺Human health
+  - 🔬Biomedicine
   - ⚛️Molecular dynamics
   - 🧬Bioinformatics
 date: "2021-09-07"
