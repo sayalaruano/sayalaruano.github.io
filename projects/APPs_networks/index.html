@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-01-14">
+<meta name="dcterms.date" content="2022-12-06">
 <meta name="description" content="Exploring the antiparasitic peptides’ chemical space and predicting new potential compounds through network science and similarity searching.">
 
 <title>Antiparasitic peptides discovery</title>
@@ -162,7 +162,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 14, 2023</p>
+        <p class="date">December 6, 2022</p>
       </div>
     </div>
     
@@ -196,28 +196,28 @@ ga('send', {
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p><strong>Antimicrobial peptides</strong> (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the <strong>AMPs’ chemical space</strong> (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we present a new approach based on network science and similarity searching to discover new potential AMPs, specifically antiparasitic peptides (APPs). The graphical summary of this research is presented below.</p>
 <p align="center">
-<img src="../../images/graph_sum.svg" width="650" title="graph_summary">
+<img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/APPs-discovery/graph_sum.svg" width="650" title="graph_summary">
 </p>
 <div class="gray-italic center-text">
 <p><strong>Figure 1.-</strong> Graphical Abstract of the project.</p>
 </div>
 <p>We took advantage of network-based representation of <strong>APPs’ chemical space</strong> (APPCS) to retrieve valuable information, using three types of networks: <strong>chemical space</strong> (CSN), <strong>half-space proximal</strong> (HSPN), and <strong>metadata</strong> (METN).</p>
 <p align="center">
-<img src="../../images/Networks.svg" width="700" title="Networks">
+<img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/APPs-discovery/Networks.svg" width="700" title="Networks">
 </p>
 <div class="gray-italic center-text">
 <p><strong>Figure 2.-</strong> Networks of the Antiparasitic peptides discovery project.</p>
 </div>
 <p>Some centrality measures were applied to identify the most important and non-redundant nodes, and these peptides were taken as queries against the graph database <a href="https://doi.org/10.1093/bioinformatics/btv180">starPepDB</a> to discover new potential APPs with similarity searching by group fusion (MAX-SIM rule) models. We evaluated the <strong>multi-query similarity searching models</strong> (mQSSMs) performance with five benchmarking data sets of APP/non-APPs. It can be stated that the predictions performed by the best mQSSMs presented a strong-to-very strong predictive agreement since their external <strong>Matthews correlation coefficient values ranged from 0.834 to 0.965</strong>. Then, we compared the performance metrics of our mQSSMs with machine learning APP prediction servers <a href="https://biocom-ampdiscover.cicese.mx/">AMPDiscover</a> and <a href="http://fdblab.csie.ncu.edu.tw/AMPfun/index.html">AMPFun</a>. The model proposed in this report outperformed the machine learning approaches with statistically significant differences, showing the enormous potential of this method.</p>
 <p align="center">
-<img src="../../images/mQSMM.png" width="600" title="mQSMM">
+<img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/APPs-discovery/mQSMM.png" width="600" title="mQSMM">
 </p>
 <div class="gray-italic center-text">
 <p><strong>Figure 3.-</strong> Workflow corresponding to the similarity searching modeling process.</p>
 </div>
 <p>After applying our method and additional filters, we proposed <strong>95 repurposed leads as potential APPs</strong>, which have not been associated with this activity until now. In addition, we explored <strong>sequence similarities and motifs</strong> shared by these peptides, which can serve as templates for searching and designing new promising APPs. The analyses showed that the similarity models proposed in this study could contribute to identifying APPs with high effectivity and reliability. Our models and pipeline are freely available through the <a href="http://mobiosd-hub.com/starpep">starPep toolbox software</a>.</p>
 <p align="center">
-<img src="../../images/leads_obt.svg" width="500" title="leads_obtention">
+<img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/APPs-discovery/leads_obt.svg" width="500" title="leads_obtention">
 </p>
 <div class="gray-italic center-text">
 <p><strong>Figure 4.-</strong> Filtering workflow to obtain the new potential APPs.</p>
