@@ -1,0 +1,23 @@
+---
+title: "MicW2Graph: Building a knowledge graph of the wastewater treatment microbiome and its biological context"
+description: | 
+  This oral presentation was part of the Conference on Complex Systems 2025 at Siena, Italy.
+date: "2025-09-01"
+image: CCS2025.png
+categories:
+  - 👨‍🏫Oral presentation 
+  - 🦠Microbiology
+  - 🧫Omics
+  - 🕸️Network science
+  - ⛃🕸️Knowledge graphs
+  - 🧬Bioinformatics
+---
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
+
+You can find more details about this project [here][micw2graph]. 
+
+[micw2graph]: https://sayalaruano.github.io/projects/MicW2Graph/
+[event]: https://ccs25.cssociety.org/
+[slides]: https://doi.org/10.5281/zenodo.16965571
+
