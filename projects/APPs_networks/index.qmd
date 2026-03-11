@@ -18,6 +18,10 @@ image: https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/
 
 I contributed to this project as part of my work as research assistant at the **Applied Signal Processing and Machine Learning Group** and the **Grupo de Medicina Molecular y Traslacional** - Universidad San Francisco de Quito, in Ecuador.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/network.png" width="350" title="acore_logo">
+</p>
+
 ## Summary
 
 **Antimicrobial peptides** (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the **AMPs’ chemical space** (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we present a new approach based on network science and similarity searching to discover new potential AMPs, specifically antiparasitic peptides (APPs). The graphical summary of this research is presented below.

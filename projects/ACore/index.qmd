@@ -17,11 +17,11 @@ image: https://raw.githubusercontent.com/Multiomics-Analytics-Group/acore/HEAD/d
 
 I contributed to this project as part of my work as research assistant at the [Multiomics Network Analytics Group (MoNA)][Mona] - [Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)][Biosustain].
 
-## Summary
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/acore/HEAD/docs/images/logo/acore_logo.svg" width="350" title="acore_logo">
 </p>
+
+## Summary
 
 **ACore** is a Python package with statistical functions to **analyse multimodal molecular data**. It is designed to be flexible and extensible, allowing users to perform a wide range of analyses on **multi-omics datasets**. It is part of a **broader ecosystem of tools** for multi-omics analysis, working in conjunction with [VueCore][vuecore] and [VueGen][vuegen] to enable end-to-end data processing, visualization, and reporting.
 

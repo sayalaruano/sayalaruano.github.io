@@ -12,7 +12,8 @@ categories:
   - 🎈Streamlit
   - 🧬Bioinformatics
 ---
-[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< fa calendar-check >}} Event - BOSC][event-bosc]{.btn target=_blank} 
+[{{< fa calendar-check >}} Event - ISMB/ECCB][event-ismb]{.btn target=_blank} 
 [{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 [{{< iconify uil presentation >}} Poster (English)][poster]{.btn target=_blank}
 
@@ -23,7 +24,8 @@ You can find more details about this project [here][vuegen].
 </p>
 
 [vuegen]: https://sayalaruano.github.io/projects/VueGen/
-[event]: https://www.open-bio.org/events/bosc-2025/
+[event-bosc]: https://www.open-bio.org/events/bosc-2025/
+[event-ismb]: https://www.iscb.org/ismbeccb2025/home
 [slides]: https://doi.org/10.5281/zenodo.16104896
 [poster]: https://doi.org/10.5281/zenodo.16171594
 

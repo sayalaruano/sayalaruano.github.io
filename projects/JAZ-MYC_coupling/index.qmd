@@ -21,6 +21,10 @@ draft: false
 
 I worked on this project during my bachelor, collaborating as an undergraduate researcher at the [Computational and Theoretical Chemistry Group][ctc_group] - Universidad San Francisco de Quito, in Ecuador. 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/JAZ-MYC-Bind-MDML/jaz_myc.png" width="350" title="JAZ-MYC">
+</p>
+
 ## Summary 
 
 The **jasmonic acid** (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the **JAZ repressor proteins** and the basic helix-loop-helix (bHLH) **transcription factor MYC3** play a critical role. JA is a volatile organic compound with an essential role in plant immunity. The increase in the concentration of JA leads to the decoupling of the JAZ repressor proteins and the bHLH transcription factor MYC3 causing the induction of genes of interest. 

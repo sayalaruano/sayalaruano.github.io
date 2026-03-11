@@ -22,6 +22,10 @@ image: https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/H
 
 I developed this project for my master's thesis from the [MSc in Systems Biology][sysbio] at the [Multiomics Network Analytics Group (MoNA)][Mona] - [Novo Nordisk Foundation Center for Biosustainability (DTU Biosustain)][Biosustain].
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/MicW2Graph_logo.svg" width="350" title="wwt_microbiome">
+</p>
+
 ## Background
 
 **Wastewater treatment (WWT)** is the process of removing contaminants from used water before it is discharged back into the environment, which contributes to address water scarcity and to protect aquatic ecosystems. Recent advances in high-throughput omics technologies have facilitated the study of **microbiomes** from complex environmental samples such as WWT. A comprehensive study of an environmental microbiome requires integrating data from various studies and **meta-omics** technologies, as well as biological knowledge to interpret these data.
