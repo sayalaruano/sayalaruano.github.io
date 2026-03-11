@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-subtitle: "My portfolio includes projects of Bioinformatics, Machine Learning, Web development, and online educational resources." 
+subtitle: "My portfolio includes projects of bioinformatics, network science, software development, machine/deep learning, web development, and other topics." 
 listing:
   contents: projects
   feed: true
