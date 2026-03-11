@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-10-29">
-<meta name="description" content="Training machine learning classifiers to evaluate the activity of molecules/ligands that have been experimentally tested to bind or not bind to beta-lactamases.">
+<meta name="dcterms.date" content="2025-09-01">
+<meta name="description" content="This oral presentation was part of the Conference on Complex Systems 2025 at Siena, Italy.">
 
-<title>BetaLactLigPred-ML</title>
+<title>MicW2Graph: Building a knowledge graph of the wastewater treatment microbiome and its biological context</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,6 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-4c9d4017690c7762d849afb117aa0b72.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,7 +95,7 @@ ga('send', {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -137,89 +138,60 @@ ga('send', {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">BetaLactLigPred-ML</h1>
-                  <div>
-        <div class="description">
-          <p>Training machine learning classifiers to evaluate the activity of molecules/ligands that have been experimentally tested to bind or not bind to beta-lactamases.</p>
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">💊Drug discovery</div>
-                <div class="quarto-category">🤖Machine learning</div>
-                <div class="quarto-category">🧬Bioinformatics</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">October 29, 2021</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
-  <li><a href="#data-preparation-and-feature-matrix" id="toc-data-preparation-and-feature-matrix" class="nav-link" data-scroll-target="#data-preparation-and-feature-matrix">Data preparation and feature matrix</a></li>
-  <li><a href="#machine-learning-models" id="toc-machine-learning-models" class="nav-link" data-scroll-target="#machine-learning-models">Machine Learning Models</a></li>
-  <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional information</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">MicW2Graph: Building a knowledge graph of the wastewater treatment microbiome and its biological context</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">👨‍🏫Oral presentation</div>
+    <div class="quarto-category">🦠Microbiology</div>
+    <div class="quarto-category">🧫Omics</div>
+    <div class="quarto-category">🕸️Network science</div>
+    <div class="quarto-category">⛃🕸️Knowledge graphs</div>
+    <div class="quarto-category">🧬Bioinformatics</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>This oral presentation was part of the Conference on Complex Systems 2025 at Siena, Italy.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 1, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-<p><a href="https://github.com/sayalaruano/BetaLactLigPred-ML" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> Source code</a></p>
-<p>I developed this project as the Midterm assignment for the <a href="https://github.com/alexeygrigorev/mlbookcamp-code">Machine Learning Zoomcamp</a>. <a href="https://github.com/dataprofessor">Data Professor</a> proposed the idea and dataset of this project.</p>
+
+<p><a href="https://ccs25.cssociety.org/" class="btn" target="_blank"><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> Event</a> <a href="https://doi.org/10.5281/zenodo.16965571" class="btn" target="_blank"><iconify-icon inline="" icon="ri:slideshow-fill" aria-label="Icon slideshow-fill from ri Iconify.design set." title="Icon slideshow-fill from ri Iconify.design set."></iconify-icon> Slides (English)</a></p>
+<p>You can find more details about this project <a href="https://sayalaruano.github.io/projects/MicW2Graph/">here</a>.</p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/sayalaruano/BetaLactLigPred-ML/HEAD/Img/logo/betalactligpred-logo.svg" width="350" title="AMP">
+<img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/MicW2Graph_logo.svg" width="350" title="vuegen_logo">
 </p>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>This project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to <a href="https://en.wikipedia.org/wiki/Beta-lactamase">Beta-Lactamases</a>. Some of these proteins allow multi-drug resistant bacteria or superbugs to inactivate a wide range of penicillin-like antibiotics, which is known as antimicrobial resistance (AMR). According to the World Health Organization, AMR is one of the <a href="https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance">top ten global public health threats facing humanity in this century</a>, so it is important to search for potential compounds that combat these superbugs and prevent AMR, which is the aim of this project. You can find detailed information about AMR and Beta-Lactamase in this <a href="https://pdb101.rcsb.org/motm/187">blog</a>.</p>
-</section>
-<section id="dataset" class="level2">
-<h2 class="anchored" data-anchor-id="dataset">Dataset</h2>
-<p>The <a href="https://www.kaggle.com/thedataprof/betalactamase">dataset</a> of this project consists of 136 csv files with information on interactions between small molecules and Beta-Lactamases.</p>
-</section>
-<section id="data-preparation-and-feature-matrix" class="level2">
-<h2 class="anchored" data-anchor-id="data-preparation-and-feature-matrix">Data preparation and feature matrix</h2>
-<p>The feature matrix to train machine learning models was obtained by calculating molecular descriptors from the <code>canonical smiles</code> of molecules. These molecular descriptors are also known as molecular fingerprints, and they are property profiles of molecules, represented as vectors with each vector element representing the existence or the frequency of a structural feature. The extraction of molecular fingerprints from SMILES was performed with <a href="http://www.yapcwsoft.com/dd/padeldescriptor/">PaDEL</a> software, following instructions from <a href="https://youtu.be/rEmDyZHz5U8">this video</a>.</p>
-<p>PaDEL has 12 available fingerprints, but for this project, I calculated 10 of them because KlekotaRothFingerprintCount and KlekotaRothFingerprinter required a long computing time to be obtained. In this project, the target protein was <strong>Beta-lactamase AmpC</strong>.</p>
-</section>
-<section id="machine-learning-models" class="level2">
-<h2 class="anchored" data-anchor-id="machine-learning-models">Machine Learning Models</h2>
-<p>For this project, I tested three machine learning models, including Logistic Regression, Random Forest, and XGBoost, for a binary classification task. I chose <code>pchembl value</code> as the target variable. To fine-tune hyperparameters, I used sklearn class <a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV">GridSearchCV</a>.</p>
-</section>
-<section id="additional-information" class="level2">
-<h2 class="anchored" data-anchor-id="additional-information">Additional information</h2>
-<p>The complete information regarding exploratory data analysis and selection of the best model jupyter notebook, training and validation python scripts, implementation of the best model as a web service using Flask, deployment to the cloud with Heroku, and further details are available on the <a href="https://github.com/sayalaruano/BetaLactLigPred-ML">GitHub repository</a> of this project.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
