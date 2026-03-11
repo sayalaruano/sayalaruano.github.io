@@ -1,0 +1,29 @@
+---
+title: "VueGen: Automating the creation of scientific reports"
+description: | 
+  This oral presentation was part of the Bioinformatics Open Source Conference (BOSC) 2025 (as part of ISMB/ECCB 2025) at Liverpool, United Kingdom.
+date: "2025-07-21"
+image: ISMB2025.png
+categories:
+  - 👨‍🏫Oral presentation 
+  - 🗺️Poster presentation 
+  - 🛠️Software development
+  - 📊Data visualization
+  - 🎈Streamlit
+  - 🧬Bioinformatics
+---
+[{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
+[{{< iconify uil presentation >}} Poster (English)][poster]{.btn target=_blank}
+
+You can find more details about this project [here][vuegen]. 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/vuegen/HEAD/docs/images/logo/vuegen_logo.svg" width="350" title="vuegen_logo">
+</p>
+
+[vuegen]: https://sayalaruano.github.io/projects/VueGen/
+[event]: https://www.open-bio.org/events/bosc-2025/
+[slides]: https://doi.org/10.5281/zenodo.16104896
+[poster]: https://doi.org/10.5281/zenodo.16171594
+

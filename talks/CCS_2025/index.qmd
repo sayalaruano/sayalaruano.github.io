@@ -15,7 +15,11 @@ categories:
 [{{< fa calendar-check >}} Event][event]{.btn target=_blank} 
 [{{< iconify ri slideshow-fill>}} Slides (English)][slides]{.btn target=_blank} 
 
-You can find more details about this project [here][micw2graph]. 
+You can find more details about this project [here][micw2graph].
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/MicW2Graph_logo.svg" width="350" title="vuegen_logo">
+</p>
 
 [micw2graph]: https://sayalaruano.github.io/projects/MicW2Graph/
 [event]: https://ccs25.cssociety.org/
