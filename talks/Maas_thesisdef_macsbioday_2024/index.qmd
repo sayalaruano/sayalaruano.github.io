@@ -1,0 +1,31 @@
+---
+title: "MicW2Graph: Building a knowledge graph of the wastewater treatment microbiome and its biological context"
+description: | 
+  Oral presentation for my master thesis defense for the MSc Systems Biology at Maastricht University, The Netherlands.
+  I also presented this project in the MaCSBio Science Day 2024 at Maastricht, The Netherlands.
+date: "2024-06-25"
+image: maastricht.png
+categories:
+  - 👨‍🏫Oral presentation 
+  - 🦠Microbiology
+  - 🧫Omics
+  - 🕸️Network science
+  - ⛃🕸️Knowledge graphs
+  - 🧬Bioinformatics
+---
+[{{< fa calendar-check >}} Event - MaCSBio Science Day 2024][event]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides - Thesis Defense][slides-thesis]{.btn target=_blank}
+[{{< iconify ri slideshow-fill>}} Slides - MaCSBio Science Day][slides-macsbio]{.btn target=_blank}  
+
+You can find more details about this project [here][micw2graph].
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Multiomics-Analytics-Group/MicW2Graph/HEAD/images/MicW2Graph_logo.svg" width="350" title="vuegen_logo">
+</p>
+
+[micw2graph]: https://sayalaruano.github.io/projects/MicW2Graph/
+[event]: https://www.maastrichtuniversity.nl/events/macsbio-science-day-2024-multi-scale-modeling-biological-systems
+[slides-thesis]: https://doi.org/10.5281/zenodo.12511100
+[slides-macsbio]: https://doi.org/10.5281/zenodo.12189266
+
+
