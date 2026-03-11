@@ -1,0 +1,16 @@
+---
+title: "Managing Open Source Projects: Standards and Collaboration Tools" 
+description: | 
+  Presentation for the Multi-omics Network Analytics (MoNA)/Data Science Platform (DSP) meeting at Copenhagen, Denmark.
+date: "2025-07-17"
+image: https://raw.githubusercontent.com/Multiomics-Analytics-Group/multiomics-analytics-group.github.io/HEAD/public/assets/(background%20removed)%20MoNA%201.png
+categories:
+  - 👨‍🏫Oral presentation 
+  - 🌍Open Science
+  - 📚Education
+---
+[{{< fa calendar-check >}} MoNA/DSP][mona]{.btn target=_blank} 
+[{{< iconify ri slideshow-fill>}} Slides][slides]{.btn target=_blank} 
+
+[mona]: https://multiomics-analytics-group.github.io/
+[slides]: https://doi.org/10.5281/zenodo.15985179
