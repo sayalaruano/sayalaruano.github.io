@@ -4,6 +4,10 @@ subtitle: "A bit more about me, both inside and outside of my job"
 title-block-banner: true
 ---
 
+<p align="center">
+  <img src="images/asar_logo.svg" width="650" title="asar_logo">
+</p>
+
 ## {{< fa laptop-code title="A laptop" >}} Professionally
 
 <!--I am a MSc student in [Systems Biology](https://www.maastrichtuniversity.nl/education/master/systems-biology) at [Maastricht University](https://www.maastrichtuniversity.nl/nl), the Netherlands. -->
