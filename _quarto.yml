@@ -3,13 +3,13 @@ project:
   output-dir: docs
 website:
   site-url: https://sayalaruano.github.io/
-  favicon: images/a_asarlogo.ico
+  favicon: https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/a_asarlogo.ico
   google-analytics: 
     tracking-id: "UA-212436276-1"
     anonymize-ip: true
   navbar:
     title: false
-    logo: images/asar_logo.svg
+    logo: https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/asar_logo.svg
     right:
       - href: about.qmd
         text: About

@@ -1,7 +1,7 @@
 ---
 title: "Sebastián Ayala Ruano"
 subtitle: "Bioinformatics | Data Science | Machine Learning | Network Science | Open Science |"
-image: images/sayalaruano3.jpg
+image: https://raw.githubusercontent.com/sayalaruano/sayalaruano.github.io/HEAD/images/sayalaruano3.jpg
 toc: false
 about:
   template: trestles
